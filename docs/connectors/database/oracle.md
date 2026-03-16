@@ -681,11 +681,11 @@ WHEN NOT MATCHED THEN
 
 ## 相关资源
 
-- [数据库类连接器概览](./README) — 查看所有支持的数据库连接器
-- [配置连接器](../../guide/configure-connector) — 连接器基础配置指南
-- [CDC 实时同步](../../advanced/cdc-realtime) — CDC 配置与最佳实践
-- [数据映射](../../guide/data-mapping) — 字段映射配置方法
-- [MySQL 集成](./mysql) — MySQL 数据库集成指南
+- [数据库类连接器概览](README.md) — 查看所有支持的数据库连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础配置指南
+- [CDC 实时同步](../../advanced/cdc-realtime.md) — CDC 配置与最佳实践
+- [数据映射](../../guide/data-mapping.md) — 字段映射配置方法
+- [MySQL 集成](mysql.md) — MySQL 数据库集成指南
 
 ---
 

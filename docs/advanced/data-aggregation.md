@@ -398,8 +398,8 @@ _function {{details_amount}} * (1 + {{tax_rate}})
 
 ## 相关文档
 
-- [多维数据拍扁](../guide/source-platform-config#数据拍扁) — 了解源数据拍扁配置
-- [数据映射](../guide/data-mapping) — 字段映射规则详解
-- [自定义函数](./custom-scripts) — 使用 `_function` 实现复杂计算
-- [批量数据处理](./batch-processing) — 大规模数据处理最佳实践
-- [目标平台配置](../guide/target-platform-config) — 详细的目标端配置指南
+- [多维数据拍扁](../guide/source-platform-config.md#数据拍扁) — 了解源数据拍扁配置
+- [数据映射](../guide/data-mapping.md) — 字段映射规则详解
+- [自定义函数](custom-scripts.md) — 使用 `_function` 实现复杂计算
+- [批量数据处理](batch-processing.md) — 大规模数据处理最佳实践
+- [目标平台配置](../guide/target-platform-config.md) — 详细的目标端配置指南

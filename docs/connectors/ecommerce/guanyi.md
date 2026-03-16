@@ -3,7 +3,7 @@
 本文档详细介绍轻易云 iPaaS 平台与管易云（GuanYi ERP）的集成配置方法。管易云是金蝶旗下专业的电商 ERP 系统，提供订单管理、仓储物流、会员营销等核心功能，支持与主流电商平台（淘宝、天猫、京东、拼多多、抖音等）无缝对接。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ## 概述
 
@@ -413,12 +413,12 @@ flowchart LR
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [金蝶云星空集成专题](../erp/kingdee-cloud-galaxy) — 金蝶云星空连接器文档
-- [金蝶云星辰集成专题](../erp/kingdee-cloud-star) — 金蝶云星辰连接器文档
-- [电商 / WMS 类连接器概览](./README) — 电商连接器总览
-- [标准集成方案 — 国内电商](../../standard-schemes/domestic-ecommerce) — 国内电商集成最佳实践
-- [解决方案 — 零售业](../../solutions/retail) — 零售行业集成方案
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [金蝶云星空集成专题](../erp/kingdee-cloud-galaxy.md) — 金蝶云星空连接器文档
+- [金蝶云星辰集成专题](../erp/kingdee-cloud-star.md) — 金蝶云星辰连接器文档
+- [电商 / WMS 类连接器概览](README.md) — 电商连接器总览
+- [标准集成方案 — 国内电商](../../standard-schemes/domestic-ecommerce.md) — 国内电商集成最佳实践
+- [解决方案 — 零售业](../../solutions/retail.md) — 零售行业集成方案
 
 ---
 

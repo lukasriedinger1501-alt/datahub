@@ -239,6 +239,6 @@ sequenceDiagram
 
 ## 相关文档
 
-- [自定义连接器开发](./custom-connector) - 了解如何开发自定义连接器
-- [适配器开发](./adapter-development) - 学习适配器开发规范
-- [开放接口概览](./api-overview) - 查看平台开放接口文档
+- [自定义连接器开发](custom-connector.md) - 了解如何开发自定义连接器
+- [适配器开发](adapter-development.md) - 学习适配器开发规范
+- [开放接口概览](api-overview.md) - 查看平台开放接口文档

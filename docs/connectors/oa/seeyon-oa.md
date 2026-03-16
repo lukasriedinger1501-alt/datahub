@@ -284,7 +284,7 @@ mindmap
 ## 相关资源
 
 - [致远互联官网](https://www.seeyon.com/)
-- [致远 A8+ 连接器](./seeyon-a8)
+- [致远 A8+ 连接器](seeyon-a8.md)
 - [OA 连接器概览](../oa)
 
 > [!NOTE]

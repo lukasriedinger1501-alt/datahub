@@ -340,8 +340,8 @@ _function IFNULL(_findCollection find FID from xxx where FBillNo={{order_no}}, '
 
 ## 相关文档
 
-- [自定义脚本](./custom-scripts) — 了解更多 `_function` 函数的用法
-- [高级查询条件引擎](./advanced-query) — 学习数据过滤技巧
-- [数据与队列管理](../guide/data-queue-management) — 查看和管理同步数据
-- [调试器](../guide/debugger) — 调试联查配置
-- [数据映射](../guide/data-mapping) — 基础字段映射指南
+- [自定义脚本](custom-scripts.md) — 了解更多 `_function` 函数的用法
+- [高级查询条件引擎](advanced-query.md) — 学习数据过滤技巧
+- [数据与队列管理](../guide/data-queue-management.md) — 查看和管理同步数据
+- [调试器](../guide/debugger.md) — 调试联查配置
+- [数据映射](../guide/data-mapping.md) — 基础字段映射指南

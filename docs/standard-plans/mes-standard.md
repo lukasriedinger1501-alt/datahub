@@ -544,8 +544,8 @@ flowchart LR
 
 ## 相关资源
 
-- [金蝶云星空连接器配置](../connectors/erp/kingdee-cloud-galaxy)
-- [数据加工厂配置](../advanced/data-transformation)
-- [连接器配置指南](../guide/configure-connector)
-- [数据映射配置](../guide/data-mapping)
-- [MES 与 ERP 集成方案](../solutions/mes-erp)
+- [金蝶云星空连接器配置](../connectors/erp/kingdee-cloud-galaxy.md)
+- [数据加工厂配置](../advanced/data-transformation.md)
+- [连接器配置指南](../guide/configure-connector.md)
+- [数据映射配置](../guide/data-mapping.md)
+- [MES 与 ERP 集成方案](../solutions/mes-erp.md)

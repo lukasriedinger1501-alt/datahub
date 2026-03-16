@@ -261,11 +261,11 @@ https://www.feishu.cn/base/bascnxxxxxxxxx?table=tblxxxx
 
 ## 相关文档
 
-- [钉钉连接器](./dingtalk) — 钉钉集成配置指南
-- [企业微信连接器](./wecom) — 企业微信集成配置指南
-- [OA 连接器概览](./README) — 所有 OA 协同类连接器
-- [配置连接器](../../guide/configure-connector) — 连接器通用配置指南
-- [新建集成方案](../../guide/create-integration) — 方案创建完整教程
+- [钉钉连接器](dingtalk.md) — 钉钉集成配置指南
+- [企业微信连接器](wecom.md) — 企业微信集成配置指南
+- [OA 连接器概览](README.md) — 所有 OA 协同类连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器通用配置指南
+- [新建集成方案](../../guide/create-integration.md) — 方案创建完整教程
 
 ## 外部参考
 

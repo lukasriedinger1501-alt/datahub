@@ -181,6 +181,6 @@ A: 如需注销账号，请联系客服处理。注销前请确保：
 
 完成账号注册后，您可以：
 
-- [配置您的第一个连接器](../guide/configure-connector)
-- [了解平台核心概念](./introduction)
-- [观看快速入门视频](./video-tutorials)
+- [配置您的第一个连接器](../guide/configure-connector.md)
+- [了解平台核心概念](introduction.md)
+- [观看快速入门视频](video-tutorials.md)

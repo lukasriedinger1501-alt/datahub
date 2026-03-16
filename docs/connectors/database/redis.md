@@ -109,9 +109,9 @@ flowchart LR
 
 ## 相关资源
 
-- [数据库类连接器概览](./README) — 查看所有支持的数据库连接器
-- [配置连接器](../../guide/configure-connector) — 连接器基础配置指南
-- [MySQL 集成](./mysql) — 关系型数据库集成指南
+- [数据库类连接器概览](README.md) — 查看所有支持的数据库连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础配置指南
+- [MySQL 集成](mysql.md) — 关系型数据库集成指南
 
 ---
 

@@ -270,6 +270,6 @@
 
 - [汇联易开放平台文档](https://opendocs.huilianyi.com/)
 - [审批历史查询接口文档](https://opendocs.huilianyi.com/implement/business-data/approval-history/query-approval-history.html)
-- [配置连接器](../../guide/configure-connector)
-- [新建集成方案](../../guide/create-integration)
-- [OA / 协同类连接器概览](./README)
+- [配置连接器](../../guide/configure-connector.md)
+- [新建集成方案](../../guide/create-integration.md)
+- [OA / 协同类连接器概览](README.md)

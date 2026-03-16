@@ -749,11 +749,11 @@ RESTful API Adapter 会自动解析 JSON 响应，你可以通过配置指定数
 
 ## 相关文档
 
-- [自定义函数](./custom-functions) — 了解 `_function` 表达式的更多用法
-- [数据映射](../guide/data-mapping) — 字段映射规则详解
-- [异常处理机制](./error-handling) — 容错设计与异常恢复
-- [目标平台配置](../guide/target-platform-config) — 详细的目标端配置指南
-- [开发者指南](../developer/guide) — 自定义连接器开发指南
+- [自定义函数](custom-functions.md) — 了解 `_function` 表达式的更多用法
+- [数据映射](../guide/data-mapping.md) — 字段映射规则详解
+- [异常处理机制](error-handling.md) — 容错设计与异常恢复
+- [目标平台配置](../guide/target-platform-config.md) — 详细的目标端配置指南
+- [开发者指南](../developer/guide.md) — 自定义连接器开发指南
 
 ---
 

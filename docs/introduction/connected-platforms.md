@@ -151,8 +151,8 @@
 > [!TIP]
 > 如果上述列表中没有您需要的平台，您可以通过以下方式实现集成：
 > 
-> 1. 使用 [RESTful API Adapter](../advanced/restful-api-adapter) 配置通用 HTTP 连接器
-> 2. 参考 [自定义连接器开发](../developer/custom-connector) 文档开发专属连接器
+> 1. 使用 [RESTful API Adapter](../advanced/restful-api-adapter.md) 配置通用 HTTP 连接器
+> 2. 参考 [自定义连接器开发](../developer/custom-connector.md) 文档开发专属连接器
 > 3. 联系我们的客户成功团队，申请平台接入
 
 ### 接入申请

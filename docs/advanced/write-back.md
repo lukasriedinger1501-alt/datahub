@@ -3,7 +3,7 @@
 目标写入结果回写是轻易云 iPaaS 平台提供的一种高级数据集成能力，用于将目标系统写入操作返回的结果（如新生成的单据 ID、单据编号、状态码等）自动回写到源系统或指定接收端。这一机制确保了数据在跨系统流转过程中的完整性和可追溯性，特别适用于订单号回写、状态同步、上下游单据关联等业务场景。
 
 > [!NOTE]
-> 回写功能与[链式触发方案](./chain-trigger)配合使用，可实现更复杂的多系统联动业务流程。
+> 回写功能与[链式触发方案](chain-trigger.md)配合使用，可实现更复杂的多系统联动业务流程。
 
 ## 适用场景
 
@@ -614,8 +614,8 @@ flowchart TD
 
 ## 相关文档
 
-- [链式触发方案](./chain-trigger) — 实现方案间的自动触发与数据传递
-- [集成策略模式](./integration-strategy) — 了解不同的集成策略组合
-- [数据映射](../guide/data-mapping) — 详细的数据字段映射配置
-- [目标平台配置](../guide/target-platform-config) — 目标系统写入配置详解
-- [数据与队列管理](../guide/data-queue-management) — 查看和管理同步数据
+- [链式触发方案](chain-trigger.md) — 实现方案间的自动触发与数据传递
+- [集成策略模式](integration-strategy.md) — 了解不同的集成策略组合
+- [数据映射](../guide/data-mapping.md) — 详细的数据字段映射配置
+- [目标平台配置](../guide/target-platform-config.md) — 目标系统写入配置详解
+- [数据与队列管理](../guide/data-queue-management.md) — 查看和管理同步数据

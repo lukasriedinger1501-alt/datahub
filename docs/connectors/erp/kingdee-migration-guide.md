@@ -2,5 +2,5 @@
 
 该页面用于承接历史链接，后续可补充具体迁移实践。
 
-- 参考目录：[ERP 连接器目录](./README)
-- 推荐阅读：[金蝶云星空](./kingdee-cloud-star)
+- 参考目录：[ERP 连接器目录](README.md)
+- 推荐阅读：[金蝶云星空](kingdee-cloud-star.md)

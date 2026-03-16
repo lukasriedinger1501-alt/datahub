@@ -3,7 +3,7 @@
 本文档详细列出轻易云 iPaaS 开放 API 的所有接口端点，包括认证、数据写入、数据查询和调度者管理等功能模块。所有接口均遵循 RESTful 设计风格，使用 HTTPS 协议进行通信。
 
 > [!IMPORTANT]
-> 调用接口前，请确保已完成[应用授权](./authentication)配置，获取有效的 `app_key` 和 `app_secret`。
+> 调用接口前，请确保已完成[应用授权](authentication.md)配置，获取有效的 `app_key` 和 `app_secret`。
 
 ## 接口规范
 
@@ -611,4 +611,4 @@ Response response = client.newCall(request).execute();
 | `50001` | 服务器内部错误 | 联系技术支持 |
 
 > [!TIP]
-> 更多错误码说明请参考[错误码文档](./error-codes)。
+> 更多错误码说明请参考[错误码文档](error-codes.md)。

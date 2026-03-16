@@ -111,7 +111,7 @@ flowchart LR
 
 ## 相关资源
 
-- [方案概览](./README) — 查看所有标准集成方案
-- [WMS 对接标准方案](./wms-standard) — WMS 标准化对接方案
-- [电商数据中台集成](../solutions/ecommerce-data-hub) — 电商场景综合方案
-- [物流仓储解决方案](../solutions/logistics) — 物流仓储行业方案
+- [方案概览](README.md) — 查看所有标准集成方案
+- [WMS 对接标准方案](wms-standard.md) — WMS 标准化对接方案
+- [电商数据中台集成](../solutions/ecommerce-data-hub.md) — 电商场景综合方案
+- [物流仓储解决方案](../solutions/logistics.md) — 物流仓储行业方案

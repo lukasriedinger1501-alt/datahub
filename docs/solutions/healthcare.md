@@ -416,6 +416,6 @@ A：建议在 WMS 和 ERP 系统中增加 UDI 码字段，通过轻易云实现 
 
 ## 相关资源
 
-- [制造业解决方案](./manufacturing) - 医药生产企业集成参考
-- [物流仓储解决方案](./logistics) - 医药冷链物流集成
-- [央国企采购平台对接](./government-procurement) - 医疗机构采购集成
+- [制造业解决方案](manufacturing.md) - 医药生产企业集成参考
+- [物流仓储解决方案](logistics.md) - 医药冷链物流集成
+- [央国企采购平台对接](government-procurement.md) - 医疗机构采购集成

@@ -628,9 +628,9 @@ php artisan route:cache
 
 ## 下一步
 
-- [账号注册](./registration) - 了解详细的账号注册与团队管理
-- [环境配置](./environment-setup) - 配置数据源连接与开发环境
-- [第一个集成流程](./first-integration) - 创建你的首个数据集成方案
+- [账号注册](registration.md) - 了解详细的账号注册与团队管理
+- [环境配置](environment-setup.md) - 配置数据源连接与开发环境
+- [第一个集成流程](first-integration.md) - 创建你的首个数据集成方案
 
 如需技术支持，请联系：
 

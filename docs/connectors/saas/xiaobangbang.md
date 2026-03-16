@@ -349,5 +349,5 @@ flowchart TB
 
 - [销帮帮开放平台](https://profapi.xbongbong.com/)
 - [销帮帮 API 参数说明](https://profapi.xbongbong.com/#/params?anchor=入参说明)
-- [轻易云数据映射指南](../../guide/data-mapping)
-- [轻易云值格式化指南](../../guide/value-formatting)
+- [轻易云数据映射指南](../../guide/data-mapping.md)
+- [轻易云值格式化指南](../../guide/value-formatting.md)

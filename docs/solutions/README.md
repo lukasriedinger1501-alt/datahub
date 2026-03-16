@@ -42,9 +42,9 @@ mindmap
 
 | 方案名称 | 核心场景 | 涉及系统 | 使用方式 |
 |---------|---------|---------|---------|
-| [MES 与 ERP 集成方案](./mes-erp) | 生产订单、工单派工、领料入库 | 四化 MES / 金蝶云星空 | [配置参考](./mes-erp) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
-| [生产订单全生命周期管理](./manufacturing) | 销售订单 → 生产订单 → 完工入库 | MES / ERP / WMS | [配置参考](./manufacturing) |
-| [多工厂库存协同方案](./manufacturing) | 跨工厂库存调拨与实时同步 | 金蝶云星空 / 旺店通 / 聚水潭 | [配置参考](./manufacturing) |
+| [MES 与 ERP 集成方案](mes-erp.md) | 生产订单、工单派工、领料入库 | 四化 MES / 金蝶云星空 | [配置参考](mes-erp.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
+| [生产订单全生命周期管理](manufacturing.md) | 销售订单 → 生产订单 → 完工入库 | MES / ERP / WMS | [配置参考](manufacturing.md) |
+| [多工厂库存协同方案](manufacturing.md) | 跨工厂库存调拨与实时同步 | 金蝶云星空 / 旺店通 / 聚水潭 | [配置参考](manufacturing.md) |
 
 ### 方案亮点
 
@@ -53,7 +53,7 @@ mindmap
 - **柔性生产支持**：支持改制、返工、委外等多种生产模式的数据集成
 
 > [!NOTE]
-> 制造业方案通常涉及多系统、多单据的复杂集成，建议先通过[标准方案库](../standard-schemes/README)了解预置模板，再根据企业实际调整字段映射与业务流程。
+> 制造业方案通常涉及多系统、多单据的复杂集成，建议先通过[标准方案库](../standard-schemes/README.md)了解预置模板，再根据企业实际调整字段映射与业务流程。
 
 ## 零售电商解决方案
 
@@ -61,12 +61,12 @@ mindmap
 
 | 方案名称 | 适用规模 | 核心能力 | 使用方式 |
 |---------|---------|---------|---------|
-| [旺店通与金蝶云星空集成](./kingdee-wangdian) | 中小型电商 | 库存同步、订单下载、售后处理 | [配置参考](./kingdee-wangdian) / [开箱即用](https://dh-open.qliang.cloud/market/datahub/solution/6b9b04e6-9f84-375e-83e1-6a90210d1eb8) |
-| [金蝶云星空与聚水潭集成](./kingdee-jushuitan) | 中大型电商 | 双主库模式、全渠道库存、业财一体 | [配置参考](./kingdee-jushuitan) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
-| [用友与旺店通集成](./yonyou-wangdian) | 中大型电商 | YonSuite/U8 与旺店通、业财一体化 | [配置参考](./yonyou-wangdian) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
-| [电商数据中台集成方案](./ecommerce-data-hub) | 日单量 10 万+ | 数据中台、海量订单、降本增效 | [配置参考](./ecommerce-data-hub) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
-| [海量订单实时同步方案](./ecommerce-data-hub) | 日单量 10 万+ | 异步队列、批量处理、异常重试 | [配置参考](./ecommerce-data-hub) |
-| [用友 U8 与聚水潭对接](./retail) | 传统 ERP 升级 | 线上线下库存一体、财务业务协同 | [配置参考](./retail) |
+| [旺店通与金蝶云星空集成](kingdee-wangdian.md) | 中小型电商 | 库存同步、订单下载、售后处理 | [配置参考](kingdee-wangdian.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub/solution/6b9b04e6-9f84-375e-83e1-6a90210d1eb8) |
+| [金蝶云星空与聚水潭集成](kingdee-jushuitan.md) | 中大型电商 | 双主库模式、全渠道库存、业财一体 | [配置参考](kingdee-jushuitan.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
+| [用友与旺店通集成](yonyou-wangdian.md) | 中大型电商 | YonSuite/U8 与旺店通、业财一体化 | [配置参考](yonyou-wangdian.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
+| [电商数据中台集成方案](ecommerce-data-hub.md) | 日单量 10 万+ | 数据中台、海量订单、降本增效 | [配置参考](ecommerce-data-hub.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
+| [海量订单实时同步方案](ecommerce-data-hub.md) | 日单量 10 万+ | 异步队列、批量处理、异常重试 | [配置参考](ecommerce-data-hub.md) |
+| [用友 U8 与聚水潭对接](retail.md) | 传统 ERP 升级 | 线上线下库存一体、财务业务协同 | [配置参考](retail.md) |
 
 ### 库存管理策略
 
@@ -112,11 +112,11 @@ flowchart LR
 
 | 方案名称 | 核心场景 | 涉及系统 | 使用方式 |
 |---------|---------|---------|---------|
-| [OA 费控集成方案](./oa-finance) | OA 报销、费控管理、业财一体化 | 泛微/致远/宜搭 / 金蝶云星空 | [配置参考](./oa-finance) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
-| [钉钉费控报销对接金蝶](./oa-finance) | 移动审批、费用报销、凭证生成 | 钉钉 / 金蝶云星空 | [配置参考](./oa-finance) |
-| [飞书审批与金蝶集成](./kingdee-feishu-approval) | 审批流同步、费用归集 | 飞书 / 金蝶云星空 | [配置参考](./kingdee-feishu-approval) |
-| [泛微 OA 报销对接](./oa-finance) | 复杂审批、预算控制 | 泛微 OA / 金蝶云星空 | [配置参考](./oa-finance) |
-| [宜搭自建费控应用集成](./oa-finance) | 低代码搭建、灵活配置 | 阿里宜搭 / 金蝶云星空 | [配置参考](./oa-finance) |
+| [OA 费控集成方案](oa-finance.md) | OA 报销、费控管理、业财一体化 | 泛微/致远/宜搭 / 金蝶云星空 | [配置参考](oa-finance.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
+| [钉钉费控报销对接金蝶](oa-finance.md) | 移动审批、费用报销、凭证生成 | 钉钉 / 金蝶云星空 | [配置参考](oa-finance.md) |
+| [飞书审批与金蝶集成](kingdee-feishu-approval.md) | 审批流同步、费用归集 | 飞书 / 金蝶云星空 | [配置参考](kingdee-feishu-approval.md) |
+| [泛微 OA 报销对接](oa-finance.md) | 复杂审批、预算控制 | 泛微 OA / 金蝶云星空 | [配置参考](oa-finance.md) |
+| [宜搭自建费控应用集成](oa-finance.md) | 低代码搭建、灵活配置 | 阿里宜搭 / 金蝶云星空 | [配置参考](oa-finance.md) |
 
 ### 费控集成关键要素
 
@@ -138,9 +138,9 @@ flowchart LR
 
 | 方案名称 | 核心场景 | 涉及系统 | 使用方式 |
 |---------|---------|---------|---------|
-| [金蝶云星空与钉钉集成](./kingdee-dingtalk-approval) | 采购申请、销售出库、费用报销审批 | 金蝶云星空 / 钉钉 | [配置参考](./kingdee-dingtalk-approval) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
-| [金蝶云星空与飞书集成](./kingdee-feishu-approval) | 审批流双向同步、组织架构同步 | 金蝶云星空 / 飞书 | [配置参考](./kingdee-feishu-approval) |
-| [多系统协同集成](./oa-finance) | 微盟、致远 OA、聚水潭、YonSuite 整体对接 | 多系统异构集成 | [配置参考](./oa-finance) |
+| [金蝶云星空与钉钉集成](kingdee-dingtalk-approval.md) | 采购申请、销售出库、费用报销审批 | 金蝶云星空 / 钉钉 | [配置参考](kingdee-dingtalk-approval.md) / [开箱即用](https://dh-open.qliang.cloud/market/datahub) |
+| [金蝶云星空与飞书集成](kingdee-feishu-approval.md) | 审批流双向同步、组织架构同步 | 金蝶云星空 / 飞书 | [配置参考](kingdee-feishu-approval.md) |
+| [多系统协同集成](oa-finance.md) | 微盟、致远 OA、聚水潭、YonSuite 整体对接 | 多系统异构集成 | [配置参考](oa-finance.md) |
 
 ### 审批流集成模式
 
@@ -176,9 +176,9 @@ flowchart TB
 
 | 方案名称 | 核心场景 | 涉及系统 | 使用方式 |
 |---------|---------|---------|---------|
-| [小满 CRM 与 ERP 对接](./crm-integration) | 客户同步、订单推送、回款核销 | 小满 CRM / 金蝶、用友等 ERP | [配置参考](./crm-integration) / [标准套件](https://dh-open.qliang.cloud/market/datahub) |
-| [OKKI CRM 与金蝶集成](./crm-integration) | 外贸业务全流程数字化 | OKKI CRM / 金蝶云星空 | [配置参考](./crm-integration) |
-| [Salesforce 与 ERP 集成](./crm-integration) | 跨国企业客户主数据统一 | Salesforce / 国内 ERP | [配置参考](./crm-integration) |
+| [小满 CRM 与 ERP 对接](crm-integration.md) | 客户同步、订单推送、回款核销 | 小满 CRM / 金蝶、用友等 ERP | [配置参考](crm-integration.md) / [标准套件](https://dh-open.qliang.cloud/market/datahub) |
+| [OKKI CRM 与金蝶集成](crm-integration.md) | 外贸业务全流程数字化 | OKKI CRM / 金蝶云星空 | [配置参考](crm-integration.md) |
+| [Salesforce 与 ERP 集成](crm-integration.md) | 跨国企业客户主数据统一 | Salesforce / 国内 ERP | [配置参考](crm-integration.md) |
 
 ### CRM 集成价值
 

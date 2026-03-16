@@ -59,7 +59,7 @@ flowchart LR
 | **使用场景** | 数据结构转换 | 数据展示优化 |
 
 > [!TIP]
-> 对于简单的格式转换（如日期格式、金额千分位），请使用[值格式化](../guide/value-formatting)；对于复杂的数据结构转换，请使用解析器。
+> 对于简单的格式转换（如日期格式、金额千分位），请使用[值格式化](../guide/value-formatting.md)；对于复杂的数据结构转换，请使用解析器。
 
 ---
 
@@ -812,17 +812,17 @@ flowchart TD
 
 ### 调试技巧
 
-1. **使用调试器单步验证**：在[调试器](../guide/debugger)中查看解析前后的数据对比
+1. **使用调试器单步验证**：在[调试器](../guide/debugger.md)中查看解析前后的数据对比
 2. **分段测试复杂解析**：将多步解析拆分为独立步骤，逐步验证
-3. **查看原始响应**：在[数据管理](../guide/data-queue-management)页面检查源平台返回的原始数据结构
+3. **查看原始响应**：在[数据管理](../guide/data-queue-management.md)页面检查源平台返回的原始数据结构
 
 ---
 
 ## 相关文档
 
-- [数据映射](../guide/data-mapping) — 了解字段映射的基础用法
-- [值格式化](../guide/value-formatting) — 学习简单值的格式化转换
-- [自定义脚本](./custom-scripts) — 处理解析器无法覆盖的复杂场景
-- [调试器使用指南](../guide/debugger) — 排查解析器配置问题
-- [源平台配置](../guide/source-platform-config) — 配置数据获取参数
-- [目标平台配置](../guide/target-platform-config) — 配置数据写入规则
+- [数据映射](../guide/data-mapping.md) — 了解字段映射的基础用法
+- [值格式化](../guide/value-formatting.md) — 学习简单值的格式化转换
+- [自定义脚本](custom-scripts.md) — 处理解析器无法覆盖的复杂场景
+- [调试器使用指南](../guide/debugger.md) — 排查解析器配置问题
+- [源平台配置](../guide/source-platform-config.md) — 配置数据获取参数
+- [目标平台配置](../guide/target-platform-config.md) — 配置数据写入规则

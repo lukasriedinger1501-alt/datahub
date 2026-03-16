@@ -8,26 +8,26 @@
 
 | 连接器 | 定位 | 状态 |
 |--------|------|------|
-| [简道云](./jiandaoyun) | 零代码平台 | ✅ 稳定 |
-| [氚云](./chuanyun) | 低代码平台 | ✅ 稳定 |
-| [销帮帮](./xiaobangbang) | CRM | ✅ 稳定 |
-| [纷享销客](./fenxiangxiaoke) | CRM | ✅ 稳定 |
-| [销售易](./xiaoshouyi) | CRM | ✅ 稳定 |
+| [简道云](jiandaoyun.md) | 零代码平台 | ✅ 稳定 |
+| [氚云](chuanyun.md) | 低代码平台 | ✅ 稳定 |
+| [销帮帮](xiaobangbang.md) | CRM | ✅ 稳定 |
+| [纷享销客](fenxiangxiaoke.md) | CRM | ✅ 稳定 |
+| [销售易](xiaoshouyi.md) | CRM | ✅ 稳定 |
 
 ### HRM / 招聘
 
 | 连接器 | 定位 | 状态 |
 |--------|------|------|
-| [Moka](./moka) | 招聘系统 | ✅ 稳定 |
-| [北森](./beisen) | HR SaaS | ✅ 稳定 |
+| [Moka](moka.md) | 招聘系统 | ✅ 稳定 |
+| [北森](beisen.md) | HR SaaS | ✅ 稳定 |
 
 ### 海外 SaaS
 
 | 连接器 | 定位 | 状态 |
 |--------|------|------|
-| [Outreach](./outreach) | 销售互动 | ✅ 稳定 |
-| [Salesforce](./salesforce) | CRM | ✅ 稳定 |
-| [HubSpot](./hubspot) | 营销自动化 | ✅ 稳定 |
+| [Outreach](outreach.md) | 销售互动 | ✅ 稳定 |
+| [Salesforce](salesforce.md) | CRM | ✅ 稳定 |
+| [HubSpot](hubspot.md) | 营销自动化 | ✅ 稳定 |
 
 ## 通用集成场景
 

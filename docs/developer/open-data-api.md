@@ -924,8 +924,8 @@ def batch_query_large_data(api, scheme_id, start_time, end_time):
 
 ## 相关文档
 
-- [认证授权](./authentication) — 详细了解 OAuth 2.0 认证流程
-- [Webhook 配置](./webhook) — 接收平台实时事件推送
-- [SDK 使用](./sdk) — 使用官方 SDK 简化开发
-- [API 参考](../api-reference/README) — 完整 API 列表和参数说明
-- [自定义连接器开发](./custom-connector) — 扩展平台接入能力
+- [认证授权](authentication.md) — 详细了解 OAuth 2.0 认证流程
+- [Webhook 配置](webhook.md) — 接收平台实时事件推送
+- [SDK 使用](sdk.md) — 使用官方 SDK 简化开发
+- [API 参考](../api-reference/README.md) — 完整 API 列表和参数说明
+- [自定义连接器开发](custom-connector.md) — 扩展平台接入能力

@@ -307,8 +307,8 @@ mindmap
 ## 相关资源
 
 - [网店精灵官网](https://www.wdjl.com/)
-- [网店管家连接器](./wangdianguanjia)
-- [旺店通连接器](./wangdian)
+- [网店管家连接器](wangdianguanjia.md)
+- [旺店通连接器](wangdian.md)
 - [电商连接器概览](../ecommerce)
 
 > [!NOTE]

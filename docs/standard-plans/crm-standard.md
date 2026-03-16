@@ -127,7 +127,7 @@ flowchart TB
 | 金蝶云苍穹 | `kingdee-cloud-cosmos` | 需配置租户编码、应用凭证 |
 
 > [!TIP]
-> 详细的连接器配置步骤请参考 [连接器配置指南](../guide/configure-connector)。
+> 详细的连接器配置步骤请参考 [连接器配置指南](../guide/configure-connector.md)。
 
 ---
 
@@ -571,8 +571,8 @@ A: 检查 `DownloadAttachment` 参数是否设置为 `true`，并确认附件字
 ## 相关资源
 
 - [小满连接器获取指南](https://bbs.qeasy.cloud/d/13296-ling-xing-lian-jie-qi-huo-qu)
-- [纷享销客连接器配置](../connectors/saas/fenxiangxiaoke)
-- [金蝶云星空连接器配置](../connectors/erp/kingdee-cloud-galaxy)
-- [数据加工厂配置](../advanced/data-transformation)
-- [连接器配置指南](../guide/configure-connector)
-- [数据映射配置](../guide/data-mapping)
+- [纷享销客连接器配置](../connectors/saas/fenxiangxiaoke.md)
+- [金蝶云星空连接器配置](../connectors/erp/kingdee-cloud-galaxy.md)
+- [数据加工厂配置](../advanced/data-transformation.md)
+- [连接器配置指南](../guide/configure-connector.md)
+- [数据映射配置](../guide/data-mapping.md)

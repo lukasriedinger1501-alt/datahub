@@ -401,11 +401,11 @@ flowchart TB
 
 ## 相关文档
 
-- [泛微 e-cology 连接器](./weaver-ecology) — 泛微 e-cology 其他版本
-- [泛微 e-office 连接器](./weaver-eoffice) — 泛微中小企业版
-- [OA 协同集成方案](../../standard-schemes/oa-integration) — 典型 OA 集成场景
-- [配置连接器](../../guide/configure-connector) — 连接器通用配置指南
-- [新建集成方案](../../guide/create-integration) — 方案创建完整教程
+- [泛微 e-cology 连接器](weaver-ecology.md) — 泛微 e-cology 其他版本
+- [泛微 e-office 连接器](weaver-eoffice.md) — 泛微中小企业版
+- [OA 协同集成方案](../../standard-schemes/oa-integration.md) — 典型 OA 集成场景
+- [配置连接器](../../guide/configure-connector.md) — 连接器通用配置指南
+- [新建集成方案](../../guide/create-integration.md) — 方案创建完整教程
 
 ## 获取帮助
 

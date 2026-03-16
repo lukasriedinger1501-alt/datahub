@@ -3,7 +3,7 @@
 轻易云 iPaaS 集成平台已深度集成超过 **500+** 主流企业应用系统，涵盖 **80+** 厂商的 **86** 个系统平台，提供超过 **400 万+** 标准 API 接口。本文档按系统类别整理已接入的平台列表，帮助您快速了解平台覆盖范围并查找所需的连接器文档。
 
 > [!NOTE]
-> 平台持续扩充中，如需接入未列出的系统，可通过[自定义连接器](../developer/custom-connector)功能快速扩展，或联系我们的[技术支持团队](https://www.qeasy.cloud/contact)评估接入计划。
+> 平台持续扩充中，如需接入未列出的系统，可通过[自定义连接器](../developer/custom-connector.md)功能快速扩展，或联系我们的[技术支持团队](https://www.qeasy.cloud/contact)评估接入计划。
 
 ## 平台分类概览
 
@@ -47,17 +47,17 @@ mindmap
 
 | 平台名称 | 厂商 | 适用场景 | 连接器文档 |
 |----------|------|----------|------------|
-| **金蝶云星空** | 金蝶软件 | 中大型集团企业财务/供应链/制造管理 | [查看详情](../connectors/erp/kingdee-cloud-galaxy) |
-| **金蝶云苍穹** | 金蝶软件 | 超大型企业数字化平台 | [查看详情](../connectors/erp/kingdee-cloud-cosmos) |
-| **金蝶 KIS** | 金蝶软件 | 小微企业财务业务一体化 | [查看详情](../connectors/erp/kingdee-kis) |
-| **金蝶 EAS** | 金蝶软件 | 大型集团管控平台 | [查看详情](../connectors/erp/kingdee-eas) |
-| **用友 NC** | 用友网络 | 大型企业集团管控 | [查看详情](../connectors/erp/yonyou-nc) |
-| **用友 U8** | 用友网络 | 中型企业 ERP 管理 | [查看详情](../connectors/erp/yonyou-u8) |
-| **用友 U9** | 用友网络 | 离散制造企业管理 | [查看详情](../connectors/erp/yonyou-u9) |
-| **用友 YonSuite** | 用友网络 | 成长型企业云 ERP | [查看详情](../connectors/erp/yonyou-yonsuite) |
-| **畅捷通 T+** | 畅捷通 | 商贸企业进销存管理 | [查看详情](../connectors/erp/chanjet-tplus) |
-| **畅捷通好会计** | 畅捷通 | 小微企业云财务 | [查看详情](../connectors/erp/chanjet-accounting) |
-| **SAP ERP** | SAP | 跨国企业资源规划 | [查看详情](../connectors/erp/sap) |
+| **金蝶云星空** | 金蝶软件 | 中大型集团企业财务/供应链/制造管理 | [查看详情](../connectors/erp/kingdee-cloud-galaxy.md) |
+| **金蝶云苍穹** | 金蝶软件 | 超大型企业数字化平台 | [查看详情](../connectors/erp/kingdee-cloud-cosmos.md) |
+| **金蝶 KIS** | 金蝶软件 | 小微企业财务业务一体化 | [查看详情](../connectors/erp/kingdee-kis.md) |
+| **金蝶 EAS** | 金蝶软件 | 大型集团管控平台 | [查看详情](../connectors/erp/kingdee-eas.md) |
+| **用友 NC** | 用友网络 | 大型企业集团管控 | [查看详情](../connectors/erp/yonyou-nc.md) |
+| **用友 U8** | 用友网络 | 中型企业 ERP 管理 | [查看详情](../connectors/erp/yonyou-u8.md) |
+| **用友 U9** | 用友网络 | 离散制造企业管理 | [查看详情](../connectors/erp/yonyou-u9.md) |
+| **用友 YonSuite** | 用友网络 | 成长型企业云 ERP | [查看详情](../connectors/erp/yonyou-yonsuite.md) |
+| **畅捷通 T+** | 畅捷通 | 商贸企业进销存管理 | [查看详情](../connectors/erp/chanjet-tplus.md) |
+| **畅捷通好会计** | 畅捷通 | 小微企业云财务 | [查看详情](../connectors/erp/chanjet-accounting.md) |
+| **SAP ERP** | SAP | 跨国企业资源规划 | [查看详情](../connectors/erp/sap.md) |
 
 > [!TIP]
 > ERP 连接器支持凭证自动生成、科目余额同步、供应链数据对接等深度集成功能。详细配置请参考各连接器的专用文档。
@@ -68,14 +68,14 @@ mindmap
 
 | 平台名称 | 类型 | 核心功能 | 连接器文档 |
 |----------|------|----------|------------|
-| **钉钉** | 企业协同 | 组织架构同步、审批流对接、消息推送 | [查看详情](../connectors/oa/dingtalk) |
-| **飞书** | 企业协同 | 用户同步、审批集成、机器人通知 | [查看详情](../connectors/oa/lark) |
-| **企业微信** | 企业协同 | 通讯录同步、应用消息、审批数据 | [查看详情](../connectors/oa/wecom) |
-| **泛微 e-cology** | 专业 OA | 流程引擎对接、表单数据同步 | [查看详情](../connectors/oa/weaver-ecology) |
-| **泛微 e-office** | 中小企业 OA | 协同办公数据集成 | [查看详情](../connectors/oa/weaver-eoffice) |
-| **蓝凌 EKP** | 知识管理 | 知识文档、流程审批集成 | [查看详情](../connectors/oa/landray-ekp) |
-| **致远 OA** | 协同管理 | 流程数据、公文交换对接 | [查看详情](../connectors/oa/seeyon-oa) |
-| **道一云** | 低代码平台 | 表单数据、业务应用集成 | [查看详情](../connectors/oa/do1) |
+| **钉钉** | 企业协同 | 组织架构同步、审批流对接、消息推送 | [查看详情](../connectors/oa/dingtalk.md) |
+| **飞书** | 企业协同 | 用户同步、审批集成、机器人通知 | [查看详情](../connectors/oa/lark.md) |
+| **企业微信** | 企业协同 | 通讯录同步、应用消息、审批数据 | [查看详情](../connectors/oa/wecom.md) |
+| **泛微 e-cology** | 专业 OA | 流程引擎对接、表单数据同步 | [查看详情](../connectors/oa/weaver-ecology.md) |
+| **泛微 e-office** | 中小企业 OA | 协同办公数据集成 | [查看详情](../connectors/oa/weaver-eoffice.md) |
+| **蓝凌 EKP** | 知识管理 | 知识文档、流程审批集成 | [查看详情](../connectors/oa/landray-ekp.md) |
+| **致远 OA** | 协同管理 | 流程数据、公文交换对接 | [查看详情](../connectors/oa/seeyon-oa.md) |
+| **道一云** | 低代码平台 | 表单数据、业务应用集成 | [查看详情](../connectors/oa/do1.md) |
 
 ## 电商与 WMS 系统
 
@@ -83,14 +83,14 @@ mindmap
 
 | 平台名称 | 类型 | 适用场景 | 连接器文档 |
 |----------|------|----------|------------|
-| **旺店通** | ERP / WMS | 电商订单管理、仓储作业 | [查看详情](../connectors/ecommerce/wangdiantong) |
-| **聚水潭** | ERP / WMS | 电商 SaaS 管理、多平台订单 | [查看详情](../connectors/ecommerce/jushuitan) |
-| **万里牛** | ERP / WMS | 跨境电商、多仓管理 | [查看详情](../connectors/ecommerce/wanliniu) |
-| **管易云** | 电商 ERP | 全渠道订单、库存管理 | [查看详情](../connectors/ecommerce/guanyiyun) |
-| **易仓** | 跨境 WMS | 海外仓管理、跨境物流 | [查看详情](../connectors/ecommerce/yicang) |
-| **快麦** | 电商 ERP | 直播电商、店铺管理 | [查看详情](../connectors/ecommerce/kuaimai) |
-| **网店管家** | 电商 ERP | 多平台店铺统一管理 | [查看详情](../connectors/ecommerce/wangdianguanjia) |
-| **网店精灵** | 电商工具 | 店铺运营辅助工具 | [查看详情](../connectors/ecommerce/wangdianjingling) |
+| **旺店通** | ERP / WMS | 电商订单管理、仓储作业 | [查看详情](../connectors/ecommerce/wangdiantong.md) |
+| **聚水潭** | ERP / WMS | 电商 SaaS 管理、多平台订单 | [查看详情](../connectors/ecommerce/jushuitan.md) |
+| **万里牛** | ERP / WMS | 跨境电商、多仓管理 | [查看详情](../connectors/ecommerce/wanliniu.md) |
+| **管易云** | 电商 ERP | 全渠道订单、库存管理 | [查看详情](../connectors/ecommerce/guanyiyun.md) |
+| **易仓** | 跨境 WMS | 海外仓管理、跨境物流 | [查看详情](../connectors/ecommerce/yicang.md) |
+| **快麦** | 电商 ERP | 直播电商、店铺管理 | [查看详情](../connectors/ecommerce/kuaimai.md) |
+| **网店管家** | 电商 ERP | 多平台店铺统一管理 | [查看详情](../connectors/ecommerce/wangdianguanjia.md) |
+| **网店精灵** | 电商工具 | 店铺运营辅助工具 | [查看详情](../connectors/ecommerce/wangdianjingling.md) |
 
 > [!IMPORTANT]
 > 电商类连接器已预置主流电商平台（淘宝、天猫、京东、拼多多、抖音电商等）的 API 对接能力，可实现订单自动抓取、库存实时同步、物流信息回写。
@@ -101,15 +101,15 @@ mindmap
 
 | 平台名称 | 类型 | 适用场景 | 连接器文档 |
 |----------|------|----------|------------|
-| **MySQL** | 关系型数据库 | 业务数据存储、主从同步 | [查看详情](../connectors/database/mysql) |
-| **PostgreSQL** | 关系型数据库 | 企业级数据存储、地理信息 | [查看详情](../connectors/database/postgresql) |
-| **Oracle** | 关系型数据库 | 大型企业核心业务系统 | [查看详情](../connectors/database/oracle) |
-| **SQL Server** | 关系型数据库 | Windows 环境数据存储 | [查看详情](../connectors/database/sqlserver) |
-| **MongoDB** | NoSQL 数据库 | 文档存储、大数据场景 | [查看详情](../connectors/database/mongodb) |
-| **Redis** | 内存数据库 | 缓存、会话存储、实时计算 | [查看详情](../connectors/database/redis) |
-| **Elasticsearch** | 搜索引擎 | 日志分析、全文检索 | [查看详情](../connectors/database/elasticsearch) |
-| **ClickHouse** | 列式数据库 | 大数据分析、OLAP 场景 | [查看详情](../connectors/database/clickhouse) |
-| **Kafka** | 消息队列 | 实时流处理、事件驱动 | [查看详情](../connectors/database/kafka) |
+| **MySQL** | 关系型数据库 | 业务数据存储、主从同步 | [查看详情](../connectors/database/mysql.md) |
+| **PostgreSQL** | 关系型数据库 | 企业级数据存储、地理信息 | [查看详情](../connectors/database/postgresql.md) |
+| **Oracle** | 关系型数据库 | 大型企业核心业务系统 | [查看详情](../connectors/database/oracle.md) |
+| **SQL Server** | 关系型数据库 | Windows 环境数据存储 | [查看详情](../connectors/database/sqlserver.md) |
+| **MongoDB** | NoSQL 数据库 | 文档存储、大数据场景 | [查看详情](../connectors/database/mongodb.md) |
+| **Redis** | 内存数据库 | 缓存、会话存储、实时计算 | [查看详情](../connectors/database/redis.md) |
+| **Elasticsearch** | 搜索引擎 | 日志分析、全文检索 | [查看详情](../connectors/database/elasticsearch.md) |
+| **ClickHouse** | 列式数据库 | 大数据分析、OLAP 场景 | [查看详情](../connectors/database/clickhouse.md) |
+| **Kafka** | 消息队列 | 实时流处理、事件驱动 | [查看详情](../connectors/database/kafka.md) |
 
 > [!TIP]
 > 数据库连接器支持 CDC（变更数据捕获）实时同步，可在秒级捕获源库变更并同步至目标系统，无需全量抽取。
@@ -120,16 +120,16 @@ mindmap
 
 | 平台名称 | 类型 | 适用场景 | 连接器文档 |
 |----------|------|----------|------------|
-| **Salesforce** | CRM | 全球领先的客户管理平台 | [查看详情](../connectors/crm/salesforce) |
-| **纷享销客** | CRM | 国产化营销服一体化 | [查看详情](../connectors/crm/fenxiangxiaoke) |
-| **销售易** | CRM | 企业级销售管理 | [查看详情](../connectors/crm/xiaoshouyi) |
-| **简道云** | 低代码平台 | 零代码业务应用构建 | [查看详情](../connectors/crm/jiandaoyun) |
-| **氚云** | 低代码平台 | 企业数字化应用搭建 | [查看详情](../connectors/crm/chuanyun) |
-| **销帮帮** | CRM | 中小企业销售管理 | [查看详情](../connectors/crm/xiaobangbang) |
-| **Moka** | HR SaaS | 招聘管理系统 | [查看详情](../connectors/crm/moka) |
-| **北森** | HR SaaS | 一体化人才管理 | [查看详情](../connectors/crm/beisen) |
-| **HubSpot** | 营销自动化 | 海外营销获客管理 | [查看详情](../connectors/crm/hubspot) |
-| **Outreach** | 销售参与 | 销售自动化外联 | [查看详情](../connectors/crm/outreach) |
+| **Salesforce** | CRM | 全球领先的客户管理平台 | [查看详情](../connectors/crm/salesforce.md) |
+| **纷享销客** | CRM | 国产化营销服一体化 | [查看详情](../connectors/crm/fenxiangxiaoke.md) |
+| **销售易** | CRM | 企业级销售管理 | [查看详情](../connectors/crm/xiaoshouyi.md) |
+| **简道云** | 低代码平台 | 零代码业务应用构建 | [查看详情](../connectors/crm/jiandaoyun.md) |
+| **氚云** | 低代码平台 | 企业数字化应用搭建 | [查看详情](../connectors/crm/chuanyun.md) |
+| **销帮帮** | CRM | 中小企业销售管理 | [查看详情](../connectors/crm/xiaobangbang.md) |
+| **Moka** | HR SaaS | 招聘管理系统 | [查看详情](../connectors/crm/moka.md) |
+| **北森** | HR SaaS | 一体化人才管理 | [查看详情](../connectors/crm/beisen.md) |
+| **HubSpot** | 营销自动化 | 海外营销获客管理 | [查看详情](../connectors/crm/hubspot.md) |
+| **Outreach** | 销售参与 | 销售自动化外联 | [查看详情](../connectors/crm/outreach.md) |
 
 ## 如何查找连接器文档
 
@@ -180,7 +180,7 @@ mindmap
 
 | 资源类型 | 链接 | 说明 |
 |----------|------|------|
-| 连接器开发指南 | [自定义连接器](../developer/custom-connector) | 学习如何开发自定义连接器 |
+| 连接器开发指南 | [自定义连接器](../developer/custom-connector.md) | 学习如何开发自定义连接器 |
 | 集成方案示例 | [标准方案](../standard-schemes/) | 查看预置的行业集成模板 |
 | 技术支持 | [联系我们](https://www.qeasy.cloud/contact) | 获取专业的集成顾问服务 |
 | 产品演示 | [预约演示](https://www.qeasy.cloud/demo) | 一对一产品功能演示 |

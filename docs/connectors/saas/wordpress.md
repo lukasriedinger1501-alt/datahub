@@ -359,4 +359,4 @@ Authorization: Basic ck_xxx:cs_xxx
 ---
 
 > [!NOTE]
-> 如需更多技术支持，请联系轻易云客服团队或查阅 [连接器配置指南](../../guide/configure-connector)。
+> 如需更多技术支持，请联系轻易云客服团队或查阅 [连接器配置指南](../../guide/configure-connector.md)。

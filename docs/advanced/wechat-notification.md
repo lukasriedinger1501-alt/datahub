@@ -587,11 +587,11 @@ flowchart TD
 
 ## 相关文档
 
-- [监控告警](../guide/monitoring-alerts) — 集成任务监控与告警配置
-- [日志管理](../guide/log-management) — 查看推送日志与排查问题
-- [自定义函数](./custom-functions) — 编写自定义消息处理逻辑
-- [企业微信连接器](../connectors/oa/wecom) — 企业微信深度集成
-- [监控告警](../guide/monitoring-alerts) — 查看通知与告警能力的通用说明
+- [监控告警](../guide/monitoring-alerts.md) — 集成任务监控与告警配置
+- [日志管理](../guide/log-management.md) — 查看推送日志与排查问题
+- [自定义函数](custom-functions.md) — 编写自定义消息处理逻辑
+- [企业微信连接器](../connectors/oa/wecom.md) — 企业微信深度集成
+- [监控告警](../guide/monitoring-alerts.md) — 查看通知与告警能力的通用说明
 
 ## 更新日志
 

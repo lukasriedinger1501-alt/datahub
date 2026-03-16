@@ -13,7 +13,7 @@
 3. **确认接口类型** — 源系统需要配置**查询接口**（数据读取），目标系统需要配置**操作接口**（数据写入）
 
 > [!IMPORTANT]
-> 如果尚未配置连接器，请先参考[配置连接器](./configure-connector)完成连接器的创建和测试。
+> 如果尚未配置连接器，请先参考[配置连接器](configure-connector.md)完成连接器的创建和测试。
 
 ---
 
@@ -186,7 +186,7 @@ flowchart TD
 - 支持字段类型自动转换
 - 可配置默认值和条件映射
 
-详细操作请参考[数据映射](./data-mapping)。
+详细操作请参考[数据映射](data-mapping.md)。
 
 ### 2. 设置转换规则
 
@@ -310,7 +310,7 @@ A: 删除方案将：
 
 ## 下一步
 
-- 学习如何[配置数据映射](./data-mapping)，建立源字段与目标字段的对应关系
-- 了解[流程编排](./process-orchestration)，实现更复杂的业务逻辑
-- 探索[任务调度](./task-scheduling)的进阶配置选项
-- 查看[监控告警](./monitoring-alerts)，掌握方案运行状态的监控方法
+- 学习如何[配置数据映射](data-mapping.md)，建立源字段与目标字段的对应关系
+- 了解[流程编排](process-orchestration.md)，实现更复杂的业务逻辑
+- 探索[任务调度](task-scheduling.md)的进阶配置选项
+- 查看[监控告警](monitoring-alerts.md)，掌握方案运行状态的监控方法

@@ -325,7 +325,7 @@ flowchart LR
 
 - [管家婆开放平台](https://ngpopen.wsgjp.com/)
 - [开发文档中心](https://ngpopen.wsgjp.com/dev/index.html)
-- [轻易云 iPaaS 使用指南](../../guide/configure-connector)
+- [轻易云 iPaaS 使用指南](../../guide/configure-connector.md)
 
 ## 常见问题
 

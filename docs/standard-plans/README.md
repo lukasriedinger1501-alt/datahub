@@ -137,14 +137,14 @@ flowchart LR
 
 | 方案 | 适用场景 | 复杂度 | 状态 |
 |------|----------|--------|------|
-| [跨境电商方案](./cross-border) | 跨境电商平台-ERP-海外仓集成 | 高 | 已发布 |
-| [国内电商方案](./domestic-ecommerce) | 淘宝/京东/拼多多-ERP-WMS 集成 | 中 | 已发布 |
-| [OA 协同方案](./oa-standard) | 钉钉/飞书-ERP/HR 审批流集成 | 中 | 已发布 |
-| [CRM 集成方案](./crm-standard) | CRM-ERP-财务系统客户主数据同步 | 中 | 已发布 |
-| [ERP 对接方案](./erp-integration) | 多 ERP 间基础资料与单据同步 | 高 | 已发布 |
-| [MES 集成方案](./mes-standard) | ERP-MES-设备数据采集集成 | 高 | 已发布 |
-| [WMS 集成方案](./wms-integration) | ERP-WMS-物流平台集成 | 中 | 已发布 |
-| [iPaaS Lite 方案](./ipaas-lite) | 轻量级数据同步场景 | 低 | 已发布 |
+| [跨境电商方案](cross-border.md) | 跨境电商平台-ERP-海外仓集成 | 高 | 已发布 |
+| [国内电商方案](domestic-ecommerce.md) | 淘宝/京东/拼多多-ERP-WMS 集成 | 中 | 已发布 |
+| [OA 协同方案](oa-standard.md) | 钉钉/飞书-ERP/HR 审批流集成 | 中 | 已发布 |
+| [CRM 集成方案](crm-standard.md) | CRM-ERP-财务系统客户主数据同步 | 中 | 已发布 |
+| [ERP 对接方案](erp-integration.md) | 多 ERP 间基础资料与单据同步 | 高 | 已发布 |
+| [MES 集成方案](mes-standard.md) | ERP-MES-设备数据采集集成 | 高 | 已发布 |
+| [WMS 集成方案](wms-integration.md) | ERP-WMS-物流平台集成 | 中 | 已发布 |
+| [iPaaS Lite 方案](ipaas-lite.md) | 轻量级数据同步场景 | 低 | 已发布 |
 
 ## 如何申请与导入
 
@@ -248,8 +248,8 @@ flowchart LR
 
 ## 相关资源
 
-- [快速开始](../quick-start/first-integration) - 5 分钟上手轻易云 iPaaS
-- [连接器配置指南](../guide/configure-connector) - 详细连接器配置说明
-- [数据映射文档](../guide/data-mapping) - 数据映射规则配置
+- [快速开始](../quick-start/first-integration.md) - 5 分钟上手轻易云 iPaaS
+- [连接器配置指南](../guide/configure-connector.md) - 详细连接器配置说明
+- [数据映射文档](../guide/data-mapping.md) - 数据映射规则配置
 - [API 参考](../api-reference) - 开放接口文档
 - [常见问题](../faq) - 使用过程中的常见问题解答

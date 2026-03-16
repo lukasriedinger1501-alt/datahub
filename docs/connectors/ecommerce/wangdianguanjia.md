@@ -320,8 +320,8 @@ flowchart TD
 ## 相关资源
 
 - [网店管家官网](http://www.wdgj.com/)
-- [网店精灵连接器](./wangdianjingling)
-- [旺店通连接器](./wangdian)
+- [网店精灵连接器](wangdianjingling.md)
+- [旺店通连接器](wangdian.md)
 - [电商连接器概览](../ecommerce)
 
 > [!NOTE]

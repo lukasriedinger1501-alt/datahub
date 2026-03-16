@@ -561,9 +561,9 @@ flowchart LR
 
 ## 相关文档
 
-- [CDC 实时同步](./cdc-realtime) — 深入了解 CDC 技术原理与配置
-- [批量数据处理](./batch-processing) — 大规模数据同步性能优化
-- [异常处理机制](./error-handling) — 同步失败的重试与恢复策略
-- [源平台配置](../guide/source-platform-config) — 详细的源端配置指南
-- [目标平台配置](../guide/target-platform-config) — 详细的目标端配置指南
-- [调试器](../guide/debugger) — 验证同步策略效果的调试工具
+- [CDC 实时同步](cdc-realtime.md) — 深入了解 CDC 技术原理与配置
+- [批量数据处理](batch-processing.md) — 大规模数据同步性能优化
+- [异常处理机制](error-handling.md) — 同步失败的重试与恢复策略
+- [源平台配置](../guide/source-platform-config.md) — 详细的源端配置指南
+- [目标平台配置](../guide/target-platform-config.md) — 详细的目标端配置指南
+- [调试器](../guide/debugger.md) — 验证同步策略效果的调试工具

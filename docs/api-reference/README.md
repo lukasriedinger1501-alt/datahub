@@ -12,7 +12,7 @@
 - **链路追踪**：查询数据在源平台和目标平台的完整处理链路
 
 > [!NOTE]
-> 本章节文档适用于具备 HTTP/HTTPS 协议基础和 RESTful API 调用经验的开发者。如需了解平台的基本使用方法，请先阅读[快速开始](../quick-start/introduction)章节。
+> 本章节文档适用于具备 HTTP/HTTPS 协议基础和 RESTful API 调用经验的开发者。如需了解平台的基本使用方法，请先阅读[快速开始](../quick-start/introduction.md)章节。
 
 ## 接口规范
 
@@ -131,7 +131,7 @@ curl -X POST "https://api.qeasy.cloud/v2/oauth" \
 | 触发目标调度 | GET | `/v2/open-api/business/{scheme_id}/dispatch-target` | 激活目标平台调度者 |
 
 > [!TIP]
-> 完整接口文档请参考 [接口列表](./endpoints) 章节，包含详细的请求参数、响应格式和错误码说明。
+> 完整接口文档请参考 [接口列表](endpoints.md) 章节，包含详细的请求参数、响应格式和错误码说明。
 
 ## OpenAPI 规范
 
@@ -255,11 +255,11 @@ print(result.content)
 
 ## 相关资源
 
-- [认证指南](./authentication) — 详细认证流程与示例
-- [接口列表](./endpoints) — 完整 API 端点文档
-- [错误码参考](./error-codes) — 错误码与排查指南
-- [限流说明](./rate-limiting) — 频率限制与优化建议
-- [OpenAPI 文档](./openapi) — OpenAPI 3.0 规范文档
+- [认证指南](authentication.md) — 详细认证流程与示例
+- [接口列表](endpoints.md) — 完整 API 端点文档
+- [错误码参考](error-codes.md) — 错误码与排查指南
+- [限流说明](rate-limiting.md) — 频率限制与优化建议
+- [OpenAPI 文档](openapi.md) — OpenAPI 3.0 规范文档
 
 ## 获取支持
 

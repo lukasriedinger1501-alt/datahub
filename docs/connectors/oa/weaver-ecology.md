@@ -347,9 +347,9 @@ sequenceDiagram
 ## 相关资源
 
 - [泛微官网](https://www.weaver.com.cn/)
-- [泛微 e-office 连接器](./weaver-eoffice)
+- [泛微 e-office 连接器](weaver-eoffice.md)
 - [OA 连接器概览](../oa)
-- [审批流集成方案](../../standard-schemes/oa-integration)
+- [审批流集成方案](../../standard-schemes/oa-integration.md)
 
 > [!IMPORTANT]
 > e-cology 的接口能力可能因版本不同有所差异，建议参考具体版本的接口文档。

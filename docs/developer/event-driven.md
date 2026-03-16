@@ -1,6 +1,6 @@
 # 链式事件驱动
 
-链式事件驱动是轻易云 iPaaS 平台提供的一种细粒度事件响应机制，允许在单个数据记录处理完成后立即触发下游逻辑。与方案级的[链式触发](../advanced/chain-trigger)不同，链式事件驱动聚焦于数据级联动，适用于需要实时响应单条数据变更的场景。
+链式事件驱动是轻易云 iPaaS 平台提供的一种细粒度事件响应机制，允许在单个数据记录处理完成后立即触发下游逻辑。与方案级的[链式触发](../advanced/chain-trigger.md)不同，链式事件驱动聚焦于数据级联动，适用于需要实时响应单条数据变更的场景。
 
 > [!IMPORTANT]
 > 本文档涉及事件订阅、Webhook 配置等开发者功能，需要登录后查看完整内容。未登录用户可预览前 25 行内容。
@@ -942,8 +942,8 @@ function handleEventWithOrdering(event) {
 
 ## 相关文档
 
-- [链式触发](../advanced/chain-trigger) — 方案级的级联触发配置
-- [Webhook 配置](./webhook) — Webhook 详细配置指南
-- [自定义适配器开发](./adapter-development) — 在适配器中处理事件
-- [适配器生命周期](./lifecycle) — 适配器生命周期与事件集成
-- [异常处理机制](../advanced/error-handling) — 事件处理异常恢复策略
+- [链式触发](../advanced/chain-trigger.md) — 方案级的级联触发配置
+- [Webhook 配置](webhook.md) — Webhook 详细配置指南
+- [自定义适配器开发](adapter-development.md) — 在适配器中处理事件
+- [适配器生命周期](lifecycle.md) — 适配器生命周期与事件集成
+- [异常处理机制](../advanced/error-handling.md) — 事件处理异常恢复策略

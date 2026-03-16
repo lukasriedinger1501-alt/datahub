@@ -1386,9 +1386,9 @@ class KafkaHealthChecker
 
 ## 相关资源
 
-- [自定义适配器开发](./adapter-development) — 深入了解适配器开发模式
-- [适配器生命周期](./lifecycle) — 掌握适配器生命周期管理
-- [连接器配置](../guide/configure-connector) — 学习连接器基础配置
+- [自定义适配器开发](adapter-development.md) — 深入了解适配器开发模式
+- [适配器生命周期](lifecycle.md) — 掌握适配器生命周期管理
+- [连接器配置](../guide/configure-connector.md) — 学习连接器基础配置
 - [Apache Kafka 官方文档](https://kafka.apache.org/documentation/) — Kafka 官方权威参考
 - [librdkafka 文档](https://github.com/confluentinc/librdkafka) — PHP Kafka 客户端底层库文档
 

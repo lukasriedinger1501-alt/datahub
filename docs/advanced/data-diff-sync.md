@@ -660,9 +660,9 @@ flowchart TD
 
 ## 相关文档
 
-- [集成策略模式](./integration-strategy) — 了解差异比对与其他同步策略的组合使用
-- [CDC 实时同步](./cdc-realtime) — 实现秒级数据同步
-- [批量数据处理](./batch-processing) — 大规模数据同步性能优化
-- [数据与队列管理](../guide/data-queue-management) — 查看同步结果和差异报告
-- [监控告警](../guide/monitoring-alerts) — 配置同步异常告警
-- [调试器](../guide/debugger) — 验证比对逻辑和结果
+- [集成策略模式](integration-strategy.md) — 了解差异比对与其他同步策略的组合使用
+- [CDC 实时同步](cdc-realtime.md) — 实现秒级数据同步
+- [批量数据处理](batch-processing.md) — 大规模数据同步性能优化
+- [数据与队列管理](../guide/data-queue-management.md) — 查看同步结果和差异报告
+- [监控告警](../guide/monitoring-alerts.md) — 配置同步异常告警
+- [调试器](../guide/debugger.md) — 验证比对逻辑和结果

@@ -64,11 +64,11 @@
 
 | 文档 | 说明 |
 |------|------|
-| [平台简介](./quick-start/introduction) | 了解平台基础概念与架构 |
-| [账号注册](./quick-start/registration) | 注册并激活你的轻易云账号 |
-| [环境配置](./quick-start/environment-setup) | 配置开发与生产环境 |
-| [第一个集成流程 🔥](./quick-start/first-integration) | 手把手教你完成首个数据同步任务 |
-| [快速入门视频](./quick-start/video-tutorials) | 通过视频教程快速上手 |
+| [平台简介](quick-start/introduction.md) | 了解平台基础概念与架构 |
+| [账号注册](quick-start/registration.md) | 注册并激活你的轻易云账号 |
+| [环境配置](quick-start/environment-setup.md) | 配置开发与生产环境 |
+| [第一个集成流程 🔥](quick-start/first-integration.md) | 手把手教你完成首个数据同步任务 |
+| [快速入门视频](quick-start/video-tutorials.md) | 通过视频教程快速上手 |
 
 ### 📘 使用指南（功能详解）
 
@@ -76,13 +76,13 @@
 
 | 模块 | 核心内容 |
 |------|----------|
-| [平台总览](./guide/platform-overview) | 控制台功能介绍与导航 |
-| [数据源管理](./guide/data-source-management) | 配置与管理各类数据源连接 |
-| [数据目标管理](./guide/data-target-management) | 配置数据输出目标 |
-| [数据映射](./guide/data-mapping) | 字段映射、数据转换规则配置 |
-| [流程编排](./guide/process-orchestration) | 可视化流程设计与调试 |
-| [任务调度](./guide/task-scheduling) | 定时任务与触发器配置 |
-| [监控告警](./guide/monitoring-alerts) | 实时监控与异常告警 |
+| [平台总览](guide/platform-overview.md) | 控制台功能介绍与导航 |
+| [数据源管理](guide/data-source-management.md) | 配置与管理各类数据源连接 |
+| [数据目标管理](guide/data-target-management.md) | 配置数据输出目标 |
+| [数据映射](guide/data-mapping.md) | 字段映射、数据转换规则配置 |
+| [流程编排](guide/process-orchestration.md) | 可视化流程设计与调试 |
+| [任务调度](guide/task-scheduling.md) | 定时任务与触发器配置 |
+| [监控告警](guide/monitoring-alerts.md) | 实时监控与异常告警 |
 
 ### 🔧 进阶应用（高阶技巧）
 
@@ -93,11 +93,11 @@
 
 | 功能 | 说明 |
 |------|------|
-| [CDC 实时同步](./advanced/cdc-realtime) 🆕 | 基于日志解析的实时数据捕获 |
-| [自定义脚本](./advanced/custom-scripts) | 使用 JavaScript/Python 实现复杂转换 |
-| [批量数据处理](./advanced/batch-processing) | 大规模数据批量导入导出 |
-| [性能优化](./advanced/performance-tuning) | 提升集成效率的最佳实践 |
-| [高可用配置](./advanced/high-availability) | 集群部署与故障转移 |
+| [CDC 实时同步](advanced/cdc-realtime.md) 🆕 | 基于日志解析的实时数据捕获 |
+| [自定义脚本](advanced/custom-scripts.md) | 使用 JavaScript/Python 实现复杂转换 |
+| [批量数据处理](advanced/batch-processing.md) | 大规模数据批量导入导出 |
+| [性能优化](advanced/performance-tuning.md) | 提升集成效率的最佳实践 |
+| [高可用配置](advanced/high-availability.md) | 集群部署与故障转移 |
 
 ### 🔌 连接器生态
 
@@ -113,11 +113,11 @@
 
 针对特定行业的典型应用场景，提供完整的集成解决方案：
 
-- [制造业解决方案](./solutions/manufacturing) — MES 与 ERP 数据互通
-- [零售业解决方案](./solutions/retail) — 全渠道库存统一管理
-- [跨境电商方案](./solutions/crossborder-ecommerce) — 多平台订单履约
-- [医药健康方案](./solutions/healthcare) — 药品追溯与合规
-- [金融服务方案](./solutions/finance) — 风控数据实时汇聚
+- [制造业解决方案](solutions/manufacturing.md) — MES 与 ERP 数据互通
+- [零售业解决方案](solutions/retail.md) — 全渠道库存统一管理
+- [跨境电商方案](solutions/crossborder-ecommerce.md) — 多平台订单履约
+- [医药健康方案](solutions/healthcare.md) — 药品追溯与合规
+- [金融服务方案](solutions/finance.md) — 风控数据实时汇聚
 
 ### 💻 开发者资源
 
@@ -128,11 +128,11 @@
 
 | 资源 | 说明 |
 |------|------|
-| [开放接口概览](./developer/api-overview) | RESTful API 接口总览 |
-| [认证授权](./developer/authentication) | API Key 与 OAuth2 认证 |
-| [Webhook 配置](./developer/webhook) | 事件订阅与回调机制 |
-| [自定义连接器开发](./developer/custom-connector) 🆕 | 开发专属连接器 |
-| [SDK 使用](./developer/sdk) | 官方 SDK 集成指南 |
+| [开放接口概览](developer/api-overview.md) | RESTful API 接口总览 |
+| [认证授权](developer/authentication.md) | API Key 与 OAuth2 认证 |
+| [Webhook 配置](developer/webhook.md) | 事件订阅与回调机制 |
+| [自定义连接器开发](developer/custom-connector.md) 🆕 | 开发专属连接器 |
+| [SDK 使用](developer/sdk.md) | 官方 SDK 集成指南 |
 
 ### 📚 参考资料
 
@@ -151,9 +151,9 @@
 **典型角色**：业务人员、项目经理、系统管理员
 
 **推荐路径**：
-1. 阅读 [平台简介](./quick-start/introduction) 了解基础概念
-2. 观看 [快速入门视频](./quick-start/video-tutorials)
-3. 跟随 [第一个集成流程](./quick-start/first-integration) 完成实践
+1. 阅读 [平台简介](quick-start/introduction.md) 了解基础概念
+2. 观看 [快速入门视频](quick-start/video-tutorials.md)
+3. 跟随 [第一个集成流程](quick-start/first-integration.md) 完成实践
 4. 查阅 [使用指南](./guide/) 深入学习具体功能
 
 **你将获得**：无需编程基础，即可独立完成常见的数据同步任务配置。
@@ -164,8 +164,8 @@
 
 **推荐路径**：
 1. 完成 [快速开始](./quick-start/) 全部内容
-2. 深入学习 [数据映射](./guide/data-mapping) 与 [流程编排](./guide/process-orchestration)
-3. 掌握 [CDC 实时同步](./advanced/cdc-realtime) 与 [性能优化](./advanced/performance-tuning)
+2. 深入学习 [数据映射](guide/data-mapping.md) 与 [流程编排](guide/process-orchestration.md)
+3. 掌握 [CDC 实时同步](advanced/cdc-realtime.md) 与 [性能优化](advanced/performance-tuning.md)
 4. 参考 [行业解决方案](./solutions/) 解决实际业务问题
 
 **你将获得**：能够设计复杂的数据集成架构，优化集成性能，解决疑难问题。
@@ -175,9 +175,9 @@
 **典型角色**：软件工程师、架构师、ISV 合作伙伴
 
 **推荐路径**：
-1. 阅读 [开发指南](./developer/guide)
-2. 了解 [开放接口](./developer/api-overview) 与 [认证授权](./developer/authentication)
-3. 学习 [自定义连接器开发](./developer/custom-connector)
+1. 阅读 [开发指南](developer/guide.md)
+2. 了解 [开放接口](developer/api-overview.md) 与 [认证授权](developer/authentication.md)
+3. 学习 [自定义连接器开发](developer/custom-connector.md)
 4. 参考 [API 参考](./api-reference/) 进行系统集成
 
 **你将获得**：能够通过 API 与 SDK 深度集成轻易云平台，开发自定义连接器扩展平台能力。
@@ -248,10 +248,10 @@ graph TB
 ## 下一步
 
 > [!TIP]
-> 如果你刚开始接触轻易云 iPaaS，建议从 [快速开始](./quick-start/README) 章节开始，5 分钟即可完成首个集成流程。
+> 如果你刚开始接触轻易云 iPaaS，建议从 [快速开始](quick-start/README.md) 章节开始，5 分钟即可完成首个集成流程。
 
 准备好开始了吗？点击下方按钮，开启你的数据集成之旅：
 
-- [→ 开始快速入门](./quick-start/introduction)
-- [→ 浏览使用指南](./guide/README)
-- [→ 查看连接器列表](./connectors/README)
+- [→ 开始快速入门](quick-start/introduction.md)
+- [→ 浏览使用指南](guide/README.md)
+- [→ 查看连接器列表](connectors/README.md)

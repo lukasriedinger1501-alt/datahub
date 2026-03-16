@@ -624,10 +624,10 @@ U9 支持单据头和单据体的自定义字段，写入时使用 `DescFlexFiel
 ## 相关资源
 
 - [用友 U9 开放平台](https://u9cloud.yonyou.com/) — 官方 API 文档和开发者工具
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [ERP 连接器概览](./README) — 其他 ERP 系统连接器
-- [数据映射指南](../../guide/data-mapping) — 字段映射配置详解
-- [集成方案配置](../../guide/create-integration) — 创建集成方案的完整流程
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [ERP 连接器概览](README.md) — 其他 ERP 系统连接器
+- [数据映射指南](../../guide/data-mapping.md) — 字段映射配置详解
+- [集成方案配置](../../guide/create-integration.md) — 创建集成方案的完整流程
 
 ---
 

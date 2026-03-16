@@ -380,10 +380,10 @@ flowchart TB
 
 ## 相关文档
 
-- [OA / 协同类连接器概览](./README) — 查看所有 OA 连接器
-- [配置连接器](../../guide/configure-connector) — 连接器通用配置指南
-- [新建集成方案](../../guide/create-integration) — 方案创建完整教程
-- [标准方案：OA 协同](../../standard-schemes/oa-integration) — 典型 OA 集成场景
+- [OA / 协同类连接器概览](README.md) — 查看所有 OA 连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器通用配置指南
+- [新建集成方案](../../guide/create-integration.md) — 方案创建完整教程
+- [标准方案：OA 协同](../../standard-schemes/oa-integration.md) — 典型 OA 集成场景
 
 ## 获取帮助
 

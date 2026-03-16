@@ -2,5 +2,5 @@
 
 该标准方案聚焦订单同步、履约回传与业财一体化场景。
 
-- 参考解决方案：[电商数据中台集成解决方案](../solutions/ecommerce-data-hub)
-- 总览入口：[标准集成方案首页](./README)
+- 参考解决方案：[电商数据中台集成解决方案](../solutions/ecommerce-data-hub.md)
+- 总览入口：[标准集成方案首页](README.md)

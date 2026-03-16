@@ -324,6 +324,6 @@ mindmap
 
 ## 下一步
 
-- [账号注册](./registration) - 创建轻易云账号，开通数据集成服务
-- [环境配置](./environment-setup) - 配置开发与生产环境
-- [第一个集成流程](./first-integration) - 快速上手，完成首个数据同步方案
+- [账号注册](registration.md) - 创建轻易云账号，开通数据集成服务
+- [环境配置](environment-setup.md) - 配置开发与生产环境
+- [第一个集成流程](first-integration.md) - 快速上手，完成首个数据同步方案

@@ -106,6 +106,6 @@ Lite 方案不支持自定义脚本功能。如需使用自定义脚本进行复
 
 ## 相关资源
 
-- [方案概览](./README) — 查看所有标准集成方案
-- [Lite 集成方案包](./lite-plans) — Lite 方案详细包内容
-- [试用与购买](../overview/pricing-and-trial) — 产品定价与试用说明
+- [方案概览](README.md) — 查看所有标准集成方案
+- [Lite 集成方案包](lite-plans.md) — Lite 方案详细包内容
+- [试用与购买](../overview/pricing-and-trial.md) — 产品定价与试用说明

@@ -56,47 +56,47 @@ flowchart TB
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [Salesforce](./saas/salesforce) | `salesforce` | 销售、服务、营销 | 跨国企业 |
-| [HubSpot](./saas/hubspot) | `hubspot` | 营销、销售、服务 | 中小企业 |
-| [纷享销客](./saas/fenxiangxiaoke) | `fenxiangxiaoke` | 销售管理、CRM | 国内企业 |
-| [销售易](./saas/xiaoshouyi) | `xiaoshouyi` | 移动 CRM | 销售团队 |
-| [Zoho CRM](./saas/zoho) | `zoho` | 全功能 CRM | 中小企业 |
+| [Salesforce](saas/salesforce.md) | `salesforce` | 销售、服务、营销 | 跨国企业 |
+| [HubSpot](saas/hubspot.md) | `hubspot` | 营销、销售、服务 | 中小企业 |
+| [纷享销客](saas/fenxiangxiaoke.md) | `fenxiangxiaoke` | 销售管理、CRM | 国内企业 |
+| [销售易](saas/xiaoshouyi.md) | `xiaoshouyi` | 移动 CRM | 销售团队 |
+| [Zoho CRM](saas/zoho.md) | `zoho` | 全功能 CRM | 中小企业 |
 
 ### 人力资源
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [北森](./saas/beisen) | `beisen` | 招聘、测评、人事 | 中大型组织 |
-| [Moka](./saas/moka) | `moka` | 招聘管理 | 招聘流程 |
-| [盖雅工场](./saas/guayagongchang) | `guaya` | 劳动力管理 | 考勤排班 |
-| [薪人薪事](./saas/xinrenxinshi) | `xinrenxinshi` | 薪酬管理 | 薪资核算 |
+| [北森](saas/beisen.md) | `beisen` | 招聘、测评、人事 | 中大型组织 |
+| [Moka](saas/moka.md) | `moka` | 招聘管理 | 招聘流程 |
+| [盖雅工场](saas/guayagongchang.md) | `guaya` | 劳动力管理 | 考勤排班 |
+| [薪人薪事](saas/xinrenxinshi.md) | `xinrenxinshi` | 薪酬管理 | 薪资核算 |
 
 ### 营销自动化
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [ConvertLab](./saas/convertlab) | `convertlab` | 营销自动化 | 数字营销 |
-| [神策数据](./saas/sensorsdata) | `sensorsdata` | 用户行为分析 | 数据驱动 |
-| [GrowingIO](./saas/growingio) | `growingio` | 增长分析 | 产品优化 |
+| [ConvertLab](saas/convertlab.md) | `convertlab` | 营销自动化 | 数字营销 |
+| [神策数据](saas/sensorsdata.md) | `sensorsdata` | 用户行为分析 | 数据驱动 |
+| [GrowingIO](saas/growingio.md) | `growingio` | 增长分析 | 产品优化 |
 
 ### 客服与支持
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [Udesk](./saas/udesk) | `udesk` | 智能客服 | 客户服务 |
-| [智齿科技](./saas/zhichi) | `zhichi` | 在线客服 | 客服机器人 |
-| [美洽](./saas/meiqia) | `meiqia` | 在线客服 | 网站客服 |
+| [Udesk](saas/udesk.md) | `udesk` | 智能客服 | 客户服务 |
+| [智齿科技](saas/zhichi.md) | `zhichi` | 在线客服 | 客服机器人 |
+| [美洽](saas/meiqia.md) | `meiqia` | 在线客服 | 网站客服 |
 
 ### 其他 SaaS
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [WordPress](./saas/wordpress) | `wordpress` | 内容管理 | 网站建设 |
-| [Outreach](./saas/outreach) | `outreach` | 销售参与 | 销售外联 |
-| [管荚婆](./saas/guanjiapo) | `guanjiapo` | 进销存 | 小微企业 |
-| [小帮帮](./saas/xiaobangbang) | `xiaobangbang` | 业务管理 | 团队协作 |
-| [沃时管家婆](./saas/wsgjp) | `wsgjp` | 进销存 | 小微企业 |
-| [指掌天下](./saas/zhizhangtianxia) | `zhizhangtianxia` | 业务管理 | 销售管理 |
+| [WordPress](saas/wordpress.md) | `wordpress` | 内容管理 | 网站建设 |
+| [Outreach](saas/outreach.md) | `outreach` | 销售参与 | 销售外联 |
+| [管荚婆](saas/guanjiapo.md) | `guanjiapo` | 进销存 | 小微企业 |
+| [小帮帮](saas/xiaobangbang.md) | `xiaobangbang` | 业务管理 | 团队协作 |
+| [沃时管家婆](saas/wsgjp.md) | `wsgjp` | 进销存 | 小微企业 |
+| [指掌天下](saas/zhizhangtianxia.md) | `zhizhangtianxia` | 业务管理 | 销售管理 |
 
 ## 通用配置说明
 
@@ -292,11 +292,11 @@ sequenceDiagram
 
 ## 相关文档
 
-- [Salesforce 连接器](./saas/salesforce)
-- [纷享销客连接器](./saas/fenxiangxiaoke)
-- [北森连接器](./saas/beisen)
-- [SaaS 集成最佳实践](../standard-schemes/saas-integration)
-- [配置连接器](../guide/configure-connector)
+- [Salesforce 连接器](saas/salesforce.md)
+- [纷享销客连接器](saas/fenxiangxiaoke.md)
+- [北森连接器](saas/beisen.md)
+- [SaaS 集成最佳实践](../standard-schemes/saas-integration.md)
+- [配置连接器](../guide/configure-connector.md)
 
 > [!NOTE]
 > SaaS 应用的 API 会定期更新，请及时关注官方文档和轻易云更新日志，以获取最新功能支持。

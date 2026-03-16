@@ -13,7 +13,7 @@
 3. **了解源系统数据结构** — 熟悉源系统的数据模型和接口规范
 
 > [!IMPORTANT]
-> 如果尚未创建集成方案，请先参考[新建集成方案](./create-integration)完成方案创建。
+> 如果尚未创建集成方案，请先参考[新建集成方案](create-integration.md)完成方案创建。
 
 ---
 
@@ -191,7 +191,7 @@ flowchart LR
 ```
 
 > [!TIP]
-> 更多格式化选项请参考[变量与参数](./variables-parameters)文档。
+> 更多格式化选项请参考[变量与参数](variables-parameters.md)文档。
 
 ### 删除字段
 
@@ -347,7 +347,7 @@ mindmap
 ```
 
 > [!NOTE]
-> 更多金蝶云星空的特殊配置请参考[金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy)。
+> 更多金蝶云星空的特殊配置请参考[金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy.md)。
 
 ---
 
@@ -666,7 +666,7 @@ A: 可能原因：
 
 ## 下一步
 
-- 了解[目标平台配置](./target-platform-config)，完成数据写入侧的参数设置（本文档已可用）
-- 学习[数据映射](./data-mapping)，建立源字段与目标字段的对应关系
-- 探索[变量与参数](./variables-parameters)的更多高级用法
-- 查看[监控告警](./monitoring-alerts)，掌握数据同步的运行状态监控
+- 了解[目标平台配置](target-platform-config.md)，完成数据写入侧的参数设置（本文档已可用）
+- 学习[数据映射](data-mapping.md)，建立源字段与目标字段的对应关系
+- 探索[变量与参数](variables-parameters.md)的更多高级用法
+- 查看[监控告警](monitoring-alerts.md)，掌握数据同步的运行状态监控

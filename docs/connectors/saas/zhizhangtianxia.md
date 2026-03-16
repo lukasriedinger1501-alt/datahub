@@ -364,10 +364,10 @@ flowchart LR
 
 ## 参考文档
 
-- [连接器配置指南](../../guide/configure-connector)
-- [数据映射配置](../../guide/data-mapping)
-- [值格式化指南](../../guide/value-formatting)
-- [轻易云 iPaaS 快速入门](../../quick-start/first-integration)
+- [连接器配置指南](../../guide/configure-connector.md)
+- [数据映射配置](../../guide/data-mapping.md)
+- [值格式化指南](../../guide/value-formatting.md)
+- [轻易云 iPaaS 快速入门](../../quick-start/first-integration.md)
 
 > [!NOTE]
 > 如需技术支持或定制开发，请联系轻易云客服团队。

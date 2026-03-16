@@ -284,9 +284,9 @@ Moka 的 Webhook 推送具有一定的重试机制。如果轻易云返回非 20
 ## 参考文档
 
 - [Moka 官网](https://www.mokahr.com/)
-- [连接器配置指南](../../guide/configure-connector)
-- [数据映射配置](../../guide/data-mapping)
-- [Webhook 配置指南](../../developer/webhook)
+- [连接器配置指南](../../guide/configure-connector.md)
+- [数据映射配置](../../guide/data-mapping.md)
+- [Webhook 配置指南](../../developer/webhook.md)
 
 > [!TIP]
 > 如需更多技术支持，请联系轻易云客户成功团队或访问[轻易云官网](https://www.qeasy.cloud/)。

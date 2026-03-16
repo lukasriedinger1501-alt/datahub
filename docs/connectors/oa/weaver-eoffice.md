@@ -274,7 +274,7 @@ mindmap
 ## 相关资源
 
 - [泛微官网](https://www.weaver.com.cn/)
-- [泛微 e-cology 连接器](./weaver-ecology)
+- [泛微 e-cology 连接器](weaver-ecology.md)
 - [OA 连接器概览](../oa)
 
 > [!NOTE]

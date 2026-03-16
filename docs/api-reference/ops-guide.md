@@ -295,7 +295,7 @@ docker exec {{dockerId}} /www/wwwroot/deploy/service-restart.sh
 索引是提升 MongoDB 查询性能的关键手段。通过合理创建索引，可以显著优化数据查询效率和响应速度。
 
 > [!TIP]
-> 详细索引创建方法请参考 [MongoDB 高级集成](../developer/mongodb-advanced#创建索引) 文档。
+> 详细索引创建方法请参考 [MongoDB 高级集成](../developer/mongodb-advanced.md#创建索引) 文档。
 
 ### 索引创建 API
 
@@ -616,10 +616,10 @@ mongodump --host mongodb.example.com:27017 \
 
 ## 相关资源
 
-- [MongoDB 高级集成](../developer/mongodb-advanced) — MongoDB 高级用法与索引优化
-- [监控告警配置](../guide/monitoring-alerts) — 平台监控告警详细配置
-- [日志管理](../guide/log-management) — 日志查询与导出操作指南
-- [API 概览](./README) — 开放 API 使用入门
+- [MongoDB 高级集成](../developer/mongodb-advanced.md) — MongoDB 高级用法与索引优化
+- [监控告警配置](../guide/monitoring-alerts.md) — 平台监控告警详细配置
+- [日志管理](../guide/log-management.md) — 日志查询与导出操作指南
+- [API 概览](README.md) — 开放 API 使用入门
 
 ## 获取支持
 

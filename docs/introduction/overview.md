@@ -83,6 +83,6 @@ flowchart TB
 ## 开始使用
 
 > [!TIP]
-> 初次使用轻易云 iPaaS？建议从 [快速开始](../quick-start/introduction) 章节开始，5 分钟即可完成第一个集成方案的配置。
+> 初次使用轻易云 iPaaS？建议从 [快速开始](../quick-start/introduction.md) 章节开始，5 分钟即可完成第一个集成方案的配置。
 
-如需了解平台的核心功能特性，请继续阅读 [核心能力](./capabilities) 章节。
+如需了解平台的核心功能特性，请继续阅读 [核心能力](capabilities.md) 章节。

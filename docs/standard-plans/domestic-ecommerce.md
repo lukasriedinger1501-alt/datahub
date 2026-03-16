@@ -522,11 +522,11 @@ gantt
 
 ## 相关文档
 
-- [旺店通连接器](../connectors/ecommerce/wangdian)
-- [聚水潭连接器](../connectors/ecommerce/jushuitan)
-- [吉客云连接器](../connectors/ecommerce/guanyi)
-- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy)
-- [金蝶云星辰连接器](../connectors/erp/kingdee-cloud-star)
-- [用友 YonSuite 连接器](../connectors/erp/yonyou-yonsuite)
-- [畅捷通连接器](../connectors/erp/chanjet)
-- [数据聚合功能](../advanced/data-aggregation)
+- [旺店通连接器](../connectors/ecommerce/wangdian.md)
+- [聚水潭连接器](../connectors/ecommerce/jushuitan.md)
+- [吉客云连接器](../connectors/ecommerce/guanyi.md)
+- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy.md)
+- [金蝶云星辰连接器](../connectors/erp/kingdee-cloud-star.md)
+- [用友 YonSuite 连接器](../connectors/erp/yonyou-yonsuite.md)
+- [畅捷通连接器](../connectors/erp/chanjet.md)
+- [数据聚合功能](../advanced/data-aggregation.md)

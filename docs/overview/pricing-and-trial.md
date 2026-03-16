@@ -397,6 +397,6 @@ flowchart LR
 
 ## 下一步
 
-- [快速开始](../quick-start/first-integration) — 5 分钟创建第一个集成方案
-- [平台简介](../quick-start/introduction) — 了解轻易云 iPaaS 核心概念
+- [快速开始](../quick-start/first-integration.md) — 5 分钟创建第一个集成方案
+- [平台简介](../quick-start/introduction.md) — 了解轻易云 iPaaS 核心概念
 - [联系销售](https://www.qeasy.cloud/contact) — 获取定制化方案与报价

@@ -506,7 +506,7 @@ flowchart LR
 
 ## 相关文档
 
-- [适配器开发指南](./adapter-development)
-- [适配器生命周期](./lifecycle)
-- [自定义数据加工厂](./custom-processor)
-- [联查关系型数据](../advanced/relational-lookup)
+- [适配器开发指南](adapter-development.md)
+- [适配器生命周期](lifecycle.md)
+- [自定义数据加工厂](custom-processor.md)
+- [联查关系型数据](../advanced/relational-lookup.md)

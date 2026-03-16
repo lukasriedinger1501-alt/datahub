@@ -14,7 +14,7 @@
 4. **了解目标系统数据结构** — 熟悉目标系统的数据模型和接口规范
 
 > [!IMPORTANT]
-> 如果尚未完成源平台配置，请先参考[源平台配置](./source-platform-config)完成配置。
+> 如果尚未完成源平台配置，请先参考[源平台配置](source-platform-config.md)完成配置。
 
 ---
 
@@ -531,7 +531,7 @@ flowchart LR
 ```
 
 > [!TIP]
-> 关于数据映射关系的详细维护方法，请参考[数据映射](./data-mapping)章节。
+> 关于数据映射关系的详细维护方法，请参考[数据映射](data-mapping.md)章节。
 
 ### 映射类型
 
@@ -556,14 +556,14 @@ flowchart LR
 对于高度定制化的转换需求，可以使用自定义函数。自定义函数支持使用 JavaScript 编写复杂的转换逻辑。
 
 > [!TIP]
-> 关于自定义函数的详细使用方法，请参考[进阶应用 - 自定义函数](../advanced/custom-scripts)章节。
+> 关于自定义函数的详细使用方法，请参考[进阶应用 - 自定义函数](../advanced/custom-scripts.md)章节。
 
 ### 联查关系型数据
 
 当需要根据源数据联查其他关联数据时，可以配置关系型数据查询：
 
 > [!TIP]
-> 关于联查关系型数据的详细配置方法，请参考[进阶应用 - 联查关系型数据](../advanced/data-transformation)章节。
+> 关于联查关系型数据的详细配置方法，请参考[进阶应用 - 联查关系型数据](../advanced/data-transformation.md)章节。
 
 ---
 
@@ -771,7 +771,7 @@ A: 处理方式：
 
 ## 下一步
 
-- 了解[数据映射](./data-mapping)，建立源字段与目标字段的详细对应关系
-- 学习[任务调度](./task-scheduling)，配置数据同步的执行计划
-- 探索[监控告警](./monitoring-alerts)，掌握数据同步的运行状态监控
-- 查看[日志管理](./log-management)，了解如何排查同步异常
+- 了解[数据映射](data-mapping.md)，建立源字段与目标字段的详细对应关系
+- 学习[任务调度](task-scheduling.md)，配置数据同步的执行计划
+- 探索[监控告警](monitoring-alerts.md)，掌握数据同步的运行状态监控
+- 查看[日志管理](log-management.md)，了解如何排查同步异常

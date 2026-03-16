@@ -67,7 +67,7 @@ flowchart LR
 | **学习成本** | 低（类 SQL 语法） | 中（需要编程基础） |
 
 > [!TIP]
-> 对于简单的数据转换，优先使用自定义函数；对于复杂的多步骤逻辑，请使用[自定义脚本](./custom-scripts)。
+> 对于简单的数据转换，优先使用自定义函数；对于复杂的多步骤逻辑，请使用[自定义脚本](custom-scripts.md)。
 
 ---
 
@@ -356,7 +356,7 @@ sequenceDiagram
 
 ## 与字段格式化和解析器配合使用
 
-自定义函数通常与[字段格式化](../guide/value-formatting)和[解析器](./parser)配合使用，形成完整的数据处理链路。
+自定义函数通常与[字段格式化](../guide/value-formatting.md)和[解析器](parser.md)配合使用，形成完整的数据处理链路。
 
 ### 处理流程
 
@@ -426,7 +426,7 @@ _function {{amount}} * (1 + {{tax_rate}})
 
 ### 使用调试器验证
 
-1. 在集成方案配置页面启用[调试器](../guide/debugger)
+1. 在集成方案配置页面启用[调试器](../guide/debugger.md)
 2. 执行测试运行
 3. 在数据映射步骤查看自定义函数的计算结果
 4. 如结果不符合预期，检查表达式语法和字段引用
@@ -501,8 +501,8 @@ _function {{amount}} * (1 + {{tax_rate}})
 
 ## 相关文档
 
-- [数据映射](../guide/data-mapping) — 了解字段映射的基础用法
-- [值格式化](../guide/value-formatting) — 学习简单值的格式化转换
-- [解析器的应用](./parser) — 掌握复杂数据结构的转换方法
-- [自定义脚本](./custom-scripts) — 处理更复杂的逻辑场景
-- [调试器使用指南](../guide/debugger) — 排查自定义函数配置问题
+- [数据映射](../guide/data-mapping.md) — 了解字段映射的基础用法
+- [值格式化](../guide/value-formatting.md) — 学习简单值的格式化转换
+- [解析器的应用](parser.md) — 掌握复杂数据结构的转换方法
+- [自定义脚本](custom-scripts.md) — 处理更复杂的逻辑场景
+- [调试器使用指南](../guide/debugger.md) — 排查自定义函数配置问题

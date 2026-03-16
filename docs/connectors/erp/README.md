@@ -3,7 +3,7 @@
 本文档汇总轻易云 iPaaS 支持的所有 ERP（Enterprise Resource Planning，企业资源计划）系统连接器，帮助企业实现核心业务系统与其他应用的数据互通。涵盖金蝶、用友、畅捷通、Oracle EBS 等主流 ERP 品牌全系产品。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ---
 
@@ -13,23 +13,23 @@
 
 | 品牌 | 连接器 | 适用场景 | 状态 |
 |------|--------|----------|------|
-| **金蝶** | [金蝶星瀚](./kingdee-galaxystar) | 大型企业数字化平台 | 🆕 新增 |
-| | [金蝶云星空](./kingdee-cloud-galaxy) | 中大型集团企业 | ✅ 稳定 |
-| | [金蝶云苍穹](./kingdee-cloud-cosmos) | 企业级 PaaS 平台 | ✅ 稳定 |
-| | [金蝶云星辰](./kingdee-cloud-star) | 小微型企业 | ✅ 稳定 |
-| | [金蝶 KIS](./kingdee-kis) | 小型企业财务业务一体化 | ✅ 稳定 |
-| | [金蝶 K3 WISE](./kingdee-k3wise) | 成长型企业 | ✅ 稳定 |
-| | [金蝶 EAS](./kingdee-eas) | 大型集团企业 | ✅ 稳定 |
-| **用友** | [用友 NC](./yonyou-nc) | 大型集团企业 | ✅ 稳定 |
-| | [用友 NC Cloud](./yonyou-nc-cloud) | 大型集团企业云原生 | 🆕 新增 |
-| | [用友 U8+](./yonyou-u8) | 中型成长企业 | ✅ 稳定 |
-| | [用友 U9](./yonyou-u9) | 离散制造行业 | ✅ 稳定 |
-| | [用友 YonSuite](./yonyou-yonsuite) | 成长型企业云 ERP | ✅ 稳定 |
-| | [用友 BIP](./yonyou-bip) | 大型企业数智化平台 | ✅ 稳定 |
-| **畅捷通** | [畅捷通 T+](./chanjet-tplus) | 商贸及工贸企业 | ✅ 稳定 |
-| | [畅捷通好会计](./chanjet-accounting) | 小微企业财税管理 | ✅ 稳定 |
-| | [畅捷通好业财](./chanjet-business) | 小微企业业财一体 | ✅ 稳定 |
-| **Oracle** | [Oracle EBS](./oracle-ebs) | 大型跨国企业 | 🆕 新增 |
+| **金蝶** | [金蝶星瀚](kingdee-galaxystar.md) | 大型企业数字化平台 | 🆕 新增 |
+| | [金蝶云星空](kingdee-cloud-galaxy.md) | 中大型集团企业 | ✅ 稳定 |
+| | [金蝶云苍穹](kingdee-cloud-cosmos.md) | 企业级 PaaS 平台 | ✅ 稳定 |
+| | [金蝶云星辰](kingdee-cloud-star.md) | 小微型企业 | ✅ 稳定 |
+| | [金蝶 KIS](kingdee-kis.md) | 小型企业财务业务一体化 | ✅ 稳定 |
+| | [金蝶 K3 WISE](kingdee-k3wise.md) | 成长型企业 | ✅ 稳定 |
+| | [金蝶 EAS](kingdee-eas.md) | 大型集团企业 | ✅ 稳定 |
+| **用友** | [用友 NC](yonyou-nc.md) | 大型集团企业 | ✅ 稳定 |
+| | [用友 NC Cloud](yonyou-nc-cloud.md) | 大型集团企业云原生 | 🆕 新增 |
+| | [用友 U8+](yonyou-u8.md) | 中型成长企业 | ✅ 稳定 |
+| | [用友 U9](yonyou-u9.md) | 离散制造行业 | ✅ 稳定 |
+| | [用友 YonSuite](yonyou-yonsuite.md) | 成长型企业云 ERP | ✅ 稳定 |
+| | [用友 BIP](yonyou-bip.md) | 大型企业数智化平台 | ✅ 稳定 |
+| **畅捷通** | [畅捷通 T+](chanjet-tplus.md) | 商贸及工贸企业 | ✅ 稳定 |
+| | [畅捷通好会计](chanjet-accounting.md) | 小微企业财税管理 | ✅ 稳定 |
+| | [畅捷通好业财](chanjet-business.md) | 小微企业业财一体 | ✅ 稳定 |
+| **Oracle** | [Oracle EBS](oracle-ebs.md) | 大型跨国企业 | 🆕 新增 |
 
 ---
 
@@ -85,7 +85,7 @@ mindmap
 | 离散制造 | 金蝶云星空 / 星瀚 | MRP / APS 能力突出 |
 
 > [!NOTE]
-> 金蝶各产品间的数据迁移方案请参考 [金蝶系产品数据迁移指南](./kingdee-migration-guide)。
+> 金蝶各产品间的数据迁移方案请参考 [金蝶系产品数据迁移指南](kingdee-migration-guide.md)。
 
 ---
 
@@ -136,9 +136,9 @@ mindmap
 
 | 连接器 | 定位 | 核心功能 |
 |--------|------|----------|
-| [畅捷通 T+](./chanjet-tplus) | 商贸及工贸企业 | 进销存、财务、生产一体化 |
-| [畅捷通好会计](./chanjet-accounting) | 小微企业财税 | 智能记账、一键报税 |
-| [畅捷通好业财](./chanjet-business) | 小微企业业财 | 业务财务深度融合 |
+| [畅捷通 T+](chanjet-tplus.md) | 商贸及工贸企业 | 进销存、财务、生产一体化 |
+| [畅捷通好会计](chanjet-accounting.md) | 小微企业财税 | 智能记账、一键报税 |
+| [畅捷通好业财](chanjet-business.md) | 小微企业业财 | 业务财务深度融合 |
 
 > [!TIP]
 > 畅捷通产品采用云原生架构，支持多端访问（PC、APP、小程序），适合移动办公场景。
@@ -345,11 +345,11 @@ U8+ 是用友传统的产品化 ERP，功能成熟稳定，适合有明确需求
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [自定义连接器开发](../../developer/custom-connector) — 开发自定义连接器
-- [标准集成方案](../../standard-schemes/erp-integration) — ERP 对接最佳实践
-- [解决方案 — 制造业](../../solutions/manufacturing) — 制造行业集成方案
-- [解决方案 — 零售业](../../solutions/retail) — 零售行业集成方案
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [自定义连接器开发](../../developer/custom-connector.md) — 开发自定义连接器
+- [标准集成方案](../../standard-schemes/erp-integration.md) — ERP 对接最佳实践
+- [解决方案 — 制造业](../../solutions/manufacturing.md) — 制造行业集成方案
+- [解决方案 — 零售业](../../solutions/retail.md) — 零售行业集成方案
 
 ---
 

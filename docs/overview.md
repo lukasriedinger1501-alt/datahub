@@ -65,8 +65,8 @@ flowchart TB
 
 | 模块 | 说明 | 链接 |
 |-----|------|------|
-| 产品介绍 | 了解产品定位、能力和优势 | [查看详情](./introduction/overview) |
-| 快速开始 | 5 分钟上手，创建第一个集成方案 | [立即开始](./quick-start/introduction) |
+| 产品介绍 | 了解产品定位、能力和优势 | [查看详情](introduction/overview.md) |
+| 快速开始 | 5 分钟上手，创建第一个集成方案 | [立即开始](quick-start/introduction.md) |
 | 使用指南 | 详细的功能使用说明 | [查看指南](./guide) |
 | 连接器 | 已支持的 500+ 系统连接 | [查看连接器](./connectors) |
 | 解决方案 | 行业场景解决方案 | [查看方案](./solutions) |
@@ -75,7 +75,7 @@ flowchart TB
 ## 开始使用
 
 > [!TIP]
-> 初次使用轻易云 iPaaS？建议从 [快速开始](./quick-start/introduction) 章节开始。
+> 初次使用轻易云 iPaaS？建议从 [快速开始](quick-start/introduction.md) 章节开始。
 
 ### 1. 注册账号
 

@@ -308,9 +308,9 @@ flowchart TD
 
 准备好开始你的数据集成之旅了吗？建议按照以下步骤进行：
 
-1. **[注册账号](./registration)** — 创建你的轻易云 iPaaS 企业账号
-2. **[环境配置](./environment-setup)** — 配置开发和测试环境的连接器
-3. **[第一个集成流程](./first-integration)** — 跟随教程完成端到端数据同步
+1. **[注册账号](registration.md)** — 创建你的轻易云 iPaaS 企业账号
+2. **[环境配置](environment-setup.md)** — 配置开发和测试环境的连接器
+3. **[第一个集成流程](first-integration.md)** — 跟随教程完成端到端数据同步
 4. **[查看使用指南](../guide/)** — 深入学习平台各项功能
 
 > [!TIP]

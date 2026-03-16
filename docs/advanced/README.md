@@ -24,7 +24,7 @@ mindmap
       自定义查询条件
       数据联查关系
     复杂数据处理
-      [数据聚合写入](./data-aggregation)
+      [数据聚合写入](data-aggregation.md)
       批量数据处理
       多维数据拍扁
     数据一致性
@@ -49,20 +49,20 @@ mindmap
 
 | 场景类型 | 描述 | 推荐文档 |
 | -------- | ---- | -------- |
-| **复杂数据转换** | 需要处理嵌套数据结构、多层级映射、条件转换 | [高级数据转换](./data-transformation)、[自定义函数](./custom-scripts) |
-| **大规模数据处理** | 处理海量单据、需要分组合并运算 | [数据聚合写入](./data-aggregation)、[批量数据处理](./batch-processing) |
-| **实时数据同步** | 要求秒级延迟的数据同步场景 | [CDC 实时同步](./cdc-realtime) |
+| **复杂数据转换** | 需要处理嵌套数据结构、多层级映射、条件转换 | [高级数据转换](data-transformation.md)、[自定义函数](custom-scripts.md) |
+| **大规模数据处理** | 处理海量单据、需要分组合并运算 | [数据聚合写入](data-aggregation.md)、[批量数据处理](batch-processing.md) |
+| **实时数据同步** | 要求秒级延迟的数据同步场景 | [CDC 实时同步](cdc-realtime.md) |
 | **事件驱动架构** | 多系统联动、方案间相互触发 | [集成策略模式](#)、[链式触发方案](#) |
 | **数据质量保障** | 需要保证数据一致性、完整性 | [数据补漏](#)、[写入结果回写](#) |
-| **系统深度集成** | 对接外部系统、自定义 API 适配 | [RESTful API Adapter](#)、[开发者指南](../developer/guide) |
+| **系统深度集成** | 对接外部系统、自定义 API 适配 | [RESTful API Adapter](#)、[开发者指南](../developer/guide.md) |
 
 ## 前置条件
 
 学习本章内容前，请确保已具备以下基础：
 
 1. **平台基础操作**
-   - 已完成[快速开始](../quick-start/first-integration)章节学习
-   - 熟悉[使用指南](../guide/platform-overview)中的基础功能
+   - 已完成[快速开始](../quick-start/first-integration.md)章节学习
+   - 熟悉[使用指南](../guide/platform-overview.md)中的基础功能
    - 掌握连接器配置与数据映射的基本操作
 
 2. **技术知识储备**
@@ -98,11 +98,11 @@ flowchart LR
 ```
 
 学习顺序：
-1. [高级数据转换](./data-transformation) — 掌握复杂映射规则
-2. [自定义函数](./custom-scripts) — 学习 `_function` 表达式与 `_findCollection` 查询
+1. [高级数据转换](data-transformation.md) — 掌握复杂映射规则
+2. [自定义函数](custom-scripts.md) — 学习 `_function` 表达式与 `_findCollection` 查询
 3. [解析器应用](#) — 了解内置解析器的使用场景
-4. [数据聚合写入](./data-aggregation) — 掌握分组合并运算
-5. [批量数据处理](./batch-processing) — 优化大数据量处理性能
+4. [数据聚合写入](data-aggregation.md) — 掌握分组合并运算
+5. [批量数据处理](batch-processing.md) — 优化大数据量处理性能
 
 ### 路径二：集成架构师
 
@@ -121,10 +121,10 @@ flowchart LR
 
 学习顺序：
 1. [集成策略模式](#) — 理解定时异步、实时同步、事件触发等模式
-2. [链式触发方案](./chain-trigger) — 掌握方案间相互触发的配置方法
-3. [CDC 实时同步](./cdc-realtime) — 实现基于数据库日志的实时同步
-4. [异常处理机制](./error-handling) — 设计容错与恢复策略
-5. [高可用配置](./high-availability) — 部署集群与故障转移
+2. [链式触发方案](chain-trigger.md) — 掌握方案间相互触发的配置方法
+3. [CDC 实时同步](cdc-realtime.md) — 实现基于数据库日志的实时同步
+4. [异常处理机制](error-handling.md) — 设计容错与恢复策略
+5. [高可用配置](high-availability.md) — 部署集群与故障转移
 
 ### 路径三：数据质量工程师
 
@@ -146,7 +146,7 @@ flowchart LR
 2. [数据联查关系](#) — 实现跨方案数据关联
 3. [写入结果回写](#) — 确保上下游数据一致性
 4. [数据补漏措施](#) — 处理异常与缺失数据
-5. [业务数据建模](./data-modeling) — 规范数据类型与结构
+5. [业务数据建模](data-modeling.md) — 规范数据类型与结构
 
 ## 核心功能详解
 
@@ -219,14 +219,14 @@ _findCollection find FPOOrderEntry_FEntryId from 8e620793-bebb-3167-95a4-9030368
 
 | 文档 | 说明 | 难度 |
 | ---- | ---- | ---- |
-| [高级数据转换](./data-transformation) | 复杂数据转换规则与函数 | ⭐⭐⭐ |
-| [自定义脚本](./custom-scripts) | 使用脚本实现自定义逻辑 | ⭐⭐⭐⭐ |
-| [CDC 实时同步](./cdc-realtime) | 基于 CDC 的实时数据捕获 | ⭐⭐⭐⭐ |
-| [批量数据处理](./batch-processing) | 大批量数据处理最佳实践 | ⭐⭐⭐ |
-| [异常处理机制](./error-handling) | 容错设计与异常恢复 | ⭐⭐⭐ |
-| [性能优化](./performance-tuning) | 提升集成任务执行效率 | ⭐⭐⭐⭐ |
-| [高可用配置](./high-availability) | 集群部署与故障转移 🅿️RO | ⭐⭐⭐⭐⭐ |
-| [安全策略](./security-policies) | 数据加密与访问控制 🅿️RO | ⭐⭐⭐⭐ |
+| [高级数据转换](data-transformation.md) | 复杂数据转换规则与函数 | ⭐⭐⭐ |
+| [自定义脚本](custom-scripts.md) | 使用脚本实现自定义逻辑 | ⭐⭐⭐⭐ |
+| [CDC 实时同步](cdc-realtime.md) | 基于 CDC 的实时数据捕获 | ⭐⭐⭐⭐ |
+| [批量数据处理](batch-processing.md) | 大批量数据处理最佳实践 | ⭐⭐⭐ |
+| [异常处理机制](error-handling.md) | 容错设计与异常恢复 | ⭐⭐⭐ |
+| [性能优化](performance-tuning.md) | 提升集成任务执行效率 | ⭐⭐⭐⭐ |
+| [高可用配置](high-availability.md) | 集群部署与故障转移 🅿️RO | ⭐⭐⭐⭐⭐ |
+| [安全策略](security-policies.md) | 数据加密与访问控制 🅿️RO | ⭐⭐⭐⭐ |
 
 > [!TIP]
 > 标注 🅿️RO 的内容需要企业版授权使用。
@@ -251,16 +251,16 @@ _findCollection find FPOOrderEntry_FEntryId from 8e620793-bebb-3167-95a4-9030368
 
 ### 3. 调试技巧
 
-- 使用[调试器](../guide/debugger)逐步验证数据转换结果
+- 使用[调试器](../guide/debugger.md)逐步验证数据转换结果
 - 开启详细日志记录中间状态
-- 利用[数据与队列管理](../guide/data-queue-management)查看处理详情
+- 利用[数据与队列管理](../guide/data-queue-management.md)查看处理详情
 
 ## 相关资源
 
-- [使用指南](../guide/platform-overview) — 基础功能参考
-- [开发者文档](../developer/guide) — 扩展开发指南
+- [使用指南](../guide/platform-overview.md) — 基础功能参考
+- [开发者文档](../developer/guide.md) — 扩展开发指南
 - [FAQ](../faq) — 常见问题解答
-- [API 参考](../api-reference/README) — 开放接口文档
+- [API 参考](../api-reference/README.md) — 开放接口文档
 
 ---
 

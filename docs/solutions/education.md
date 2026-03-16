@@ -459,6 +459,6 @@ A：轻易云支持多租户架构，可为每个校区/品牌配置独立的集
 
 ## 相关资源
 
-- [CRM 集成方案](./crm-integration) - 客户关系管理系统集成
-- [SaaS 企业解决方案](./saas) - SaaS 化教育平台集成
-- [零售标准方案](../standard-plans/domestic-ecommerce) - 电商化课程销售集成
+- [CRM 集成方案](crm-integration.md) - 客户关系管理系统集成
+- [SaaS 企业解决方案](saas.md) - SaaS 化教育平台集成
+- [零售标准方案](../standard-plans/domestic-ecommerce.md) - 电商化课程销售集成

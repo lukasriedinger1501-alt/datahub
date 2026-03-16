@@ -493,4 +493,4 @@ flowchart TB
 - **方案咨询**：如需定制化方案设计，请联系轻易云解决方案顾问
 - **技术支持**：访问 [FAQ](../faq) 或提交技术支持工单
 - **方案模板**：前往[方案市场](https://dh-open.qliang.cloud/market/datahub)获取开箱即用模板
-- **开发扩展**：如需自定义功能，请参考[开发者文档](../developer/guide)
+- **开发扩展**：如需自定义功能，请参考[开发者文档](../developer/guide.md)

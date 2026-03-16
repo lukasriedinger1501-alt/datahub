@@ -3,7 +3,7 @@
 本文档汇总轻易云 iPaaS 支持的所有数据库连接器，涵盖关系型数据库（MySQL、Oracle、SQL Server、PostgreSQL）、文档型数据库（MongoDB）、缓存数据库（Redis）、搜索引擎（Elasticsearch）、列式存储（ClickHouse）以及消息队列（Kafka）等。通过统一的数据访问层，帮助企业实现异构数据库之间的数据同步、实时 CDC（Change Data Capture，变更数据捕获）捕获、数据仓库 ETL 等场景。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ---
 
@@ -13,15 +13,15 @@
 
 | 数据库 | 类型 | 连接器 | 适用场景 | 状态 |
 |--------|------|--------|----------|------|
-| **MySQL** | 关系型 | [MySQL](./mysql) | Web 应用、事务处理 | ✅ 稳定 |
-| **PostgreSQL** | 关系型 | [PostgreSQL](./postgresql) | 复杂查询、地理数据 | ✅ 稳定 |
-| **Oracle** | 关系型 | [Oracle](./oracle) | 大型企业核心系统 | ✅ 稳定 |
-| **SQL Server** | 关系型 | [SQL Server](./sqlserver) | 微软生态企业应用 | ✅ 稳定 |
-| **MongoDB** | 文档型 | [MongoDB](./mongodb) | 非结构化数据、大数据 | ✅ 稳定 |
-| **Redis** | KV 型 | [Redis](./redis) | 缓存、会话存储 | ✅ 稳定 |
-| **Elasticsearch** | 搜索引擎 | [Elasticsearch](./elasticsearch) | 全文检索、日志分析 | ✅ 稳定 |
-| **ClickHouse** | 列式存储 | [ClickHouse](./clickhouse) | OLAP 分析、大数据 | ✅ 稳定 |
-| **Kafka** | 消息队列 | [Kafka](./kafka) | 流式处理、事件驱动 | ✅ 稳定 |
+| **MySQL** | 关系型 | [MySQL](mysql.md) | Web 应用、事务处理 | ✅ 稳定 |
+| **PostgreSQL** | 关系型 | [PostgreSQL](postgresql.md) | 复杂查询、地理数据 | ✅ 稳定 |
+| **Oracle** | 关系型 | [Oracle](oracle.md) | 大型企业核心系统 | ✅ 稳定 |
+| **SQL Server** | 关系型 | [SQL Server](sqlserver.md) | 微软生态企业应用 | ✅ 稳定 |
+| **MongoDB** | 文档型 | [MongoDB](mongodb.md) | 非结构化数据、大数据 | ✅ 稳定 |
+| **Redis** | KV 型 | [Redis](redis.md) | 缓存、会话存储 | ✅ 稳定 |
+| **Elasticsearch** | 搜索引擎 | [Elasticsearch](elasticsearch.md) | 全文检索、日志分析 | ✅ 稳定 |
+| **ClickHouse** | 列式存储 | [ClickHouse](clickhouse.md) | OLAP 分析、大数据 | ✅ 稳定 |
+| **Kafka** | 消息队列 | [Kafka](kafka.md) | 流式处理、事件驱动 | ✅ 稳定 |
 
 ---
 
@@ -478,12 +478,12 @@ flowchart TD
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [CDC 实时同步](../../advanced/cdc-realtime) — CDC 配置与最佳实践
-- [自定义连接器开发](../../developer/custom-connector) — 开发自定义数据库连接器
-- [MongoDB 高级集成](../../developer/mongodb-advanced) — MongoDB 专项集成指南
-- [Kafka 消息中间件集成](../../developer/kafka-integration) — Kafka 流式处理集成
-- [数据质量管理](../../guide/data-quality) — 数据对象规范与质量治理参考
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [CDC 实时同步](../../advanced/cdc-realtime.md) — CDC 配置与最佳实践
+- [自定义连接器开发](../../developer/custom-connector.md) — 开发自定义数据库连接器
+- [MongoDB 高级集成](../../developer/mongodb-advanced.md) — MongoDB 专项集成指南
+- [Kafka 消息中间件集成](../../developer/kafka-integration.md) — Kafka 流式处理集成
+- [数据质量管理](../../guide/data-quality.md) — 数据对象规范与质量治理参考
 
 ---
 

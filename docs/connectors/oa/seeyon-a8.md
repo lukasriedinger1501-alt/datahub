@@ -350,12 +350,12 @@ flowchart TB
 
 ## 相关文档
 
-- [致远 OA 连接器](./seeyon-oa) — 致远 OA 其他版本
-- [泛微 E9 连接器](./fanwei) — 泛微 OA 集成指南
-- [蓝凌 EKP 连接器](./landray) — 蓝凌 OA 集成指南
-- [OA 协同集成方案](../../standard-schemes/oa-integration) — 典型 OA 集成场景
-- [配置连接器](../../guide/configure-connector) — 连接器通用配置指南
-- [新建集成方案](../../guide/create-integration) — 方案创建完整教程
+- [致远 OA 连接器](seeyon-oa.md) — 致远 OA 其他版本
+- [泛微 E9 连接器](fanwei.md) — 泛微 OA 集成指南
+- [蓝凌 EKP 连接器](landray.md) — 蓝凌 OA 集成指南
+- [OA 协同集成方案](../../standard-schemes/oa-integration.md) — 典型 OA 集成场景
+- [配置连接器](../../guide/configure-connector.md) — 连接器通用配置指南
+- [新建集成方案](../../guide/create-integration.md) — 方案创建完整教程
 
 ## 获取帮助
 

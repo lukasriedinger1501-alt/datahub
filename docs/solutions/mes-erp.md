@@ -702,4 +702,4 @@ flowchart LR
 - **方案咨询**：如需定制化方案设计，请联系轻易云解决方案顾问
 - **技术支持**：访问 [FAQ](../faq) 或提交技术支持工单
 - **方案模板**：前往[方案市场](https://dh-open.qliang.cloud/market/datahub)获取开箱即用模板
-- **标准方案**：查看[标准方案库](../standard-schemes/mes-integration)了解更多 MES 集成方案
+- **标准方案**：查看[标准方案库](../standard-schemes/mes-integration.md)了解更多 MES 集成方案

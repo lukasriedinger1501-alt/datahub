@@ -481,9 +481,9 @@ Oracle EBS 支持通过描述性弹性域（DFF）扩展自定义字段：
 ## 相关资源
 
 - [Oracle EBS Integrated SOA Gateway 文档](https://docs.oracle.com/cd/E26401_01/doc.122/e20929/T419934T473186.htm) — 官方技术文档
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [ERP 连接器概览](./README) — 其他 ERP 系统连接器
-- [数据映射指南](../../guide/data-mapping) — 字段映射配置详解
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [ERP 连接器概览](README.md) — 其他 ERP 系统连接器
+- [数据映射指南](../../guide/data-mapping.md) — 字段映射配置详解
 
 ---
 

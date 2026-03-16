@@ -45,7 +45,7 @@
 - 电商：旺店通、聚水潭、管易云
 - 数据库：MySQL、Oracle、SQL Server、MongoDB
 
-完整列表请参考 [已接入平台](./introduction/connected-platforms)。
+完整列表请参考 [已接入平台](introduction/connected-platforms.md)。
 
 ## 方案相关
 
@@ -119,6 +119,6 @@
 如果您的问题未在此列出：
 
 1. 查阅完整的 [产品文档](./)
-2. 观看 [视频教程](./quick-start/video-tutorials)
+2. 观看 [视频教程](quick-start/video-tutorials.md)
 3. 联系在线客服
 4. 发送邮件至 support@qeasy.cloud

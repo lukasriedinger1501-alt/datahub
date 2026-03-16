@@ -674,7 +674,7 @@ app_secret = os.environ.get('QEASY_APP_SECRET')
 
 ## 相关资源
 
-- [API 概览](./README) — API 使用入门与概述
-- [接口列表](./endpoints) — 完整 API 端点文档
-- [错误码参考](./error-codes) — 错误码与排查指南
-- [限流说明](./rate-limiting) — 频率限制与优化建议
+- [API 概览](README.md) — API 使用入门与概述
+- [接口列表](endpoints.md) — 完整 API 端点文档
+- [错误码参考](error-codes.md) — 错误码与排查指南
+- [限流说明](rate-limiting.md) — 频率限制与优化建议

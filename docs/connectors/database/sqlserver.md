@@ -109,7 +109,7 @@ MinProtocol = TLSv1.0
 
 ## 低版本驱动扩展安装
 
-对于需要连接 SQL Server 2008/2012 等低版本数据库的场景，需要安装 ODBC 13 驱动和 OpenSSL 1.0 兼容库。详细步骤请参考 [安装部署指南](../../quick-start/installation#sql-server-低版本扩展安装)。
+对于需要连接 SQL Server 2008/2012 等低版本数据库的场景，需要安装 ODBC 13 驱动和 OpenSSL 1.0 兼容库。详细步骤请参考 [安装部署指南](../../quick-start/installation.md#sql-server-低版本扩展安装)。
 
 ### 简要步骤
 
@@ -678,12 +678,12 @@ WHEN NOT MATCHED THEN
 
 ## 相关资源
 
-- [数据库类连接器概览](./README) — 查看所有支持的数据库连接器
-- [配置连接器](../../guide/configure-connector) — 连接器基础配置指南
-- [CDC 实时同步](../../advanced/cdc-realtime) — CDC 配置与最佳实践
-- [数据映射](../../guide/data-mapping) — 字段映射配置方法
-- [MySQL 集成](./mysql) — MySQL 数据库集成指南
-- [Oracle 集成](./oracle) — Oracle 数据库集成指南
+- [数据库类连接器概览](README.md) — 查看所有支持的数据库连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础配置指南
+- [CDC 实时同步](../../advanced/cdc-realtime.md) — CDC 配置与最佳实践
+- [数据映射](../../guide/data-mapping.md) — 字段映射配置方法
+- [MySQL 集成](mysql.md) — MySQL 数据库集成指南
+- [Oracle 集成](oracle.md) — Oracle 数据库集成指南
 
 ---
 

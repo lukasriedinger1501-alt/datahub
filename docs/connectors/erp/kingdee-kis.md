@@ -397,11 +397,11 @@ A：KIS 接口支持分页查询，配置方式如下：
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [金蝶云星空集成专题](./kingdee-cloud-galaxy) — 金蝶云星空对接指南
-- [金蝶 K3 WISE 集成专题](./kingdee-k3wise) — 金蝶 K3 WISE 对接指南
-- [金蝶 EAS 集成专题](./kingdee-eas) — 金蝶 EAS 对接指南
-- [标准集成方案](../../standard-schemes/erp-integration) — ERP 对接最佳实践
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [金蝶云星空集成专题](kingdee-cloud-galaxy.md) — 金蝶云星空对接指南
+- [金蝶 K3 WISE 集成专题](kingdee-k3wise.md) — 金蝶 K3 WISE 对接指南
+- [金蝶 EAS 集成专题](kingdee-eas.md) — 金蝶 EAS 对接指南
+- [标准集成方案](../../standard-schemes/erp-integration.md) — ERP 对接最佳实践
 - [金蝶开放平台](https://open.jdy.com/) — 金蝶官方 API 文档
 
 ---

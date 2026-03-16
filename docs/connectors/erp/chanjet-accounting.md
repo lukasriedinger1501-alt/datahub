@@ -361,8 +361,8 @@ mindmap
 ## 相关资源
 
 - [畅捷通好会计官网](https://www.chanjet.com/product/hkj/)
-- [畅捷通 T+ 连接器](./chanjet-tplus)
-- [用友 YonSuite 连接器](./yonyou-yonsuite)
+- [畅捷通 T+ 连接器](chanjet-tplus.md)
+- [用友 YonSuite 连接器](yonyou-yonsuite.md)
 - [ERP 连接器概览](../erp)
 
 > [!NOTE]

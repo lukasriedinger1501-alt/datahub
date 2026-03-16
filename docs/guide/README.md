@@ -47,13 +47,13 @@ mindmap
 
 | 功能模块 | 说明 | 推荐阅读 |
 |---------|------|---------|
-| [创建集成方案](./create-integration) | 了解如何新建集成方案，配置基本信息、源/目标平台 | ⭐ 必学 |
-| [源平台配置](./source-platform-config) | 配置数据查询参数、主键字段、数据拍扁等 | ⭐ 必学 |
-| [目标平台配置](./target-platform-config) | 配置数据写入参数、映射关系、特殊操作 | ⭐ 必学 |
-| [启动与定时策略](./schedule-and-launch) | 启动/停止方案、配置 Crontab 定时策略 | ⭐ 必学 |
+| [创建集成方案](create-integration.md) | 了解如何新建集成方案，配置基本信息、源/目标平台 | ⭐ 必学 |
+| [源平台配置](source-platform-config.md) | 配置数据查询参数、主键字段、数据拍扁等 | ⭐ 必学 |
+| [目标平台配置](target-platform-config.md) | 配置数据写入参数、映射关系、特殊操作 | ⭐ 必学 |
+| [启动与定时策略](schedule-and-launch.md) | 启动/停止方案、配置 Crontab 定时策略 | ⭐ 必学 |
 
 > [!TIP]
-> 在创建集成方案前，请确保源系统和目标系统的[连接器](../connectors/README)已配置完成。
+> 在创建集成方案前，请确保源系统和目标系统的[连接器](../connectors/README.md)已配置完成。
 
 ### 2️⃣ 连接器配置
 
@@ -66,7 +66,7 @@ mindmap
 | 电商平台 | 旺店通、聚水潭、万里牛 | 店铺授权、API 密钥 |
 | 数据库 | MySQL、Oracle、MongoDB | 连接串、账号权限 |
 
-详细连接器配置请参考：[连接器文档中心](../connectors/README)
+详细连接器配置请参考：[连接器文档中心](../connectors/README.md)
 
 ### 3️⃣ 数据映射与转换
 
@@ -74,11 +74,11 @@ mindmap
 
 | 功能 | 说明 | 适用场景 |
 |-----|------|---------|
-| [字段映射](./data-mapping) | 源字段与目标字段的对应关系配置 | 基础数据同步 |
-| [静态映射](./data-mapping) | 通过映射表实现编码转换 | 基础资料对接（如物料编码映射） |
-| [值格式化](./value-formatting) | 日期、金额、文本等格式转换 | 数据格式标准化 |
-| [值解析器](../developer/value-resolver-advanced) | 复杂数据的自定义转换逻辑 | 特殊格式处理 |
-| [自定义函数](../advanced/custom-functions) | 使用脚本实现复杂转换 | 高度定制化场景 |
+| [字段映射](data-mapping.md) | 源字段与目标字段的对应关系配置 | 基础数据同步 |
+| [静态映射](data-mapping.md) | 通过映射表实现编码转换 | 基础资料对接（如物料编码映射） |
+| [值格式化](value-formatting.md) | 日期、金额、文本等格式转换 | 数据格式标准化 |
+| [值解析器](../developer/value-resolver-advanced.md) | 复杂数据的自定义转换逻辑 | 特殊格式处理 |
+| [自定义函数](../advanced/custom-functions.md) | 使用脚本实现复杂转换 | 高度定制化场景 |
 
 ### 4️⃣ 数据队列管理
 
@@ -120,9 +120,9 @@ flowchart LR
 
 | 功能 | 说明 |
 |-----|------|
-| [请求队列池](./data-queue-management) | 查看与管理源系统查询任务 |
-| [写入队列池](./data-queue-management) | 查看与管理目标系统写入任务 |
-| [队列重试机制](./data-queue-management) | 失败任务自动重试与人工干预 |
+| [请求队列池](data-queue-management.md) | 查看与管理源系统查询任务 |
+| [写入队列池](data-queue-management.md) | 查看与管理目标系统写入任务 |
+| [队列重试机制](data-queue-management.md) | 失败任务自动重试与人工干预 |
 
 ### 5️⃣ 调试与监控
 
@@ -130,10 +130,10 @@ flowchart LR
 
 | 工具 | 用途 | 适用角色 |
 |-----|------|---------|
-| [调试器](./debugger) | 激活集成方案指令集，单步调试数据流转 | 运维人员、开发人员 |
-| [日志管理](./log-management) | 查看方案运行日志，追踪数据状态 | 所有用户 |
-| [异常监控](./monitoring-alerts) | 实时监控异常错误，快速响应处理 | 运维人员 |
-| [数据管理](./data-quality) | 查看数据质量与处理结果，辅助自定义查询分析 | 高级用户 |
+| [调试器](debugger.md) | 激活集成方案指令集，单步调试数据流转 | 运维人员、开发人员 |
+| [日志管理](log-management.md) | 查看方案运行日志，追踪数据状态 | 所有用户 |
+| [异常监控](monitoring-alerts.md) | 实时监控异常错误，快速响应处理 | 运维人员 |
+| [数据管理](data-quality.md) | 查看数据质量与处理结果，辅助自定义查询分析 | 高级用户 |
 
 ### 6️⃣ 数据导出
 
@@ -141,9 +141,9 @@ flowchart LR
 
 | 导出类型 | 说明 |
 |---------|------|
-| [请求数据导出](./export-data) | 导出源系统查询的原始数据 |
-| [写入结果导出](./export-data) | 导出目标系统写入结果 |
-| [日志导出](./export-data) | 导出运行日志用于审计 |
+| [请求数据导出](export-data.md) | 导出源系统查询的原始数据 |
+| [写入结果导出](export-data.md) | 导出目标系统写入结果 |
+| [日志导出](export-data.md) | 导出运行日志用于审计 |
 
 ---
 
@@ -168,13 +168,13 @@ flowchart LR
     style G fill:#e8f5e9
 ```
 
-1. 学习[创建集成方案](./create-integration)了解基本概念
-2. 掌握[连接器配置](../connectors/README)建立系统连接
-3. 配置[源平台](./source-platform-config)定义数据查询规则
-4. 配置[目标平台](./target-platform-config)定义数据写入规则
-5. 学习[数据映射](./data-mapping)实现字段对应
-6. 配置[启动与定时策略](./schedule-and-launch)并启动方案
-7. 使用[监控工具](./log-management)查看运行状态
+1. 学习[创建集成方案](create-integration.md)了解基本概念
+2. 掌握[连接器配置](../connectors/README.md)建立系统连接
+3. 配置[源平台](source-platform-config.md)定义数据查询规则
+4. 配置[目标平台](target-platform-config.md)定义数据写入规则
+5. 学习[数据映射](data-mapping.md)实现字段对应
+6. 配置[启动与定时策略](schedule-and-launch.md)并启动方案
+7. 使用[监控工具](log-management.md)查看运行状态
 
 ### 🧑‍💻 进阶用户路径
 
@@ -194,12 +194,12 @@ flowchart LR
 ```
 
 1. 完成基础用户路径全部内容
-2. 学习[值格式化](./value-formatting)实现数据标准化
-3. 掌握[静态映射](./data-mapping)处理编码转换
-4. 使用[调试器](./debugger)排查复杂问题
-5. 了解[数据队列管理](./data-queue-management)优化处理性能
-6. 学习[数据聚合](../advanced/data-aggregation)处理海量数据
-7. 掌握[结果回写](../advanced/write-back)实现数据闭环
+2. 学习[值格式化](value-formatting.md)实现数据标准化
+3. 掌握[静态映射](data-mapping.md)处理编码转换
+4. 使用[调试器](debugger.md)排查复杂问题
+5. 了解[数据队列管理](data-queue-management.md)优化处理性能
+6. 学习[数据聚合](../advanced/data-aggregation.md)处理海量数据
+7. 掌握[结果回写](../advanced/write-back.md)实现数据闭环
 
 ---
 
@@ -221,12 +221,12 @@ flowchart LR
 ## 下一步
 
 > [!TIP]
-> 建议按照推荐阅读顺序循序渐进学习。如需快速上手，可直接从[创建第一个集成方案](./create-integration)开始。
+> 建议按照推荐阅读顺序循序渐进学习。如需快速上手，可直接从[创建第一个集成方案](create-integration.md)开始。
 
 | 导航 | 链接 |
 |-----|------|
-| 🚀 开始实践 | [创建集成方案 →](./create-integration) |
-| 📖 了解连接器 | [连接器配置 →](../connectors/README) |
-| 🔄 数据映射 | [字段映射指南 →](./data-mapping) |
-| 🛠️ 调试工具 | [调试器使用 →](./debugger) |
-| ❓ 常见问题 | [FAQ →](../faq/README) |
+| 🚀 开始实践 | [创建集成方案 →](create-integration.md) |
+| 📖 了解连接器 | [连接器配置 →](../connectors/README.md) |
+| 🔄 数据映射 | [字段映射指南 →](data-mapping.md) |
+| 🛠️ 调试工具 | [调试器使用 →](debugger.md) |
+| ❓ 常见问题 | [FAQ →](../faq/README.md) |

@@ -63,7 +63,7 @@ mindmap
 | `SSL certificate error` | SSL 证书问题 | 检查证书配置或临时禁用 SSL 验证 |
 
 > [!TIP]
-> 详细的连接器配置指南请参考 [配置连接器](../guide/configure-connector)。
+> 详细的连接器配置指南请参考 [配置连接器](../guide/configure-connector.md)。
 
 ---
 
@@ -96,7 +96,7 @@ mindmap
 
 **排查方法**：
 
-1. 使用[调试器](../guide/debugger)查看详细的请求/响应报文
+1. 使用[调试器](../guide/debugger.md)查看详细的请求/响应报文
 2. 检查错误日志中的具体错误信息
 3. 验证源系统的接口权限是否完整
 
@@ -500,7 +500,7 @@ flowchart TD
 ```
 
 > [!TIP]
-> 详细调试指南请参考 [使用调试器](../guide/debugger)。
+> 详细调试指南请参考 [使用调试器](../guide/debugger.md)。
 
 ---
 
@@ -623,8 +623,8 @@ flowchart TD
 
 | 文档 | 说明 |
 |------|------|
-| [配置连接器](../guide/configure-connector) | 连接器基础配置指南 |
-| [数据映射](../guide/data-mapping) | 字段映射配置方法 |
-| [启动与定时策略](../guide/schedule-and-launch) | 方案调度配置详解 |
-| [使用调试器](../guide/debugger) | 调试工具使用指南 |
-| [数据与队列管理](../guide/data-queue-management) | 队列管理与故障排查 |
+| [配置连接器](../guide/configure-connector.md) | 连接器基础配置指南 |
+| [数据映射](../guide/data-mapping.md) | 字段映射配置方法 |
+| [启动与定时策略](../guide/schedule-and-launch.md) | 方案调度配置详解 |
+| [使用调试器](../guide/debugger.md) | 调试工具使用指南 |
+| [数据与队列管理](../guide/data-queue-management.md) | 队列管理与故障排查 |

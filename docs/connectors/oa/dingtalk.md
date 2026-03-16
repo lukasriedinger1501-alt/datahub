@@ -276,6 +276,6 @@
 ## 相关文档
 
 - [钉钉开放平台文档](https://open.dingtalk.com/document/)
-- [审批流集成方案](../../standard-schemes/oa-integration)
-- [配置连接器](../../guide/configure-connector)
-- [OA / 协同类连接器概览](./README)
+- [审批流集成方案](../../standard-schemes/oa-integration.md)
+- [配置连接器](../../guide/configure-connector.md)
+- [OA / 协同类连接器概览](README.md)

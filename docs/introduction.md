@@ -4,9 +4,9 @@
 
 ## 目录
 
-- [平台概览](./introduction/overview) - 产品定位和核心架构
-- [核心能力](./introduction/capabilities) - 详细的功能介绍
-- [应用场景](./introduction/scenarios) - 典型业务场景
-- [产品优势](./introduction/advantages) - 为什么选择轻易云
-- [已接入平台](./introduction/connected-platforms) - 支持的系统清单
-- [试用与购买](./introduction/pricing) - 定价方案和购买方式
+- [平台概览](introduction/overview.md) - 产品定位和核心架构
+- [核心能力](introduction/capabilities.md) - 详细的功能介绍
+- [应用场景](introduction/scenarios.md) - 典型业务场景
+- [产品优势](introduction/advantages.md) - 为什么选择轻易云
+- [已接入平台](introduction/connected-platforms.md) - 支持的系统清单
+- [试用与购买](introduction/pricing.md) - 定价方案和购买方式

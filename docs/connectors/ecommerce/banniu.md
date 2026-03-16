@@ -3,7 +3,7 @@
 本文档详细介绍轻易云 iPaaS 平台与班牛（Banniu）电商协同平台的集成配置方法。班牛是电商行业专用的协同工作平台，帮助电商企业实现跨部门、跨系统的业务流程自动化，提供工作流引擎、表单定制、数据集成、业务协同等核心功能。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ## 概述
 
@@ -402,10 +402,10 @@ flowchart TD
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [电商 / WMS 类连接器概览](./README) — 电商连接器总览
-- [新建集成方案](../../guide/create-integration) — 集成方案配置指南
-- [数据映射](../../guide/data-mapping) — 数据映射配置详解
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [电商 / WMS 类连接器概览](README.md) — 电商连接器总览
+- [新建集成方案](../../guide/create-integration.md) — 集成方案配置指南
+- [数据映射](../../guide/data-mapping.md) — 数据映射配置详解
 
 ---
 

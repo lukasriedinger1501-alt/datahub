@@ -129,4 +129,4 @@
 ## 相关文档
 
 - [氚云官方 API 文档](https://help.h3yun.com/contents/1008/1634.html)
-- [OA / 协同类连接器概览](./README)
+- [OA / 协同类连接器概览](README.md)

@@ -394,11 +394,11 @@ gantt
 
 ## 相关文档
 
-- [钉钉连接器](../connectors/oa/dingtalk)
-- [简道云连接器](../connectors/oa/jiandaoyun)
-- [飞书连接器](../connectors/oa/feishu)
-- [企业微信连接器](../connectors/oa/wecom)
-- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy)
-- [金蝶云星辰连接器](../connectors/erp/kingdee-cloud-star)
-- [回调事件配置](../developer/event-driven)
-- [数据映射指南](../guide/data-mapping)
+- [钉钉连接器](../connectors/oa/dingtalk.md)
+- [简道云连接器](../connectors/oa/jiandaoyun.md)
+- [飞书连接器](../connectors/oa/feishu.md)
+- [企业微信连接器](../connectors/oa/wecom.md)
+- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy.md)
+- [金蝶云星辰连接器](../connectors/erp/kingdee-cloud-star.md)
+- [回调事件配置](../developer/event-driven.md)
+- [数据映射指南](../guide/data-mapping.md)

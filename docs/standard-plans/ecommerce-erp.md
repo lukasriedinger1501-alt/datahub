@@ -65,7 +65,7 @@ mindmap
    - 测试连接确保连通性
 
 > [!TIP]
-> 连接器详细配置步骤请参考 [配置连接器](../guide/configure-connector) 文档。
+> 连接器详细配置步骤请参考 [配置连接器](../guide/configure-connector.md) 文档。
 
 ### 基础资料梳理
 
@@ -332,8 +332,8 @@ flowchart TD
 
 ## 相关文档
 
-- [旺店通连接器](../connectors/ecommerce/wangdian) - 旺店通连接器详细配置
-- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy) - 金蝶云星空连接器配置
-- [国内电商方案](./domestic-ecommerce) - 更多国内电商对接方案
-- [数据聚合功能](../advanced/data-aggregation) - 大数据量处理方案
-- [多组织集成方案](../solutions/kingdee-wangdian) - 金蝶旺店通集成案例
+- [旺店通连接器](../connectors/ecommerce/wangdian.md) - 旺店通连接器详细配置
+- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy.md) - 金蝶云星空连接器配置
+- [国内电商方案](domestic-ecommerce.md) - 更多国内电商对接方案
+- [数据聚合功能](../advanced/data-aggregation.md) - 大数据量处理方案
+- [多组织集成方案](../solutions/kingdee-wangdian.md) - 金蝶旺店通集成案例

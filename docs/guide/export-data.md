@@ -424,7 +424,7 @@ A: 文件保留期限取决于存储方式：
 
 | 文档 | 说明 |
 |-----|------|
-| [数据与队列管理](./data-queue-management) | 了解队列数据的查看和管理方法 |
-| [使用调试器](./debugger) | 学习如何调试和查看数据详情 |
-| [监控告警](./monitoring-alerts) | 配置导出任务的监控和告警 |
-| [日志管理](./log-management) | 查看和分析系统运行日志 |
+| [数据与队列管理](data-queue-management.md) | 了解队列数据的查看和管理方法 |
+| [使用调试器](debugger.md) | 学习如何调试和查看数据详情 |
+| [监控告警](monitoring-alerts.md) | 配置导出任务的监控和告警 |
+| [日志管理](log-management.md) | 查看和分析系统运行日志 |

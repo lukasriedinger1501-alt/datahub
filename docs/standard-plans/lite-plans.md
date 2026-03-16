@@ -35,7 +35,7 @@ Lite 方案基于以下技术假设设计：
 - 未启用库存精细化管理
 
 > [!IMPORTANT]
-> 如果您的业务涉及以上任一复杂场景，建议使用[标准集成方案](./README)或联系顾问进行方案定制。
+> 如果您的业务涉及以上任一复杂场景，建议使用[标准集成方案](README.md)或联系顾问进行方案定制。
 
 ## 方案清单
 
@@ -463,9 +463,9 @@ flowchart TD
 
 ## 相关资源
 
-- [标准集成方案概览](./README) - 了解完整版标准方案
-- [快速开始](../quick-start/first-integration) - 5 分钟上手轻易云 iPaaS
-- [连接器配置指南](../guide/configure-connector) - 详细连接器配置说明
-- [金蝶云星辰连接器](../connectors/erp/kingdee-cloud-star) - 金蝶云星辰连接器文档
-- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy) - 金蝶云星空连接器文档
+- [标准集成方案概览](README.md) - 了解完整版标准方案
+- [快速开始](../quick-start/first-integration.md) - 5 分钟上手轻易云 iPaaS
+- [连接器配置指南](../guide/configure-connector.md) - 详细连接器配置说明
+- [金蝶云星辰连接器](../connectors/erp/kingdee-cloud-star.md) - 金蝶云星辰连接器文档
+- [金蝶云星空连接器](../connectors/erp/kingdee-cloud-galaxy.md) - 金蝶云星空连接器文档
 - [常见问题](../faq) - 使用过程中的常见问题解答

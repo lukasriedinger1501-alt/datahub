@@ -55,37 +55,37 @@ flowchart TB
 
 | 系统名称 | 连接器标识 | 适用企业规模 | 主要功能 |
 |---------|-----------|-------------|---------|
-| [金蝶云星空](./erp/kingdee-cloud-cosmos) | `kingdee-cloud-cosmos` | 中大型 | 财务、供应链、生产 |
-| [金蝶云星辰](./erp/kingdee-cloud-star) | `kingdee-cloud-star` | 中小微 | 财务、进销存 |
-| [金蝶云 Galaxy](./erp/kingdee-cloud-galaxy) | `kingdee-cloud-galaxy` | 大型 | 多组织、集团管控 |
-| [金蝶 EAS](./erp/kingdee-eas) | `kingdee-eas` | 大型集团 | 集团财务、资金 |
-| [金蝶 K/3 WISE](./erp/kingdee-k3wise) | `kingdee-k3wise` | 中型 | 财务、供应链 |
-| [金蝶 KIS](./erp/kingdee-kis) | `kingdee-kis` | 小微 | 财务、商贸 |
+| [金蝶云星空](erp/kingdee-cloud-cosmos.md) | `kingdee-cloud-cosmos` | 中大型 | 财务、供应链、生产 |
+| [金蝶云星辰](erp/kingdee-cloud-star.md) | `kingdee-cloud-star` | 中小微 | 财务、进销存 |
+| [金蝶云 Galaxy](erp/kingdee-cloud-galaxy.md) | `kingdee-cloud-galaxy` | 大型 | 多组织、集团管控 |
+| [金蝶 EAS](erp/kingdee-eas.md) | `kingdee-eas` | 大型集团 | 集团财务、资金 |
+| [金蝶 K/3 WISE](erp/kingdee-k3wise.md) | `kingdee-k3wise` | 中型 | 财务、供应链 |
+| [金蝶 KIS](erp/kingdee-kis.md) | `kingdee-kis` | 小微 | 财务、商贸 |
 
 ### 用友系列
 
 | 系统名称 | 连接器标识 | 适用企业规模 | 主要功能 |
 |---------|-----------|-------------|---------|
-| [用友 U8+](./erp/yonyou-u8) | `yonyou-u8` | 中型 | 财务、供应链、生产 |
-| [用友 NC](./erp/yonyou-nc) | `yonyou-nc` | 大型集团 | 集团管控、财务 |
-| [用友 NC Cloud](./erp/yonyou-nc-cloud) | `yonyou-nc-cloud` | 大型集团 | 云原生、数字化 |
-| [用友 U9](./erp/yonyou-u9) | `yonyou-u9` | 中大型制造 | 多工厂、多组织 |
-| [用友 BIP](./erp/yonyou-bip) | `yonyou-bip` | 大型集团 | 商业创新平台 |
-| [用友 YonSuite](./erp/yonyou-yonsuite) | `yonyou-yonsuite` | 成长型 | 云 ERP 全场景 |
+| [用友 U8+](erp/yonyou-u8.md) | `yonyou-u8` | 中型 | 财务、供应链、生产 |
+| [用友 NC](erp/yonyou-nc.md) | `yonyou-nc` | 大型集团 | 集团管控、财务 |
+| [用友 NC Cloud](erp/yonyou-nc-cloud.md) | `yonyou-nc-cloud` | 大型集团 | 云原生、数字化 |
+| [用友 U9](erp/yonyou-u9.md) | `yonyou-u9` | 中大型制造 | 多工厂、多组织 |
+| [用友 BIP](erp/yonyou-bip.md) | `yonyou-bip` | 大型集团 | 商业创新平台 |
+| [用友 YonSuite](erp/yonyou-yonsuite.md) | `yonyou-yonsuite` | 成长型 | 云 ERP 全场景 |
 
 ### 畅捷通系列
 
 | 系统名称 | 连接器标识 | 适用企业规模 | 主要功能 |
 |---------|-----------|-------------|---------|
-| [畅捷通 T+](./erp/chanjet-tplus) | `chanjet-tplus` | 中小微 | 云管理、移动应用 |
-| [畅捷通好会计](./erp/chanjet-accounting) | `chanjet-accounting` | 小微 | 智能云财务 |
-| [畅捷通 T3/T6](./erp/chanjet) | `chanjet` | 小微 | 财务、进销存 |
+| [畅捷通 T+](erp/chanjet-tplus.md) | `chanjet-tplus` | 中小微 | 云管理、移动应用 |
+| [畅捷通好会计](erp/chanjet-accounting.md) | `chanjet-accounting` | 小微 | 智能云财务 |
+| [畅捷通 T3/T6](erp/chanjet.md) | `chanjet` | 小微 | 财务、进销存 |
 
 ### 其他 ERP
 
 | 系统名称 | 连接器标识 | 适用企业规模 | 主要功能 |
 |---------|-----------|-------------|---------|
-| [Oracle EBS](./erp/oracle-ebs) | `oracle-ebs` | 大型跨国 | 全球化、制造业 |
+| [Oracle EBS](erp/oracle-ebs.md) | `oracle-ebs` | 大型跨国 | 全球化、制造业 |
 
 ## ERP 集成最佳实践
 
@@ -236,10 +236,10 @@ sequenceDiagram
 
 ## 相关文档
 
-- [连接器快速入门](../guide/configure-connector)
-- [数据映射指南](../guide/data-mapping)
-- [集成方案配置](../guide/create-integration)
-- [ERP 连接器目录](./erp/README)
+- [连接器快速入门](../guide/configure-connector.md)
+- [数据映射指南](../guide/data-mapping.md)
+- [集成方案配置](../guide/create-integration.md)
+- [ERP 连接器目录](erp/README.md)
 
 > [!NOTE]
-> 如需接入未列出的 ERP 系统，请联系轻易云技术支持团队或参考 [自定义连接器开发](../developer/custom-connector) 文档自行开发。
+> 如需接入未列出的 ERP 系统，请联系轻易云技术支持团队或参考 [自定义连接器开发](../developer/custom-connector.md) 文档自行开发。

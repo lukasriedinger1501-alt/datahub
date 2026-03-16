@@ -552,8 +552,8 @@ flowchart LR
 
 ## 相关资源
 
-- [旺店通连接器](../connectors/ecommerce/wangdian)
-- [MySQL 连接器](../connectors/database/mysql)
-- [数据加工厂配置](../advanced/data-transformation)
-- [数据映射配置](../guide/data-mapping)
-- [定时调度配置](../guide/schedule-and-launch)
+- [旺店通连接器](../connectors/ecommerce/wangdian.md)
+- [MySQL 连接器](../connectors/database/mysql.md)
+- [数据加工厂配置](../advanced/data-transformation.md)
+- [数据映射配置](../guide/data-mapping.md)
+- [定时调度配置](../guide/schedule-and-launch.md)

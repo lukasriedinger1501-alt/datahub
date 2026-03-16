@@ -3,7 +3,7 @@
 本文档介绍在轻易云 iPaaS 平台中集成 MongoDB 的高级用法，包括查询适配器接管 Fetch 操作、创建索引优化查询性能，以及使用 Query Operators 构建复杂查询条件。掌握这些技术可以帮助你更高效地处理 MongoDB 数据集成场景。
 
 > [!IMPORTANT]
-> 本文档适用于需要使用 MongoDB 作为源平台或目标平台的高级场景。基础连接配置请参考 [MongoDB 连接器](../connectors/database/mongodb)。
+> 本文档适用于需要使用 MongoDB 作为源平台或目标平台的高级场景。基础连接配置请参考 [MongoDB 连接器](../connectors/database/mongodb.md)。
 
 ---
 
@@ -862,7 +862,7 @@ flowchart TD
 
 ## 相关文档
 
-- [MongoDB 连接器](../connectors/database/mongodb) - MongoDB 基础连接配置
-- [适配器开发指南](./adapter-development) - 自定义适配器开发
-- [源平台特殊操作](./source-special-operations) - 更多高级查询技巧
-- [高级查询条件引擎](../advanced/advanced-query) - 通用查询条件配置
+- [MongoDB 连接器](../connectors/database/mongodb.md) - MongoDB 基础连接配置
+- [适配器开发指南](adapter-development.md) - 自定义适配器开发
+- [源平台特殊操作](source-special-operations.md) - 更多高级查询技巧
+- [高级查询条件引擎](../advanced/advanced-query.md) - 通用查询条件配置

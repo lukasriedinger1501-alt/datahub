@@ -536,8 +536,8 @@ A: 可以通过导出 JSON 格式数据，然后在目标环境使用 API 导入
 
 | 文档 | 说明 |
 |-----|------|
-| [创建集成方案](./create-integration) | 学习如何创建和配置集成方案 |
-| [启动与定时策略](./schedule-and-launch) | 掌握方案的启动、停止和调度配置 |
-| [使用调试器](./debugger) | 使用调试工具排查数据问题 |
-| [监控告警](./monitoring-alerts) | 配置运行监控和异常告警 |
-| [日志管理](./log-management) | 查看和分析方案运行日志 |
+| [创建集成方案](create-integration.md) | 学习如何创建和配置集成方案 |
+| [启动与定时策略](schedule-and-launch.md) | 掌握方案的启动、停止和调度配置 |
+| [使用调试器](debugger.md) | 使用调试工具排查数据问题 |
+| [监控告警](monitoring-alerts.md) | 配置运行监控和异常告警 |
+| [日志管理](log-management.md) | 查看和分析方案运行日志 |

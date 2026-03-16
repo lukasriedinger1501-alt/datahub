@@ -8,8 +8,8 @@
 
 | 准备项 | 说明 | 参考文档 |
 |--------|------|----------|
-| 平台账号 | 已完成轻易云 iPaaS 账号注册 | [账号注册](./registration) |
-| 环境配置 | 了解连接器的概念与配置方法 | [环境配置](./environment-setup) |
+| 平台账号 | 已完成轻易云 iPaaS 账号注册 | [账号注册](registration.md) |
+| 环境配置 | 了解连接器的概念与配置方法 | [环境配置](environment-setup.md) |
 | 源系统连接 | 旺店通企业版/管易云等电商系统的 API 连接信息 | — |
 | 目标系统连接 | 金蝶云星空的 API 连接信息 | — |
 
@@ -226,7 +226,7 @@ flowchart LR
 - **纯动态值**：`{{goods_name}}`
 - **纯静态值**：`100`
 - **混合模式**：`{{goods_name}}-{{spec_name}}`
-- **函数处理**：支持高级函数与解析器（详见 [数据映射](../guide/data-mapping) 章节）
+- **函数处理**：支持高级函数与解析器（详见 [数据映射](../guide/data-mapping.md) 章节）
 
 ### 4.3 保存映射配置
 
@@ -340,15 +340,15 @@ flowchart TB
 - 日期转换：`DATE_FORMAT`, `TIMESTAMP`
 - 条件判断：`IF`, `CASE`
 
-详见 [数据映射](../guide/data-mapping) 文档。
+详见 [数据映射](../guide/data-mapping.md) 文档。
 
 ## 下一步
 
 完成本教程后，你已经掌握了轻易云 iPaaS 的基础集成能力。建议继续学习：
 
-1. **[数据映射](../guide/data-mapping)** — 深入了解高级转换函数与复杂映射场景
-2. **[流程编排](../guide/process-orchestration)** — 学习多步骤、条件分支等复杂流程配置
-3. **[监控告警](../guide/monitoring-alerts)** — 掌握运行监控与异常处理机制
+1. **[数据映射](../guide/data-mapping.md)** — 深入了解高级转换函数与复杂映射场景
+2. **[流程编排](../guide/process-orchestration.md)** — 学习多步骤、条件分支等复杂流程配置
+3. **[监控告警](../guide/monitoring-alerts.md)** — 掌握运行监控与异常处理机制
 4. **[标准方案](../standard-schemes/)** — 探索更多开箱即用的行业集成方案
 
 > [!TIP]

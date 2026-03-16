@@ -3,7 +3,7 @@
 本文档详细介绍轻易云 iPaaS 平台与聚水潭（JuShuiTan）的集成配置方法。聚水潭是国内领先的电商 SaaS ERP 系统，提供订单管理、库存管理、采购管理、分销管理等核心功能，支持与主流电商平台（淘宝、天猫、京东、拼多多、抖音、小红书等）无缝对接。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ## 概述
 
@@ -303,11 +303,11 @@ flowchart LR
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [旺店通集成专题](./wangdian) — 旺店通连接器文档
-- [金蝶云星空集成专题](../erp/kingdee-cloud-galaxy) — 金蝶云星空连接器文档
-- [电商 / WMS 类连接器概览](./README) — 电商连接器总览
-- [标准集成方案 — 国内电商](../../standard-schemes/domestic-ecommerce) — 国内电商集成最佳实践
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [旺店通集成专题](wangdian.md) — 旺店通连接器文档
+- [金蝶云星空集成专题](../erp/kingdee-cloud-galaxy.md) — 金蝶云星空连接器文档
+- [电商 / WMS 类连接器概览](README.md) — 电商连接器总览
+- [标准集成方案 — 国内电商](../../standard-schemes/domestic-ecommerce.md) — 国内电商集成最佳实践
 - [聚水潭开放平台文档](https://openweb.jushuitan.com/dev-doc?docType=4&docId=22) — 官方接口文档
 
 ---

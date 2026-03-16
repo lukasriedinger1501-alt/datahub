@@ -1,6 +1,6 @@
 # MongoDB 集成专题
 
-本文档详细介绍轻易云 iPaaS 平台与 MongoDB 文档型数据库的集成配置方法，涵盖连接器配置、连接参数、权限要求、数据写入适配器使用以及性能优化建议。对于高级用法，请参考 [MongoDB 高级集成](../../developer/mongodb-advanced)。
+本文档详细介绍轻易云 iPaaS 平台与 MongoDB 文档型数据库的集成配置方法，涵盖连接器配置、连接参数、权限要求、数据写入适配器使用以及性能优化建议。对于高级用法，请参考 [MongoDB 高级集成](../../developer/mongodb-advanced.md)。
 
 ---
 
@@ -414,7 +414,7 @@ db.collectionName.createIndex({ "data.status": 1, "data.createTime": -1 })
 - 分页读取大数据量
 - 嵌套文档拍扁处理
 
-详情请参考：[MongoDB 高级集成 - 接管 Fetch](../../developer/mongodb-advanced#接管-mongodb-fetch)
+详情请参考：[MongoDB 高级集成 - 接管 Fetch](../../developer/mongodb-advanced.md#接管-mongodb-fetch)
 
 ### 索引管理
 
@@ -425,7 +425,7 @@ db.collectionName.createIndex({ "data.status": 1, "data.createTime": -1 })
 - 嵌套字段索引
 - 索引重建与维护
 
-详情请参考：[MongoDB 高级集成 - 创建索引](../../developer/mongodb-advanced#创建索引)
+详情请参考：[MongoDB 高级集成 - 创建索引](../../developer/mongodb-advanced.md#创建索引)
 
 ### Query Operators
 
@@ -436,7 +436,7 @@ db.collectionName.createIndex({ "data.status": 1, "data.createTime": -1 })
 - 元素操作符：`$exists`, `$type`
 - 数组操作符：`$all`, `$elemMatch`, `$size`
 
-详情请参考：[MongoDB 高级集成 - Query Operators](../../developer/mongodb-advanced#query-operators-查询操作符)
+详情请参考：[MongoDB 高级集成 - Query Operators](../../developer/mongodb-advanced.md#query-operators-查询操作符)
 
 ---
 
@@ -516,17 +516,17 @@ MongoDB 的 `_id` 字段默认为 ObjectId 类型。在轻易云平台中：
 2. **权限配置**：用户需要 `read` 权限和目标数据库权限，以及 `local` 数据库的 `read` 权限
 3. **平台配置**：在源平台配置中选择 CDC 模式，配置监听集合
 
-详情请参考：[MongoDB 高级集成](../../developer/mongodb-advanced)
+详情请参考：[MongoDB 高级集成](../../developer/mongodb-advanced.md)
 
 ---
 
 ## 相关资源
 
-- [数据库类连接器概览](./README) — 查看所有支持的数据库连接器
-- [配置连接器](../../guide/configure-connector) — 连接器基础配置指南
-- [MongoDB 高级集成](../../developer/mongodb-advanced) — MongoDB 高级用法（Fetch 接管、索引管理、Query Operators）
-- [数据映射](../../guide/data-mapping) — 字段映射配置方法
-- [MySQL 集成](./mysql) — 关系型数据库集成指南
+- [数据库类连接器概览](README.md) — 查看所有支持的数据库连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础配置指南
+- [MongoDB 高级集成](../../developer/mongodb-advanced.md) — MongoDB 高级用法（Fetch 接管、索引管理、Query Operators）
+- [数据映射](../../guide/data-mapping.md) — 字段映射配置方法
+- [MySQL 集成](mysql.md) — 关系型数据库集成指南
 
 ---
 

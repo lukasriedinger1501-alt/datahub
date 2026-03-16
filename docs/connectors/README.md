@@ -6,11 +6,11 @@
 
 | 分类 | 说明 | 数量 |
 |------|------|------|
-| [ERP 类](./erp/README) | 金蝶、用友、畅捷通等 ERP 系统 | 11+ |
-| [OA / 协同类](./oa/README) | 钉钉、飞书、企业微信、泛微等 | 9+ |
-| [电商 / WMS 类](./ecommerce/README) | 旺店通、聚水潭、万里牛等 | 9+ |
-| [数据库类](./database/README) | MySQL、Oracle、MongoDB 等 | 10+ |
-| [CRM / 其他 SaaS](./crm/README) | 简道云、氚云、Salesforce 等 | 11+ |
+| [ERP 类](erp/README.md) | 金蝶、用友、畅捷通等 ERP 系统 | 11+ |
+| [OA / 协同类](oa/README.md) | 钉钉、飞书、企业微信、泛微等 | 9+ |
+| [电商 / WMS 类](ecommerce/README.md) | 旺店通、聚水潭、万里牛等 | 9+ |
+| [数据库类](database/README.md) | MySQL、Oracle、MongoDB 等 | 10+ |
+| [CRM / 其他 SaaS](crm/README.md) | 简道云、氚云、Salesforce 等 | 11+ |
 
 ## 连接器使用模式
 
@@ -22,4 +22,4 @@
 4. **测试验证** — 测试连接与操作可用性
 
 > [!TIP]
-> 如需接入未列出的系统，可参考 [自定义连接器开发](../developer/custom-connector) 自行开发。
+> 如需接入未列出的系统，可参考 [自定义连接器开发](../developer/custom-connector.md) 自行开发。

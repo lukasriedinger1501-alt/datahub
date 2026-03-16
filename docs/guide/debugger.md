@@ -454,7 +454,7 @@ A: 解决方法：
 
 ## 下一步
 
-- 了解如何[配置数据映射](./data-mapping)，建立源字段与目标字段的对应关系
-- 学习[启动与定时策略](./schedule-and-launch)，掌握方案的自动化运行配置
-- 查看[日志管理](./log-management)，了解生产环境的日志查看与分析方法
-- 探索[监控告警](./monitoring-alerts)，建立完善的方案运行监控体系
+- 了解如何[配置数据映射](data-mapping.md)，建立源字段与目标字段的对应关系
+- 学习[启动与定时策略](schedule-and-launch.md)，掌握方案的自动化运行配置
+- 查看[日志管理](log-management.md)，了解生产环境的日志查看与分析方法
+- 探索[监控告警](monitoring-alerts.md)，建立完善的方案运行监控体系

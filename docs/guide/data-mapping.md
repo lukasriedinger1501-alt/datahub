@@ -499,7 +499,7 @@ flowchart TD
 
 ## 下一步
 
-- 了解如何[创建集成方案](./create-integration)，将数据映射应用到实际业务场景
-- 学习[源平台配置](./source-platform-config)，优化数据查询参数
-- 探索[目标平台配置](./target-platform-config)，掌握更多写入配置技巧
-- 查看[调试器使用指南](./debugger)，排查数据映射中的问题
+- 了解如何[创建集成方案](create-integration.md)，将数据映射应用到实际业务场景
+- 学习[源平台配置](source-platform-config.md)，优化数据查询参数
+- 探索[目标平台配置](target-platform-config.md)，掌握更多写入配置技巧
+- 查看[调试器使用指南](debugger.md)，排查数据映射中的问题

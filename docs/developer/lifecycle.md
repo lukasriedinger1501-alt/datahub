@@ -865,7 +865,7 @@ class MySQLAdapter {
 
 ## 相关文档
 
-- [适配器开发指南](./adapter-development) — 适配器开发完整教程
-- [Python 适配器开发](./python-adapter) — 使用 Python 开发适配器
-- [自定义连接器开发](./custom-connector) — 连接器开发规范
-- [调试与测试](./debugging-testing) — 适配器调试技巧
+- [适配器开发指南](adapter-development.md) — 适配器开发完整教程
+- [Python 适配器开发](python-adapter.md) — 使用 Python 开发适配器
+- [自定义连接器开发](custom-connector.md) — 连接器开发规范
+- [调试与测试](debugging-testing.md) — 适配器调试技巧

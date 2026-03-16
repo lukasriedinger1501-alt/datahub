@@ -60,25 +60,25 @@ flowchart TB
 
 | 数据库 | 连接器标识 | 主要功能 | CDC 支持 |
 |-------|-----------|---------|---------|
-| [MySQL](./database/mysql) | `mysql` | 查询、写入、CDC | ✅ Binlog |
-| [Oracle](./database/oracle) | `oracle` | 查询、写入、CDC | ✅ LogMiner |
-| [SQL Server](./database/sqlserver) | `sqlserver` | 查询、写入、CDC | ✅ CT/CDC |
-| [PostgreSQL](./database/postgresql) | `postgresql` | 查询、写入、CDC | ✅ 逻辑复制 |
-| [ClickHouse](./database/clickhouse) | `clickhouse` | 查询、批量写入 | ❌ |
+| [MySQL](database/mysql.md) | `mysql` | 查询、写入、CDC | ✅ Binlog |
+| [Oracle](database/oracle.md) | `oracle` | 查询、写入、CDC | ✅ LogMiner |
+| [SQL Server](database/sqlserver.md) | `sqlserver` | 查询、写入、CDC | ✅ CT/CDC |
+| [PostgreSQL](database/postgresql.md) | `postgresql` | 查询、写入、CDC | ✅ 逻辑复制 |
+| [ClickHouse](database/clickhouse.md) | `clickhouse` | 查询、批量写入 | ❌ |
 
 ### NoSQL 数据库
 
 | 数据库 | 连接器标识 | 主要功能 | 适用场景 |
 |-------|-----------|---------|---------|
-| [MongoDB](./database/mongodb) | `mongodb` | 文档查询、写入 | 文档存储 |
-| [Redis](./database/redis) | `redis` | KV 操作、数据结构 | 缓存、队列 |
-| [Elasticsearch](./database/elasticsearch) | `elasticsearch` | 搜索、分析 | 全文检索 |
+| [MongoDB](database/mongodb.md) | `mongodb` | 文档查询、写入 | 文档存储 |
+| [Redis](database/redis.md) | `redis` | KV 操作、数据结构 | 缓存、队列 |
+| [Elasticsearch](database/elasticsearch.md) | `elasticsearch` | 搜索、分析 | 全文检索 |
 
 ### 消息队列
 
 | 系统 | 连接器标识 | 主要功能 | 适用场景 |
 |-----|-----------|---------|---------|
-| [Kafka](./database/kafka) | `kafka` | 生产、消费 | 流式处理 |
+| [Kafka](database/kafka.md) | `kafka` | 生产、消费 | 流式处理 |
 
 ## CDC 实时同步说明
 
@@ -301,11 +301,11 @@ SET UNIQUE_CHECKS = 1;
 
 ## 相关文档
 
-- [MySQL 集成专题](./database/mysql)
-- [Oracle 集成专题](./database/oracle)
-- [MongoDB 集成专题](./database/mongodb)
-- [CDC 实时同步](../advanced/cdc-realtime)
-- [数据同步方案](../standard-schemes/data-sync)
+- [MySQL 集成专题](database/mysql.md)
+- [Oracle 集成专题](database/oracle.md)
+- [MongoDB 集成专题](database/mongodb.md)
+- [CDC 实时同步](../advanced/cdc-realtime.md)
+- [数据同步方案](../standard-schemes/data-sync.md)
 
 > [!IMPORTANT]
 > 使用 CDC 功能时，请确保数据库已开启相应日志功能，并授予足够的权限。

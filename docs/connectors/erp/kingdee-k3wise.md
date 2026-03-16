@@ -385,10 +385,10 @@ A：建议采用以下策略实现增量同步：
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [金蝶云星空集成专题](./kingdee-cloud-galaxy) — 金蝶云星空对接指南
-- [金蝶 KIS 集成专题](./kingdee-kis) — 金蝶 KIS 对接指南
-- [标准集成方案](../../standard-schemes/erp-integration) — ERP 对接最佳实践
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [金蝶云星空集成专题](kingdee-cloud-galaxy.md) — 金蝶云星空对接指南
+- [金蝶 KIS 集成专题](kingdee-kis.md) — 金蝶 KIS 对接指南
+- [标准集成方案](../../standard-schemes/erp-integration.md) — ERP 对接最佳实践
 
 ---
 

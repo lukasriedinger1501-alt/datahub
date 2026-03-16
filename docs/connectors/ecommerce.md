@@ -58,20 +58,20 @@ flowchart TB
 
 | 平台名称 | 连接器标识 | 主要功能 | 支持模式 |
 |---------|-----------|---------|---------|
-| [旺店通](./ecommerce/wangdian) | `wangdian` | 订单、库存、商品 | 主流通用 |
-| [聚水潭](./ecommerce/jushuitan) | `jushuitan` | 订单、库存、采购 | 电商 ERP |
-| [管易云](./ecommerce/guanyi) | `guanyi` | 订单、仓储、财务 | 金蝶生态 |
-| [网店管家](./ecommerce/wangdianguanjia) | `wangdianguanjia` | 订单、库存、售后 | 老牌电商 ERP |
-| [网店精灵](./ecommerce/wangdianjingling) | `wangdianjingling` | 订单处理、批量操作 | 店铺管理工具 |
+| [旺店通](ecommerce/wangdian.md) | `wangdian` | 订单、库存、商品 | 主流通用 |
+| [聚水潭](ecommerce/jushuitan.md) | `jushuitan` | 订单、库存、采购 | 电商 ERP |
+| [管易云](ecommerce/guanyi.md) | `guanyi` | 订单、仓储、财务 | 金蝶生态 |
+| [网店管家](ecommerce/wangdianguanjia.md) | `wangdianguanjia` | 订单、库存、售后 | 老牌电商 ERP |
+| [网店精灵](ecommerce/wangdianjingling.md) | `wangdianjingling` | 订单处理、批量操作 | 店铺管理工具 |
 
 ### 垂直领域平台
 
 | 平台名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [万里牛](./ecommerce/maliniu) | `maliniu` | 订单、库存、分销 | 多平台店铺 |
-| [快麦](./ecommerce/kuaimai) | `kuaimai` | 订单、仓储、数据 | 光云科技 |
-| [班牛](./ecommerce/banniu) | `banniu` | 客服工单、售后 | 客服协同 |
-| [易仓](./ecommerce/ecang) | `ecang` | 跨境 ERP | 跨境电商 |
+| [万里牛](ecommerce/maliniu.md) | `maliniu` | 订单、库存、分销 | 多平台店铺 |
+| [快麦](ecommerce/kuaimai.md) | `kuaimai` | 订单、仓储、数据 | 光云科技 |
+| [班牛](ecommerce/banniu.md) | `banniu` | 客服工单、售后 | 客服协同 |
+| [易仓](ecommerce/ecang.md) | `ecang` | 跨境 ERP | 跨境电商 |
 
 ### 平台官方接口
 
@@ -295,11 +295,11 @@ flowchart TB
 
 ## 相关文档
 
-- [旺店通连接器](./ecommerce/wangdian)
-- [聚水潭连接器](./ecommerce/jushuitan)
-- [管易云连接器](./ecommerce/guanyi)
-- [订单集成方案](../standard-schemes/order-integration)
-- [库存同步方案](../standard-schemes/inventory-sync)
+- [旺店通连接器](ecommerce/wangdian.md)
+- [聚水潭连接器](ecommerce/jushuitan.md)
+- [管易云连接器](ecommerce/guanyi.md)
+- [订单集成方案](../standard-schemes/order-integration.md)
+- [库存同步方案](../standard-schemes/inventory-sync.md)
 
 > [!NOTE]
 > 电商平台的接口会定期更新，请及时关注平台公告和轻易云更新日志。

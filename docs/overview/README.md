@@ -493,9 +493,9 @@ flowchart TB
 如需详细的操作指导，请参阅：
 
 - [快速开始指南](../quick-start/) — 5 分钟完成第一个集成方案
-- [连接器配置](../guide/configure-connector) — 详细讲解各类连接器的配置方法
-- [数据映射指南](../guide/data-mapping/) — 深入理解数据转换与映射规则
-- [解决方案](../solutions/README) — 行业解决方案与实施建议
+- [连接器配置](../guide/configure-connector.md) — 详细讲解各类连接器的配置方法
+- [数据映射指南](../guide/data-mapping.md) — 深入理解数据转换与映射规则
+- [解决方案](../solutions/README.md) — 行业解决方案与实施建议
 
 ## 相关资源
 

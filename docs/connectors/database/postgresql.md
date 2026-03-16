@@ -404,7 +404,7 @@ SELECT * FROM orders_2026_01;
 
 - [PostgreSQL 官方文档](https://www.postgresql.org/docs/)
 - [PostgreSQL CDC 文档](https://www.postgresql.org/docs/current/logical-replication.html)
-- [MySQL 连接器](./mysql)
+- [MySQL 连接器](mysql.md)
 - [数据库连接器概览](../database)
 
 > [!IMPORTANT]

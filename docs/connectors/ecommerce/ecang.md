@@ -3,7 +3,7 @@
 本文档详细介绍轻易云 iPaaS 平台与易仓（EcCang）的集成配置方法。易仓是国内领先的跨境电商 SaaS 平台，专注于为跨境电商企业提供订单管理、仓储物流、供应链管理等一体化解决方案。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ## 概述
 
@@ -329,12 +329,12 @@
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [旺店通集成专题](./wangdian) — 旺店通连接器文档
-- [聚水潭集成专题](./jushuitan) — 聚水潭连接器文档
-- [电商 / WMS 类连接器概览](./README) — 电商连接器总览
-- [标准集成方案 — 跨境电商](../../standard-schemes/crossborder) — 跨境电商集成最佳实践
-- [解决方案 — 跨境电商](../../solutions/crossborder-ecommerce) — 跨境电商行业集成方案
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [旺店通集成专题](wangdian.md) — 旺店通连接器文档
+- [聚水潭集成专题](jushuitan.md) — 聚水潭连接器文档
+- [电商 / WMS 类连接器概览](README.md) — 电商连接器总览
+- [标准集成方案 — 跨境电商](../../standard-schemes/crossborder.md) — 跨境电商集成最佳实践
+- [解决方案 — 跨境电商](../../solutions/crossborder-ecommerce.md) — 跨境电商行业集成方案
 - [易仓开放平台文档](https://open.eccang.com/#/documentCenter?docId=307&catId=0-172-172,0-171) — 官方接口文档
 
 ---

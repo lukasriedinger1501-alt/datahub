@@ -35,32 +35,32 @@ mindmap
 
 | 连接器 | 定位 | 功能特点 | 状态 |
 |--------|------|----------|------|
-| [销帮帮](./xiaobangbang) | 国产 CRM | 客户管理、合同订单、回款跟踪、进销存一体化 | ✅ 稳定 |
-| [纷享销客](./fenxiangxiaoke) | 国产 CRM | 移动 CRM、销售自动化、营销管理 | ✅ 稳定 |
-| [销售易](./xiaoshouyi) | 国产 CRM | 企业级 CRM、PaaS 平台、智能分析 | ✅ 稳定 |
-| [Salesforce](./salesforce) | 国际 CRM | 全球领先的 CRM 平台、AppExchange 生态 | ✅ 稳定 |
-| [HubSpot](./hubspot) | 国际 CRM | 营销自动化、客户成功、内容管理 | ✅ 稳定 |
+| [销帮帮](xiaobangbang.md) | 国产 CRM | 客户管理、合同订单、回款跟踪、进销存一体化 | ✅ 稳定 |
+| [纷享销客](fenxiangxiaoke.md) | 国产 CRM | 移动 CRM、销售自动化、营销管理 | ✅ 稳定 |
+| [销售易](xiaoshouyi.md) | 国产 CRM | 企业级 CRM、PaaS 平台、智能分析 | ✅ 稳定 |
+| [Salesforce](salesforce.md) | 国际 CRM | 全球领先的 CRM 平台、AppExchange 生态 | ✅ 稳定 |
+| [HubSpot](hubspot.md) | 国际 CRM | 营销自动化、客户成功、内容管理 | ✅ 稳定 |
 
 ### HRM 人力资源
 
 | 连接器 | 定位 | 功能特点 | 状态 |
 |--------|------|----------|------|
-| [Moka](./moka) | 招聘系统 | 智能招聘管理、简历解析、面试协同 | ✅ 稳定 |
-| [北森](./beisen) | HR SaaS | 人才测评、绩效管理、人事管理 | ✅ 稳定 |
+| [Moka](moka.md) | 招聘系统 | 智能招聘管理、简历解析、面试协同 | ✅ 稳定 |
+| [北森](beisen.md) | HR SaaS | 人才测评、绩效管理、人事管理 | ✅ 稳定 |
 
 ### 电商与建站
 
 | 连接器 | 定位 | 功能特点 | 状态 |
 |--------|------|----------|------|
-| [WordPress](./wordpress) | 建站系统 | WooCommerce 电商、内容管理、会员系统 | ✅ 稳定 |
-| [管家婆](./wsgjp) | 进销存 ERP | 网上管家婆、OAUTH 授权、库存管理 | ✅ 稳定 |
+| [WordPress](wordpress.md) | 建站系统 | WooCommerce 电商、内容管理、会员系统 | ✅ 稳定 |
+| [管家婆](wsgjp.md) | 进销存 ERP | 网上管家婆、OAUTH 授权、库存管理 | ✅ 稳定 |
 
 ### 渠道与销售
 
 | 连接器 | 定位 | 功能特点 | 状态 |
 |--------|------|----------|------|
-| [指掌天下](./zhizhangtianxia) | 渠道 CRM | CRM + 进销存、渠道管理、订货平台 | ✅ 稳定 |
-| [Outreach](./outreach) | 销售互动 | 销售参与平台、邮件序列、销售智能 | ✅ 稳定 |
+| [指掌天下](zhizhangtianxia.md) | 渠道 CRM | CRM + 进销存、渠道管理、订货平台 | ✅ 稳定 |
+| [Outreach](outreach.md) | 销售互动 | 销售参与平台、邮件序列、销售智能 | ✅ 稳定 |
 
 ## 集成场景示例
 
@@ -195,9 +195,9 @@ flowchart LR
 
 ## 相关资源
 
-- [连接器配置指南](../../guide/configure-connector)
-- [数据映射配置](../../guide/data-mapping)
-- [标准集成方案](../../standard-schemes/crm-integration)
+- [连接器配置指南](../../guide/configure-connector.md)
+- [数据映射配置](../../guide/data-mapping.md)
+- [标准集成方案](../../standard-schemes/crm-integration.md)
 
 > [!NOTE]
-> 如需接入未列出的 SaaS 平台，请联系轻易云技术支持，或通过[自定义连接器开发](../../developer/custom-connector)自行扩展。
+> 如需接入未列出的 SaaS 平台，请联系轻易云技术支持，或通过[自定义连接器开发](../../developer/custom-connector.md)自行扩展。

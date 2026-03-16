@@ -333,8 +333,8 @@ T+ 接口要求日期格式为 `yyyy-MM-dd`：
 ## 相关资源
 
 - [畅捷通官网](https://www.chanjet.com/)
-- [畅捷通好会计连接器](./chanjet-accounting)
-- [用友 U8+ 连接器](./yonyou-u8)
+- [畅捷通好会计连接器](chanjet-accounting.md)
+- [用友 U8+ 连接器](yonyou-u8.md)
 - [ERP 连接器概览](../erp)
 
 > [!TIP]

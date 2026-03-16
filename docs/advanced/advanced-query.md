@@ -376,7 +376,7 @@ sequenceDiagram
 
 ### 4. 调试技巧
 
-使用平台的[调试器](../guide/debugger)和[数据与队列管理](../guide/data-queue-management)功能：
+使用平台的[调试器](../guide/debugger.md)和[数据与队列管理](../guide/data-queue-management.md)功能：
 
 1. 开启调试模式查看原始数据
 2. 检查过滤前后的数据量变化
@@ -393,7 +393,7 @@ sequenceDiagram
 
 ### Q: 如何调试条件是否按预期工作？
 
-1. 在[数据管理](../guide/data-queue-management)页面查看数据详情
+1. 在[数据管理](../guide/data-queue-management.md)页面查看数据详情
 2. 使用调试器单步执行，观察过滤前后的数据
 3. 临时添加一个确定能匹配的条件进行测试
 
@@ -404,11 +404,11 @@ sequenceDiagram
 
 ### Q: 支持正则表达式匹配吗？
 
-目前 `like` 操作符使用简单包含匹配，不支持正则表达式。如需复杂匹配，建议结合[自定义脚本](./custom-scripts)处理。
+目前 `like` 操作符使用简单包含匹配，不支持正则表达式。如需复杂匹配，建议结合[自定义脚本](custom-scripts.md)处理。
 
 ## 相关文档
 
-- [源平台配置](../guide/source-platform-config) — 了解源平台配置的完整结构
-- [自定义脚本](./custom-scripts) — 实现更复杂的数据过滤逻辑
-- [数据与队列管理](../guide/data-queue-management) — 查看和管理过滤后的数据
-- [调试器](../guide/debugger) — 调试条件过滤效果
+- [源平台配置](../guide/source-platform-config.md) — 了解源平台配置的完整结构
+- [自定义脚本](custom-scripts.md) — 实现更复杂的数据过滤逻辑
+- [数据与队列管理](../guide/data-queue-management.md) — 查看和管理过滤后的数据
+- [调试器](../guide/debugger.md) — 调试条件过滤效果

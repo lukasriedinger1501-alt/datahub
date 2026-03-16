@@ -540,12 +540,12 @@ flowchart TD
 ## 相关资源
 
 - [用友开放平台](https://developer.yonyou.com/) — 官方 API 文档和开发者工具
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [ERP 连接器概览](./README) — 其他 ERP 系统连接器
-- [用友 U8+ 集成专题](./yonyou-u8) — 用友 U8+ 连接器文档
-- [用友 BIP 集成专题](./yonyou-bip) — 用友 BIP 连接器文档
-- [数据映射指南](../../guide/data-mapping) — 字段映射配置详解
-- [集成方案配置](../../guide/create-integration) — 创建集成方案的完整流程
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [ERP 连接器概览](README.md) — 其他 ERP 系统连接器
+- [用友 U8+ 集成专题](yonyou-u8.md) — 用友 U8+ 连接器文档
+- [用友 BIP 集成专题](yonyou-bip.md) — 用友 BIP 连接器文档
+- [数据映射指南](../../guide/data-mapping.md) — 字段映射配置详解
+- [集成方案配置](../../guide/create-integration.md) — 创建集成方案的完整流程
 
 ---
 

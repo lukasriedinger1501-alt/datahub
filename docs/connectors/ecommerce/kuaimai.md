@@ -3,7 +3,7 @@
 本文档详细介绍轻易云 iPaaS 平台与快麦 ERP 的集成配置方法。快麦 ERP 是阿里生态旗下的电商管理系统，为电商企业提供订单处理、商品管理、库存管理、数据报表等核心功能，支持与主流电商平台（淘宝、天猫、京东、拼多多等）无缝对接。
 
 > [!TIP]
-> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector)。
+> 如需了解连接器的基础使用方法，请先阅读 [配置连接器](../../guide/configure-connector.md)。
 
 ## 概述
 
@@ -340,12 +340,12 @@ flowchart LR
 
 ## 相关资源
 
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [旺店通集成专题](./wangdian) — 旺店通连接器文档
-- [聚水潭集成专题](./jushuitan) — 聚水潭连接器文档
-- [管易云集成专题](./guanyi) — 管易云连接器文档
-- [电商 / WMS 类连接器概览](./README) — 电商连接器总览
-- [标准集成方案 — 国内电商](../../standard-schemes/domestic-ecommerce) — 国内电商集成最佳实践
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [旺店通集成专题](wangdian.md) — 旺店通连接器文档
+- [聚水潭集成专题](jushuitan.md) — 聚水潭连接器文档
+- [管易云集成专题](guanyi.md) — 管易云连接器文档
+- [电商 / WMS 类连接器概览](README.md) — 电商连接器总览
+- [标准集成方案 — 国内电商](../../standard-schemes/domestic-ecommerce.md) — 国内电商集成最佳实践
 - [快麦开放平台文档](https://open.kuaimai.com/apiDoc) — 官方接口文档
 
 ---

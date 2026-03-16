@@ -23,11 +23,11 @@ flowchart LR
 
 | 章节 | 预计时间 | 目标成果 |
 |------|----------|----------|
-| [平台简介](./introduction) | 5 分钟 | 理解 iPaaS 核心价值与平台定位 |
-| [账号注册](./registration) | 5 分钟 | 完成企业账号注册与工作空间创建 |
-| [环境配置](./environment-setup) | 5 分钟 | 配置开发/测试/生产环境连接器 |
-| [第一个集成流程](./first-integration) 🔥 | 15 分钟 | 创建并运行端到端数据同步任务 |
-| [快速入门视频](./video-tutorials) | 按需 | 通过视频教程加深理解 |
+| [平台简介](introduction.md) | 5 分钟 | 理解 iPaaS 核心价值与平台定位 |
+| [账号注册](registration.md) | 5 分钟 | 完成企业账号注册与工作空间创建 |
+| [环境配置](environment-setup.md) | 5 分钟 | 配置开发/测试/生产环境连接器 |
+| [第一个集成流程](first-integration.md) 🔥 | 15 分钟 | 创建并运行端到端数据同步任务 |
+| [快速入门视频](video-tutorials.md) | 按需 | 通过视频教程加深理解 |
 
 > [!TIP]
 > 建议按照上述顺序阅读，预计总耗时约 30 分钟。如果你有特定需求，也可以直接跳转到感兴趣的章节。
@@ -151,9 +151,9 @@ flowchart TB
 
 准备好开始了吗？建议你按照以下顺序进行：
 
-1. **了解平台** → 阅读 [平台简介](./introduction)，理解 iPaaS 的核心价值
-2. **准备工作** → 完成 [账号注册](./registration) 和 [环境配置](./environment-setup)
-3. **动手实践** → 跟随 [第一个集成流程](./first-integration) 完成端到端集成
+1. **了解平台** → 阅读 [平台简介](introduction.md)，理解 iPaaS 的核心价值
+2. **准备工作** → 完成 [账号注册](registration.md) 和 [环境配置](environment-setup.md)
+3. **动手实践** → 跟随 [第一个集成流程](first-integration.md) 完成端到端集成
 4. **深入学习** → 查看 [使用指南](../guide/) 掌握更多高级功能
 
 > [!NOTE]

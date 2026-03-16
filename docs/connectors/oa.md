@@ -56,35 +56,35 @@ flowchart TB
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [钉钉](./oa/dingtalk) | `dingtalk` | 审批、考勤、消息、组织架构 | 阿里生态企业 |
-| [飞书](./oa/feishu) | `feishu` | 审批、多维表格、消息、会议 | 字节生态企业 |
-| [企业微信](./oa/wecom) | `wecom` | 审批、客户联系、应用消息 | 微信生态企业 |
+| [钉钉](oa/dingtalk.md) | `dingtalk` | 审批、考勤、消息、组织架构 | 阿里生态企业 |
+| [飞书](oa/feishu.md) | `feishu` | 审批、多维表格、消息、会议 | 字节生态企业 |
+| [企业微信](oa/wecom.md) | `wecom` | 审批、客户联系、应用消息 | 微信生态企业 |
 
 ### 传统 OA 系统
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [泛微 e-cology](./oa/weaver-ecology) | `weaver-ecology` | 复杂流程、知识管理 | 大型集团 |
-| [泛微 e-office](./oa/weaver-eoffice) | `weaver-eoffice` | 标准办公、轻量流程 | 中小型企业 |
-| [泛微云桥](./oa/fanwei) | `fanwei` | 泛微云产品对接 | 云端部署 |
-| [致远 OA](./oa/seeyon-oa) | `seeyon-oa` | 协同办公、业务生成器 | 中大型组织 |
-| [致远 A8+](./oa/seeyon-a8) | `seeyon-a8` | 集团管控、多组织 | 大型集团 |
-| [蓝凌 OA](./oa/landray) | `landray` | 知识管理、智慧办公 | 知识密集型企业 |
+| [泛微 e-cology](oa/weaver-ecology.md) | `weaver-ecology` | 复杂流程、知识管理 | 大型集团 |
+| [泛微 e-office](oa/weaver-eoffice.md) | `weaver-eoffice` | 标准办公、轻量流程 | 中小型企业 |
+| [泛微云桥](oa/fanwei.md) | `fanwei` | 泛微云产品对接 | 云端部署 |
+| [致远 OA](oa/seeyon-oa.md) | `seeyon-oa` | 协同办公、业务生成器 | 中大型组织 |
+| [致远 A8+](oa/seeyon-a8.md) | `seeyon-a8` | 集团管控、多组织 | 大型集团 |
+| [蓝凌 OA](oa/landray.md) | `landray` | 知识管理、智慧办公 | 知识密集型企业 |
 
 ### 低代码平台
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [简道云](./oa/jiandaoyun) | `jiandaoyun` | 表单、流程、仪表盘 | 快速搭建业务应用 |
-| [氚云](./oa/chuanyun) | `chuanyun` | 表单、流程、报表 | 钉钉生态低代码 |
-| [道一云](./oa/daoyiyun) | `daoyiyun` | 七巧低代码平台 | 企业微信生态 |
-| [H3 BPM](./oa/h3yun) | `h3yun` | 流程管理、业务集成 | 复杂流程场景 |
+| [简道云](oa/jiandaoyun.md) | `jiandaoyun` | 表单、流程、仪表盘 | 快速搭建业务应用 |
+| [氚云](oa/chuanyun.md) | `chuanyun` | 表单、流程、报表 | 钉钉生态低代码 |
+| [道一云](oa/daoyiyun.md) | `daoyiyun` | 七巧低代码平台 | 企业微信生态 |
+| [H3 BPM](oa/h3yun.md) | `h3yun` | 流程管理、业务集成 | 复杂流程场景 |
 
 ### 费控报销系统
 
 | 系统名称 | 连接器标识 | 主要功能 | 适用场景 |
 |---------|-----------|---------|---------|
-| [汇联易](./oa/huilianyi) | `huilianyi` | 费用报销、差旅管理 | 企业费用管控 |
+| [汇联易](oa/huilianyi.md) | `huilianyi` | 费用报销、差旅管理 | 企业费用管控 |
 
 ## 审批流集成说明
 
@@ -302,11 +302,11 @@ flowchart TD
 
 ## 相关文档
 
-- [钉钉连接器](./oa/dingtalk)
-- [飞书连接器](./oa/feishu)
-- [企业微信连接器](./oa/wecom)
-- [审批流集成方案](../standard-schemes/oa-integration)
-- [配置连接器](../guide/configure-connector)
+- [钉钉连接器](oa/dingtalk.md)
+- [飞书连接器](oa/feishu.md)
+- [企业微信连接器](oa/wecom.md)
+- [审批流集成方案](../standard-schemes/oa-integration.md)
+- [配置连接器](../guide/configure-connector.md)
 
 > [!TIP]
 > 如需了解更多 OA 系统的集成细节，请访问对应连接器的详细文档页面。

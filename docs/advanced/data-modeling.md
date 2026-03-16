@@ -284,7 +284,7 @@ flowchart LR
 
 ### 3. 与异常处理机制配合
 
-结合[异常处理机制](./error-handling)配置，对校验失败的数据进行妥善处理：
+结合[异常处理机制](error-handling.md)配置，对校验失败的数据进行妥善处理：
 
 ```json
 {
@@ -374,13 +374,13 @@ flowchart LR
 
 ### Q: 如何调试数据建模配置？
 
-1. 使用平台的[调试器](../guide/debugger)功能，查看原始响应与转换后的对比
+1. 使用平台的[调试器](../guide/debugger.md)功能，查看原始响应与转换后的对比
 2. 在数据模型配置中暂时关闭**严格校验**，观察哪些字段转换失败
-3. 查看[集成日志](../guide/log-management)中的详细转换记录
+3. 查看[集成日志](../guide/log-management.md)中的详细转换记录
 
 ## 相关文档
 
-- [数据映射](../guide/data-mapping) — 字段映射的基础概念与配置方法
-- [异常处理机制](./error-handling) — 数据校验失败的处理策略
-- [使用调试器](../guide/debugger) — 调试数据建模效果的工具指南
-- [集成策略模式](./integration-strategy) — 不同策略模式下的数据处理方式
+- [数据映射](../guide/data-mapping.md) — 字段映射的基础概念与配置方法
+- [异常处理机制](error-handling.md) — 数据校验失败的处理策略
+- [使用调试器](../guide/debugger.md) — 调试数据建模效果的工具指南
+- [集成策略模式](integration-strategy.md) — 不同策略模式下的数据处理方式

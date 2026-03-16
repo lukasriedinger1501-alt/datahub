@@ -1160,7 +1160,7 @@ flowchart TD
 
 ## 相关资源
 
-- [自定义连接器开发](./custom-connector) — 了解如何开发自定义连接器
-- [开发者指南](./guide) — 开发者快速入门
-- [调试与测试](./debugging-testing) — 本地调试环境和测试方法
+- [自定义连接器开发](custom-connector.md) — 了解如何开发自定义连接器
+- [开发者指南](guide.md) — 开发者快速入门
+- [调试与测试](debugging-testing.md) — 本地调试环境和测试方法
 - [API 参考](../api-reference) — 平台 OpenAPI 文档

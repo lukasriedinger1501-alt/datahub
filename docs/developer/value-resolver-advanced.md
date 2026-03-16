@@ -3,7 +3,7 @@
 值解析器是轻易云 iPaaS 平台数据集成流程中的核心转换组件，负责对源数据进行精细化提取、转换和重组。本文档深入讲解值解析器的高级用法，包括自定义解析器注册、正则表达式提取、JSONPath 嵌套查询、多值合并与条件分支处理等进阶技巧，帮助开发者应对复杂的数据转换场景。
 
 > [!IMPORTANT]
-> 本文档面向具备一定开发经验的进阶用户。如果你是初次使用值解析器，建议先阅读[解析器的应用](../advanced/parser)了解基础用法。
+> 本文档面向具备一定开发经验的进阶用户。如果你是初次使用值解析器，建议先阅读[解析器的应用](../advanced/parser.md)了解基础用法。
 
 ---
 
@@ -1113,7 +1113,7 @@ flowchart LR
 
 ### 调试技巧
 
-1. **使用平台调试器**：在[调试器](../guide/debugger)中查看每一步的解析结果
+1. **使用平台调试器**：在[调试器](../guide/debugger.md)中查看每一步的解析结果
 
 2. **分段测试链式解析**：将多步解析拆分测试，确认每一步输出
 
@@ -1152,8 +1152,8 @@ class DebugResolver implements ValueResolverInterface
 
 ## 相关文档
 
-- [解析器的应用](../advanced/parser) — 了解解析器基础用法
-- [自定义数据加工厂](./custom-processor) — 实现更复杂的数据处理逻辑
-- [数据映射](../guide/data-mapping) — 学习字段映射配置方法
-- [调试器使用指南](../guide/debugger) — 掌握调试技巧和问题排查
-- [目标平台配置](../guide/target-platform-config) — 配置数据写入规则
+- [解析器的应用](../advanced/parser.md) — 了解解析器基础用法
+- [自定义数据加工厂](custom-processor.md) — 实现更复杂的数据处理逻辑
+- [数据映射](../guide/data-mapping.md) — 学习字段映射配置方法
+- [调试器使用指南](../guide/debugger.md) — 掌握调试技巧和问题排查
+- [目标平台配置](../guide/target-platform-config.md) — 配置数据写入规则

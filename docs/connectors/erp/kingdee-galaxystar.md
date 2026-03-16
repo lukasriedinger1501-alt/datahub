@@ -275,9 +275,9 @@ A：轻易云连接器支持自动刷新 Token 机制：
 
 ## 相关资源
 
-- [金蝶云苍穹集成专题](./kingdee-cloud-cosmos) — 接口规范相似的连接器参考
-- [配置连接器](../../guide/configure-connector) — 连接器基础使用指南
-- [自定义连接器开发](../../developer/custom-connector) — 开发自定义连接器
+- [金蝶云苍穹集成专题](kingdee-cloud-cosmos.md) — 接口规范相似的连接器参考
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础使用指南
+- [自定义连接器开发](../../developer/custom-connector.md) — 开发自定义连接器
 - [金蝶星瀚官方文档](https://vip.kingdee.com/knowledge/specialDetail/226337046514476288) — 官方接口文档
 
 ---

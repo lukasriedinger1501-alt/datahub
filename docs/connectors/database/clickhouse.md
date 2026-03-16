@@ -106,9 +106,9 @@ ClickHouse 原生不支持 UPDATE 操作。建议使用 `ReplacingMergeTree` 表
 
 ## 相关资源
 
-- [数据库类连接器概览](./README) — 查看所有支持的数据库连接器
-- [配置连接器](../../guide/configure-connector) — 连接器基础配置指南
-- [批量数据处理](../../advanced/batch-processing) — 大数据量处理最佳实践
+- [数据库类连接器概览](README.md) — 查看所有支持的数据库连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础配置指南
+- [批量数据处理](../../advanced/batch-processing.md) — 大数据量处理最佳实践
 
 ---
 

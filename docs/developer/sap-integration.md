@@ -4,6 +4,6 @@
 
 如需了解当前可参考的集成实践，请优先查看：
 
-- [ERP 对接标准方案](../standard-plans/erp-integration)
-- [MES 与 ERP 集成解决方案](../solutions/mes-erp)
-- [开发者文档首页](./README)
+- [ERP 对接标准方案](../standard-plans/erp-integration.md)
+- [MES 与 ERP 集成解决方案](../solutions/mes-erp.md)
+- [开发者文档首页](README.md)

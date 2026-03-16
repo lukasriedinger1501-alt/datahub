@@ -3,7 +3,7 @@
 链式触发是轻易云 iPaaS 平台提供的一种高级集成能力，允许将一个集成方案（方案 A）的执行结果作为触发条件，自动激活另一个集成方案（方案 B）的执行。这种机制实现了多方案之间的无缝衔接，构建复杂的数据处理流水线，无需人工干预即可完成多步骤的业务流程自动化。
 
 > [!NOTE]
-> 链式触发与[集成策略模式](./integration-strategy)中的事件驱动模式密切相关，但专注于方案间的级联执行场景。
+> 链式触发与[集成策略模式](integration-strategy.md)中的事件驱动模式密切相关，但专注于方案间的级联执行场景。
 
 ## 核心概念
 
@@ -625,9 +625,9 @@ flowchart TD
 
 ## 相关文档
 
-- [集成策略模式](./integration-strategy) — 深入了解各种策略模式的配置与使用
-- [CDC 实时同步](./cdc-realtime) — 实现基于数据库日志的实时触发
-- [异常处理机制](./error-handling) — 设计完善的错误处理与恢复策略
-- [性能优化](./performance-tuning) — 优化链式执行的性能表现
-- [源平台配置](../guide/source-platform-config) — 详细的源端配置指南
-- [目标平台配置](../guide/target-platform-config) — 详细的目标端配置指南
+- [集成策略模式](integration-strategy.md) — 深入了解各种策略模式的配置与使用
+- [CDC 实时同步](cdc-realtime.md) — 实现基于数据库日志的实时触发
+- [异常处理机制](error-handling.md) — 设计完善的错误处理与恢复策略
+- [性能优化](performance-tuning.md) — 优化链式执行的性能表现
+- [源平台配置](../guide/source-platform-config.md) — 详细的源端配置指南
+- [目标平台配置](../guide/target-platform-config.md) — 详细的目标端配置指南

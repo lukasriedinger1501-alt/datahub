@@ -32,10 +32,10 @@ mindmap
 
 | 角色 | 核心关注点 | 推荐阅读章节 |
 | ---- | ---------- | ------------ |
-| 后端开发工程师 | API 调用、SDK 集成、调试排错 | [认证授权](./authentication)、[SDK 使用](./sdk)、[调试与测试](./debugging-testing) |
-| 平台集成工程师 | 连接器开发、数据映射、异常处理 | [自定义连接器开发](./custom-connector)、[适配器开发](./adapter-development) |
-| 技术架构师 | 架构设计、安全策略、性能优化 | [开放接口概览](./api-overview)、[插件机制](./plugin-system) |
-| SaaS 产品开发者 | 开放生态、标准化接入 | [Webhook 配置](./webhook)、[自定义连接器开发](./custom-connector) |
+| 后端开发工程师 | API 调用、SDK 集成、调试排错 | [认证授权](authentication.md)、[SDK 使用](sdk.md)、[调试与测试](debugging-testing.md) |
+| 平台集成工程师 | 连接器开发、数据映射、异常处理 | [自定义连接器开发](custom-connector.md)、[适配器开发](adapter-development.md) |
+| 技术架构师 | 架构设计、安全策略、性能优化 | [开放接口概览](api-overview.md)、[插件机制](plugin-system.md) |
+| SaaS 产品开发者 | 开放生态、标准化接入 | [Webhook 配置](webhook.md)、[自定义连接器开发](custom-connector.md) |
 
 ## 前置知识
 
@@ -134,30 +134,30 @@ flowchart TB
 
 ### 入门必读
 
-1. **[开发指南](./guide)** — 开发者快速入门，包含环境准备、第一个 API 调用、常见问题排查
-2. **[开放接口概览](./api-overview)** — API 体系架构、能力边界、版本策略、限流规则
+1. **[开发指南](guide.md)** — 开发者快速入门，包含环境准备、第一个 API 调用、常见问题排查
+2. **[开放接口概览](api-overview.md)** — API 体系架构、能力边界、版本策略、限流规则
 
 ### 认证与安全
 
-3. **[认证授权](./authentication)** — API Key 管理、OAuth 2.0 流程、Token 刷新机制、IP 白名单
+3. **[认证授权](authentication.md)** — API Key 管理、OAuth 2.0 流程、Token 刷新机制、IP 白名单
 
 ### 事件驱动
 
-4. **[Webhook 配置](./webhook)** — 事件订阅、签名验证、重试机制、最佳实践
+4. **[Webhook 配置](webhook.md)** — 事件订阅、签名验证、重试机制、最佳实践
 
 ### 工具与 SDK
 
-5. **[SDK 使用](./sdk)** — JavaScript、Python、PHP SDK 安装与使用，代码示例
+5. **[SDK 使用](sdk.md)** — JavaScript、Python、PHP SDK 安装与使用，代码示例
 
 ### 扩展开发
 
-6. **[自定义连接器开发](./custom-connector)** — Connector SDK 使用、生命周期管理、调试发布
-7. **[适配器开发](./adapter-development)** — Adapter Framework、数据转换、错误处理
-8. **[插件机制](./plugin-system)** — Hook 扩展点、插件生命周期、市场发布
+6. **[自定义连接器开发](custom-connector.md)** — Connector SDK 使用、生命周期管理、调试发布
+7. **[适配器开发](adapter-development.md)** — Adapter Framework、数据转换、错误处理
+8. **[插件机制](plugin-system.md)** — Hook 扩展点、插件生命周期、市场发布
 
 ### 调试与优化
 
-9. **[调试与测试](./debugging-testing)** — 本地调试环境、单元测试、日志分析、性能调优
+9. **[调试与测试](debugging-testing.md)** — 本地调试环境、单元测试、日志分析、性能调优
 
 ## 快速开始
 
@@ -187,7 +187,7 @@ curl -X POST "https://api.qeasy.cloud/v2/open-api/business/{scheme_id}/store?acc
 ```
 
 > [!NOTE]
-> 完整的 API 文档和示例代码请参考 [开放接口概览](./api-overview) 和 [API 参考](../api-reference) 章节。
+> 完整的 API 文档和示例代码请参考 [开放接口概览](api-overview.md) 和 [API 参考](../api-reference) 章节。
 
 ## 开发者支持
 

@@ -470,12 +470,12 @@ flowchart TD
 
 ## 相关文档
 
-- [数据与队列管理](../guide/data-queue-management) — 补漏队列的监控与管理
-- [源平台配置](../guide/source-platform-config) — 详细的源端配置指南
-- [目标平台配置](../guide/target-platform-config) — 目标端配置与幂等写入设置
-- [集成策略模式](./integration-strategy) — 了解不同同步策略的组合应用
-- [异常处理机制](./error-handling) — 同步失败的容错与恢复策略
-- [监控告警](../guide/monitoring-alerts) — 配置补漏任务的监控告警
+- [数据与队列管理](../guide/data-queue-management.md) — 补漏队列的监控与管理
+- [源平台配置](../guide/source-platform-config.md) — 详细的源端配置指南
+- [目标平台配置](../guide/target-platform-config.md) — 目标端配置与幂等写入设置
+- [集成策略模式](integration-strategy.md) — 了解不同同步策略的组合应用
+- [异常处理机制](error-handling.md) — 同步失败的容错与恢复策略
+- [监控告警](../guide/monitoring-alerts.md) — 配置补漏任务的监控告警
 
 ---
 

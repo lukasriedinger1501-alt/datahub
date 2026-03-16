@@ -99,7 +99,7 @@
 
 | 功能 | 描述 |
 |------|------|
-| **API 网关服务** | 集成平台数据支持更开放的接口能力，详见[对外开放接口文档](../developer/open-data-api) |
+| **API 网关服务** | 集成平台数据支持更开放的接口能力，详见[对外开放接口文档](../developer/open-data-api.md) |
 
 ### 功能优化
 
@@ -183,7 +183,7 @@
 
 ### 获取帮助
 
-- 📖 查阅[常见问题](../faq/README)
+- 📖 查阅[常见问题](../faq/README.md)
 - 💬 联系技术支持：support@qeasy.cloud
 - 🐛 提交问题反馈：[GitHub Issues](https://github.com/vincent067/datahub/issues)
 

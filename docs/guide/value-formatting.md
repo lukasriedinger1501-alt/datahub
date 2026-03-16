@@ -57,7 +57,7 @@ flowchart LR
 | **适用场景** | 通用的数据格式转换 | 复杂的计算和条件判断 |
 
 > [!TIP]
-> 对于简单的格式转换需求，优先使用值格式化；对于需要复杂计算、条件判断或多表关联的场景，请使用[自定义函数](../advanced/custom-scripts)。
+> 对于简单的格式转换需求，优先使用值格式化；对于需要复杂计算、条件判断或多表关联的场景，请使用[自定义函数](../advanced/custom-scripts.md)。
 
 ---
 
@@ -523,7 +523,7 @@ flowchart TD
 
 ## 下一步
 
-- 了解[数据映射](./data-mapping)，学习字段映射的更多高级用法
-- 探索[自定义函数](../advanced/custom-scripts)，处理更复杂的转换逻辑
-- 查看[调试器使用指南](./debugger)，排查值格式化过程中的问题
-- 学习[目标平台配置](./target-platform-config)，掌握更多数据写入技巧
+- 了解[数据映射](data-mapping.md)，学习字段映射的更多高级用法
+- 探索[自定义函数](../advanced/custom-scripts.md)，处理更复杂的转换逻辑
+- 查看[调试器使用指南](debugger.md)，排查值格式化过程中的问题
+- 学习[目标平台配置](target-platform-config.md)，掌握更多数据写入技巧

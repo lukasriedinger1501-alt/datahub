@@ -345,8 +345,8 @@ YonSuite 接口要求日期格式为 `yyyy-MM-dd` 或 `yyyy-MM-dd HH:mm:ss`：
 ## 相关资源
 
 - [用友 YonSuite 开放平台](https://yonwork.yonyou.com/)
-- [用友 U8+ 连接器](./yonyou-u8)
-- [用友 NC Cloud 连接器](./yonyou-nc-cloud)
+- [用友 U8+ 连接器](yonyou-u8.md)
+- [用友 NC Cloud 连接器](yonyou-nc-cloud.md)
 - [ERP 连接器概览](../erp)
 
 > [!NOTE]

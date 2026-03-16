@@ -5,7 +5,13 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MARKDOWN_SOURCES = [ROOT / "README.md", ROOT / "docs"]
+MARKDOWN_SOURCES = [
+    ROOT / "README.md",
+    ROOT / "docs",
+    ROOT / "CONTRIBUTING.md",
+    ROOT / "CODE_OF_CONDUCT.md",
+    ROOT / "SECURITY.md",
+]
 LINK_PATTERN = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 CODE_FENCE_PATTERN = re.compile(r"```.*?```", re.DOTALL)
 
@@ -29,16 +35,7 @@ def is_valid_target(base: Path, link: str) -> bool:
         return True
 
     target = (base / path).resolve()
-    candidates = [target]
-    if target.suffix == "":
-        candidates.extend(
-            [
-                Path(f"{target}.md"),
-                target / "README.md",
-            ]
-        )
-
-    return any(candidate.exists() for candidate in candidates)
+    return target.exists()
 
 
 def main() -> int:

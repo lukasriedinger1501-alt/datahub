@@ -203,4 +203,4 @@
 
 - [氚云 OpenAPI 官方文档](https://help.h3yun.com/contents/1008/1634.html)
 - [氚云帮助中心](https://help.h3yun.com/)
-- [OA / 协同类连接器概览](./README)
+- [OA / 协同类连接器概览](README.md)

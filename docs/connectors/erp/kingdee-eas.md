@@ -452,11 +452,11 @@ A：优化建议：
 
 ## 相关资源
 
-- [ERP 类连接器概览](./README) — 了解所有支持的 ERP 连接器
-- [配置连接器](../../guide/configure-connector) — 连接器基础配置指南
-- [数据映射](../../guide/data-mapping) — 数据字段映射配置方法
-- [金蝶云星空集成](./kingdee-cloud-galaxy) — 金蝶云星空连接器文档
-- [标准集成方案 — ERP 对接](../../standard-schemes/erp-integration) — ERP 集成最佳实践
+- [ERP 类连接器概览](README.md) — 了解所有支持的 ERP 连接器
+- [配置连接器](../../guide/configure-connector.md) — 连接器基础配置指南
+- [数据映射](../../guide/data-mapping.md) — 数据字段映射配置方法
+- [金蝶云星空集成](kingdee-cloud-galaxy.md) — 金蝶云星空连接器文档
+- [标准集成方案 — ERP 对接](../../standard-schemes/erp-integration.md) — ERP 集成最佳实践
 
 ---
 
